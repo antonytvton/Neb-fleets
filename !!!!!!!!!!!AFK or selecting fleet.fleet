@@ -1,0 +1,2486 @@
+<?xml version="1.0"?>
+<Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>!!!!!!!!!!!AFK or selecting fleet</Name>
+  <Version>3</Version>
+  <TotalPoints>3204940</TotalPoints>
+  <FactionKey>Stock/Alliance</FactionKey>
+  <SortOverrideOrder xsi:nil="true" />
+  <Ships>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>65b12a50-8a36-4903-bf7f-168dcf720c14</Key>
+      <Name>The Mute Tap</Name>
+      <Cost>320494</Cost>
+      <Number>958</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>Stock/Levy Escort Carrier</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>g6Jp1xMKeEeNFOgfjnt3hQ</Key>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>EG2AL-mzuEmVbJpH5IVCXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>VOg7-lRNWkGpjpj3W7QEoQ</Key>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>EG2AL-mzuEmVbJpH5IVCXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>nrWmlB7t7E2eR6gjOVmDtA</Key>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>EG2AL-mzuEmVbJpH5IVCXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>CsgECqHZc0Kannrt6VIhUw</Key>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>EG2AL-mzuEmVbJpH5IVCXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>NysR9qLdykCdsphUx1foSg</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>S0-J1cMwUEKF72p---79_w</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>3XttIkpGh0yh8AMcSK0_9g</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>Z8askbBTfkm1Z1R8wX48Lw</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>ww85-B3EY02T4hEoPQBLPg</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>24</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>_yC35vSVhU6ziXsLtVwSAg</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>24</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>J0fhl0E9OE2qbBM4dNSlIQ</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>216</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>n9Ru447zt0O2PqoeCqEDKw</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>324</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>TCnobRXZTUmbBhWLB2_bMA</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>216</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>Rqj_R1kXHkC9Il-jpVDWAA</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>144</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>VRT4JesYZUmXgqX1BK03vw</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>tRoUxR8d7E2g8VMuBvtgPA</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>dsNyjGBVUkWbOJ_DhpBlWg</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>QPu81rov_k2q0TUPljf1wQ</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>olToS4WUzkSEjp0m_GDswA</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>DGXa9LWen0qyodt0DDHxcA</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>2L34-TzEokaF5Ic3R-Majw</Key>
+          <ComponentName>Stock/RM50 'Parallax' Radar</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>aUJW0fBCR0mJc2o0WtSTtg</Key>
+          <ComponentName>Stock/RM50 'Parallax' Radar</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
+    </Ship>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>1f4491aa-7ddd-40b6-a066-89f295568783</Key>
+      <Name>Skill of Donni</Name>
+      <Cost>320494</Cost>
+      <Number>730</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>Stock/Levy Escort Carrier</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>g6Jp1xMKeEeNFOgfjnt3hQ</Key>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>EG2AL-mzuEmVbJpH5IVCXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>VOg7-lRNWkGpjpj3W7QEoQ</Key>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>EG2AL-mzuEmVbJpH5IVCXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>nrWmlB7t7E2eR6gjOVmDtA</Key>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>EG2AL-mzuEmVbJpH5IVCXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>CsgECqHZc0Kannrt6VIhUw</Key>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>EG2AL-mzuEmVbJpH5IVCXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>NysR9qLdykCdsphUx1foSg</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>S0-J1cMwUEKF72p---79_w</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>3XttIkpGh0yh8AMcSK0_9g</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>Z8askbBTfkm1Z1R8wX48Lw</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>ww85-B3EY02T4hEoPQBLPg</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>24</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>_yC35vSVhU6ziXsLtVwSAg</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>24</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>J0fhl0E9OE2qbBM4dNSlIQ</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>216</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>n9Ru447zt0O2PqoeCqEDKw</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>324</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>TCnobRXZTUmbBhWLB2_bMA</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>216</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>Rqj_R1kXHkC9Il-jpVDWAA</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>144</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>VRT4JesYZUmXgqX1BK03vw</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>tRoUxR8d7E2g8VMuBvtgPA</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>dsNyjGBVUkWbOJ_DhpBlWg</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>QPu81rov_k2q0TUPljf1wQ</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>olToS4WUzkSEjp0m_GDswA</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>DGXa9LWen0qyodt0DDHxcA</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>2L34-TzEokaF5Ic3R-Majw</Key>
+          <ComponentName>Stock/RM50 'Parallax' Radar</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>aUJW0fBCR0mJc2o0WtSTtg</Key>
+          <ComponentName>Stock/RM50 'Parallax' Radar</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
+    </Ship>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>012513ae-48e4-4714-9ace-0f262f848041</Key>
+      <Name>Froth of Leslie</Name>
+      <Cost>320494</Cost>
+      <Number>1031</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>Stock/Levy Escort Carrier</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>g6Jp1xMKeEeNFOgfjnt3hQ</Key>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>EG2AL-mzuEmVbJpH5IVCXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>VOg7-lRNWkGpjpj3W7QEoQ</Key>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>EG2AL-mzuEmVbJpH5IVCXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>nrWmlB7t7E2eR6gjOVmDtA</Key>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>EG2AL-mzuEmVbJpH5IVCXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>CsgECqHZc0Kannrt6VIhUw</Key>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>EG2AL-mzuEmVbJpH5IVCXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>NysR9qLdykCdsphUx1foSg</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>S0-J1cMwUEKF72p---79_w</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>3XttIkpGh0yh8AMcSK0_9g</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>Z8askbBTfkm1Z1R8wX48Lw</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>ww85-B3EY02T4hEoPQBLPg</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>24</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>_yC35vSVhU6ziXsLtVwSAg</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>24</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>J0fhl0E9OE2qbBM4dNSlIQ</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>216</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>n9Ru447zt0O2PqoeCqEDKw</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>324</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>TCnobRXZTUmbBhWLB2_bMA</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>216</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>Rqj_R1kXHkC9Il-jpVDWAA</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>144</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>VRT4JesYZUmXgqX1BK03vw</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>tRoUxR8d7E2g8VMuBvtgPA</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>dsNyjGBVUkWbOJ_DhpBlWg</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>QPu81rov_k2q0TUPljf1wQ</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>olToS4WUzkSEjp0m_GDswA</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>DGXa9LWen0qyodt0DDHxcA</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>2L34-TzEokaF5Ic3R-Majw</Key>
+          <ComponentName>Stock/RM50 'Parallax' Radar</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>aUJW0fBCR0mJc2o0WtSTtg</Key>
+          <ComponentName>Stock/RM50 'Parallax' Radar</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
+    </Ship>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>744a4285-3fa2-4df3-b4dd-3334efdaa945</Key>
+      <Name>Salt Civil</Name>
+      <Cost>320494</Cost>
+      <Number>873</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>Stock/Levy Escort Carrier</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>g6Jp1xMKeEeNFOgfjnt3hQ</Key>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>EG2AL-mzuEmVbJpH5IVCXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>VOg7-lRNWkGpjpj3W7QEoQ</Key>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>EG2AL-mzuEmVbJpH5IVCXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>nrWmlB7t7E2eR6gjOVmDtA</Key>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>EG2AL-mzuEmVbJpH5IVCXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>CsgECqHZc0Kannrt6VIhUw</Key>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>EG2AL-mzuEmVbJpH5IVCXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>NysR9qLdykCdsphUx1foSg</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>S0-J1cMwUEKF72p---79_w</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>3XttIkpGh0yh8AMcSK0_9g</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>Z8askbBTfkm1Z1R8wX48Lw</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>ww85-B3EY02T4hEoPQBLPg</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>24</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>_yC35vSVhU6ziXsLtVwSAg</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>24</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>J0fhl0E9OE2qbBM4dNSlIQ</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>216</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>n9Ru447zt0O2PqoeCqEDKw</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>324</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>TCnobRXZTUmbBhWLB2_bMA</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>216</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>Rqj_R1kXHkC9Il-jpVDWAA</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>144</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>VRT4JesYZUmXgqX1BK03vw</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>tRoUxR8d7E2g8VMuBvtgPA</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>dsNyjGBVUkWbOJ_DhpBlWg</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>QPu81rov_k2q0TUPljf1wQ</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>olToS4WUzkSEjp0m_GDswA</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>DGXa9LWen0qyodt0DDHxcA</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>2L34-TzEokaF5Ic3R-Majw</Key>
+          <ComponentName>Stock/RM50 'Parallax' Radar</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>aUJW0fBCR0mJc2o0WtSTtg</Key>
+          <ComponentName>Stock/RM50 'Parallax' Radar</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
+    </Ship>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>c5f33c8d-0503-4579-81be-a40545b483ad</Key>
+      <Name>Drama</Name>
+      <Cost>320494</Cost>
+      <Number>128</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>Stock/Levy Escort Carrier</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>g6Jp1xMKeEeNFOgfjnt3hQ</Key>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>EG2AL-mzuEmVbJpH5IVCXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>VOg7-lRNWkGpjpj3W7QEoQ</Key>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>EG2AL-mzuEmVbJpH5IVCXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>nrWmlB7t7E2eR6gjOVmDtA</Key>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>EG2AL-mzuEmVbJpH5IVCXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>CsgECqHZc0Kannrt6VIhUw</Key>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>EG2AL-mzuEmVbJpH5IVCXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>NysR9qLdykCdsphUx1foSg</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>S0-J1cMwUEKF72p---79_w</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>3XttIkpGh0yh8AMcSK0_9g</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>Z8askbBTfkm1Z1R8wX48Lw</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>ww85-B3EY02T4hEoPQBLPg</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>24</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>_yC35vSVhU6ziXsLtVwSAg</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>24</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>J0fhl0E9OE2qbBM4dNSlIQ</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>216</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>n9Ru447zt0O2PqoeCqEDKw</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>324</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>TCnobRXZTUmbBhWLB2_bMA</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>216</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>Rqj_R1kXHkC9Il-jpVDWAA</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>144</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>VRT4JesYZUmXgqX1BK03vw</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>tRoUxR8d7E2g8VMuBvtgPA</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>dsNyjGBVUkWbOJ_DhpBlWg</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>QPu81rov_k2q0TUPljf1wQ</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>olToS4WUzkSEjp0m_GDswA</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>DGXa9LWen0qyodt0DDHxcA</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>2L34-TzEokaF5Ic3R-Majw</Key>
+          <ComponentName>Stock/RM50 'Parallax' Radar</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>aUJW0fBCR0mJc2o0WtSTtg</Key>
+          <ComponentName>Stock/RM50 'Parallax' Radar</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
+    </Ship>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>971b9c57-6a76-4243-932a-f3912813e821</Key>
+      <Name>The Jade Stops</Name>
+      <Cost>320494</Cost>
+      <Number>822</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>Stock/Levy Escort Carrier</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>g6Jp1xMKeEeNFOgfjnt3hQ</Key>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>EG2AL-mzuEmVbJpH5IVCXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>VOg7-lRNWkGpjpj3W7QEoQ</Key>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>EG2AL-mzuEmVbJpH5IVCXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>nrWmlB7t7E2eR6gjOVmDtA</Key>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>EG2AL-mzuEmVbJpH5IVCXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>CsgECqHZc0Kannrt6VIhUw</Key>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>EG2AL-mzuEmVbJpH5IVCXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>NysR9qLdykCdsphUx1foSg</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>S0-J1cMwUEKF72p---79_w</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>3XttIkpGh0yh8AMcSK0_9g</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>Z8askbBTfkm1Z1R8wX48Lw</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>ww85-B3EY02T4hEoPQBLPg</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>24</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>_yC35vSVhU6ziXsLtVwSAg</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>24</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>J0fhl0E9OE2qbBM4dNSlIQ</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>216</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>n9Ru447zt0O2PqoeCqEDKw</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>324</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>TCnobRXZTUmbBhWLB2_bMA</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>216</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>Rqj_R1kXHkC9Il-jpVDWAA</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>144</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>VRT4JesYZUmXgqX1BK03vw</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>tRoUxR8d7E2g8VMuBvtgPA</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>dsNyjGBVUkWbOJ_DhpBlWg</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>QPu81rov_k2q0TUPljf1wQ</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>olToS4WUzkSEjp0m_GDswA</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>DGXa9LWen0qyodt0DDHxcA</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>2L34-TzEokaF5Ic3R-Majw</Key>
+          <ComponentName>Stock/RM50 'Parallax' Radar</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>aUJW0fBCR0mJc2o0WtSTtg</Key>
+          <ComponentName>Stock/RM50 'Parallax' Radar</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
+    </Ship>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>91e513fd-1cc3-4980-b02e-367ec0f35cb0</Key>
+      <Name>Spike Alive</Name>
+      <Cost>320494</Cost>
+      <Number>208</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>Stock/Levy Escort Carrier</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>g6Jp1xMKeEeNFOgfjnt3hQ</Key>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>EG2AL-mzuEmVbJpH5IVCXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>VOg7-lRNWkGpjpj3W7QEoQ</Key>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>EG2AL-mzuEmVbJpH5IVCXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>nrWmlB7t7E2eR6gjOVmDtA</Key>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>EG2AL-mzuEmVbJpH5IVCXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>CsgECqHZc0Kannrt6VIhUw</Key>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>EG2AL-mzuEmVbJpH5IVCXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>NysR9qLdykCdsphUx1foSg</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>S0-J1cMwUEKF72p---79_w</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>3XttIkpGh0yh8AMcSK0_9g</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>Z8askbBTfkm1Z1R8wX48Lw</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>ww85-B3EY02T4hEoPQBLPg</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>24</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>_yC35vSVhU6ziXsLtVwSAg</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>24</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>J0fhl0E9OE2qbBM4dNSlIQ</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>216</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>n9Ru447zt0O2PqoeCqEDKw</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>324</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>TCnobRXZTUmbBhWLB2_bMA</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>216</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>Rqj_R1kXHkC9Il-jpVDWAA</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>144</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>VRT4JesYZUmXgqX1BK03vw</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>tRoUxR8d7E2g8VMuBvtgPA</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>dsNyjGBVUkWbOJ_DhpBlWg</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>QPu81rov_k2q0TUPljf1wQ</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>olToS4WUzkSEjp0m_GDswA</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>DGXa9LWen0qyodt0DDHxcA</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>2L34-TzEokaF5Ic3R-Majw</Key>
+          <ComponentName>Stock/RM50 'Parallax' Radar</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>aUJW0fBCR0mJc2o0WtSTtg</Key>
+          <ComponentName>Stock/RM50 'Parallax' Radar</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
+    </Ship>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>b7150150-d2a9-475c-ba2d-021d3db7c3cf</Key>
+      <Name>The Mum Twine</Name>
+      <Cost>320494</Cost>
+      <Number>1253</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>Stock/Levy Escort Carrier</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>g6Jp1xMKeEeNFOgfjnt3hQ</Key>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>EG2AL-mzuEmVbJpH5IVCXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>VOg7-lRNWkGpjpj3W7QEoQ</Key>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>EG2AL-mzuEmVbJpH5IVCXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>nrWmlB7t7E2eR6gjOVmDtA</Key>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>EG2AL-mzuEmVbJpH5IVCXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>CsgECqHZc0Kannrt6VIhUw</Key>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>EG2AL-mzuEmVbJpH5IVCXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>NysR9qLdykCdsphUx1foSg</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>S0-J1cMwUEKF72p---79_w</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>3XttIkpGh0yh8AMcSK0_9g</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>Z8askbBTfkm1Z1R8wX48Lw</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>ww85-B3EY02T4hEoPQBLPg</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>24</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>_yC35vSVhU6ziXsLtVwSAg</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>24</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>J0fhl0E9OE2qbBM4dNSlIQ</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>216</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>n9Ru447zt0O2PqoeCqEDKw</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>324</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>TCnobRXZTUmbBhWLB2_bMA</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>216</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>Rqj_R1kXHkC9Il-jpVDWAA</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>144</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>VRT4JesYZUmXgqX1BK03vw</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>tRoUxR8d7E2g8VMuBvtgPA</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>dsNyjGBVUkWbOJ_DhpBlWg</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>QPu81rov_k2q0TUPljf1wQ</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>olToS4WUzkSEjp0m_GDswA</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>DGXa9LWen0qyodt0DDHxcA</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>2L34-TzEokaF5Ic3R-Majw</Key>
+          <ComponentName>Stock/RM50 'Parallax' Radar</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>aUJW0fBCR0mJc2o0WtSTtg</Key>
+          <ComponentName>Stock/RM50 'Parallax' Radar</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
+    </Ship>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>84316f41-5899-461f-8c10-8cadd87ade01</Key>
+      <Name>Leech</Name>
+      <Cost>320494</Cost>
+      <Number>696</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>Stock/Levy Escort Carrier</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>g6Jp1xMKeEeNFOgfjnt3hQ</Key>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>EG2AL-mzuEmVbJpH5IVCXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>VOg7-lRNWkGpjpj3W7QEoQ</Key>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>EG2AL-mzuEmVbJpH5IVCXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>nrWmlB7t7E2eR6gjOVmDtA</Key>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>EG2AL-mzuEmVbJpH5IVCXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>CsgECqHZc0Kannrt6VIhUw</Key>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>EG2AL-mzuEmVbJpH5IVCXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>NysR9qLdykCdsphUx1foSg</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>S0-J1cMwUEKF72p---79_w</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>3XttIkpGh0yh8AMcSK0_9g</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>Z8askbBTfkm1Z1R8wX48Lw</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>ww85-B3EY02T4hEoPQBLPg</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>24</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>_yC35vSVhU6ziXsLtVwSAg</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>24</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>J0fhl0E9OE2qbBM4dNSlIQ</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>216</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>n9Ru447zt0O2PqoeCqEDKw</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>324</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>TCnobRXZTUmbBhWLB2_bMA</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>216</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>Rqj_R1kXHkC9Il-jpVDWAA</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>144</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>VRT4JesYZUmXgqX1BK03vw</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>tRoUxR8d7E2g8VMuBvtgPA</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>dsNyjGBVUkWbOJ_DhpBlWg</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>QPu81rov_k2q0TUPljf1wQ</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>olToS4WUzkSEjp0m_GDswA</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>DGXa9LWen0qyodt0DDHxcA</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>2L34-TzEokaF5Ic3R-Majw</Key>
+          <ComponentName>Stock/RM50 'Parallax' Radar</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>aUJW0fBCR0mJc2o0WtSTtg</Key>
+          <ComponentName>Stock/RM50 'Parallax' Radar</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
+    </Ship>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>f1466f9c-c77b-40c0-9c33-11a318781c67</Key>
+      <Name>The Fiery Timid</Name>
+      <Cost>320494</Cost>
+      <Number>330</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>Stock/Levy Escort Carrier</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>g6Jp1xMKeEeNFOgfjnt3hQ</Key>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>EG2AL-mzuEmVbJpH5IVCXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>VOg7-lRNWkGpjpj3W7QEoQ</Key>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>EG2AL-mzuEmVbJpH5IVCXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>nrWmlB7t7E2eR6gjOVmDtA</Key>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>EG2AL-mzuEmVbJpH5IVCXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>CsgECqHZc0Kannrt6VIhUw</Key>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>EG2AL-mzuEmVbJpH5IVCXA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Tempest</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>NysR9qLdykCdsphUx1foSg</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>S0-J1cMwUEKF72p---79_w</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>3XttIkpGh0yh8AMcSK0_9g</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>Z8askbBTfkm1Z1R8wX48Lw</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>ww85-B3EY02T4hEoPQBLPg</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>24</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>_yC35vSVhU6ziXsLtVwSAg</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>24</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>J0fhl0E9OE2qbBM4dNSlIQ</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>216</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>n9Ru447zt0O2PqoeCqEDKw</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>324</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>TCnobRXZTUmbBhWLB2_bMA</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>216</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>Rqj_R1kXHkC9Il-jpVDWAA</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>6E57-KDO6UeXj_2FvY_OBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>144</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>VRT4JesYZUmXgqX1BK03vw</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>tRoUxR8d7E2g8VMuBvtgPA</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>dsNyjGBVUkWbOJ_DhpBlWg</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>QPu81rov_k2q0TUPljf1wQ</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>olToS4WUzkSEjp0m_GDswA</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>DGXa9LWen0qyodt0DDHxcA</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>2L34-TzEokaF5Ic3R-Majw</Key>
+          <ComponentName>Stock/RM50 'Parallax' Radar</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>aUJW0fBCR0mJc2o0WtSTtg</Key>
+          <ComponentName>Stock/RM50 'Parallax' Radar</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
+    </Ship>
+  </Ships>
+  <MissileTypes>
+    <MissileTemplate>
+      <Designation>SGT-300</Designation>
+      <Nickname>Pilum Block II</Nickname>
+      <Description>$MISSILEGUIDANCE_MODE_DIRECT - $MISSILESEEKER_MODE_PASSIVE_ABBREV(&lt;color=#7CC6BC&gt;EO&lt;/color&gt;) - $MISSILESTAT_NONE</Description>
+      <LongDescription>The &lt;noparse&gt;SGT-300 Pilum Block II&lt;/noparse&gt; is a size 3 direct guidance missile.  It is based on the SGT-3 body, which is a heavy anti-ship torpedo.  This missile will deliver no payload.  It homes in on its target using a Passive Electro-Optical seeker.
+
+$MISSILESTAT_CONTROLMETHOD: $MISSILEGUIDANCE_MODE_DIRECT
+$MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
+
+$MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_PASSIVE_CAPS (&lt;color=#7CC6BC&gt;EO&lt;/color&gt;)
+
+$MISSILESTAT_SPEED: 217 $UNIT_METERSPERSEC
+$MISSILESTAT_DISTANCE: 2,219 $UNIT_METERS
+$MISSILESTAT_TOPSPEEDTIME: 1.2 $UNIT_SECONDS
+$MISSILESTAT_TURNRATE: 2.7 $UNIT_GS
+$MISSILESTAT_TERMINALS: None
+
+$MISSILESTAT_HEALTH: 160 
+$MISSILESTAT_WALLTHICKNESS: 0.25
+$MISSILESTAT_PROGTIME: 3 $UNIT_SECONDS
+$MISSILESTAT_RADARSIG: 100 %
+$MISSILESTAT_BOOSTTIME: 3 $UNIT_SECONDS
+$MISSILESTAT_BOOSTSTRAFE: 100 %
+$MISSILESTAT_BOOSTTURN: 100 %
+$MISSILESTAT_FAILRATE: 0 %</LongDescription>
+      <Cost>310</Cost>
+      <BodyKey>Stock/SGT-3 Body</BodyKey>
+      <TemplateKey>a418865f-437b-4098-9a57-abb23dee83be</TemplateKey>
+      <BaseColor>
+        <r>0.2627451</r>
+        <g>0.2627451</g>
+        <b>0.2627451</b>
+        <a>1</a>
+      </BaseColor>
+      <StripeColor>
+        <r>0.8509804</r>
+        <g>0.3647059</g>
+        <b>0.180392161</b>
+        <a>1</a>
+      </StripeColor>
+      <Sockets>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="PassiveSeekerSettings">
+            <ComponentKey>Stock/Electro-Optical Seeker</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <DetectPDTargets>false</DetectPDTargets>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/Cluster Decoy Launcher</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="DirectGuidanceSettings">
+            <ComponentKey>Stock/Direct Guidance</ComponentKey>
+            <Role>Offensive</Role>
+            <HotLaunch>false</HotLaunch>
+            <SelfDestructOnLost>false</SelfDestructOnLost>
+            <Maneuvers>None</Maneuvers>
+            <DefensiveDoctrine>
+              <Mode>Uniform</Mode>
+              <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
+              <TargetSizeOrdering>Descending</TargetSizeOrdering>
+              <SalvoSize>0</SalvoSize>
+              <ConvSalvo>16843008</ConvSalvo>
+              <HybridSalvo>16843008</HybridSalvo>
+              <CraftSalvo>16843008</CraftSalvo>
+              <FarthestFirst>false</FarthestFirst>
+            </DefensiveDoctrine>
+            <ApproachAngleControl>true</ApproachAngleControl>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>9</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/Cluster Decoy Launcher</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>5</Size>
+          <InstalledComponent xsi:type="MissileEngineSettings">
+            <ComponentKey />
+            <BalanceValues>
+              <A>0.33333</A>
+              <B>0.33333</B>
+              <C>0.33333</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+      </Sockets>
+    </MissileTemplate>
+    <MissileTemplate>
+      <Designation>SGM-200</Designation>
+      <Nickname>Tempest</Nickname>
+      <Description>$MISSILEGUIDANCE_MODE_DIRECT - $MISSILESEEKER_MODE_PASSIVE_ABBREV(&lt;color=#7CC6BC&gt;EO&lt;/color&gt;) - $MISSILESTAT_NONE</Description>
+      <LongDescription>The &lt;noparse&gt;SGM-200 Tempest&lt;/noparse&gt; is a size 2 direct guidance missile.  It is based on the SGM-2 body, which is a flexible mainstay anti-ship missile.  This missile will deliver no payload.  It homes in on its target using a Passive Electro-Optical seeker.
+
+$MISSILESTAT_CONTROLMETHOD: $MISSILEGUIDANCE_MODE_DIRECT
+$MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
+
+$MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_PASSIVE_CAPS (&lt;color=#7CC6BC&gt;EO&lt;/color&gt;)
+
+$MISSILESTAT_SPEED: 237 $UNIT_METERSPERSEC
+$MISSILESTAT_DISTANCE: 8,691 $UNIT_METERS
+$MISSILESTAT_TOPSPEEDTIME: 1.2 $UNIT_SECONDS
+$MISSILESTAT_TURNRATE: 3.4 $UNIT_GS
+$MISSILESTAT_TERMINALS: None
+
+$MISSILESTAT_HEALTH: 30 
+$MISSILESTAT_WALLTHICKNESS: 0.05
+$MISSILESTAT_PROGTIME: 8 $UNIT_SECONDS
+$MISSILESTAT_RADARSIG: 100 %
+$MISSILESTAT_BOOSTTIME: 3 $UNIT_SECONDS
+$MISSILESTAT_BOOSTSTRAFE: 100 %
+$MISSILESTAT_BOOSTTURN: 100 %
+$MISSILESTAT_FAILRATE: 0 %</LongDescription>
+      <Cost>166</Cost>
+      <BodyKey>Stock/SGM-2 Body</BodyKey>
+      <TemplateKey>ea931701-0e4e-48ee-9ce3-7d774e54855a</TemplateKey>
+      <BaseColor>
+        <r>1</r>
+        <g>1</g>
+        <b>1</b>
+        <a>1</a>
+      </BaseColor>
+      <StripeColor>
+        <r>0.7058824</r>
+        <g>0.129411772</g>
+        <b>0.129411772</b>
+        <a>1</a>
+      </StripeColor>
+      <Sockets>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="PassiveSeekerSettings">
+            <ComponentKey>Stock/Electro-Optical Seeker</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <DetectPDTargets>false</DetectPDTargets>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/Cluster Decoy Launcher</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="DirectGuidanceSettings">
+            <ComponentKey>Stock/Direct Guidance</ComponentKey>
+            <Role>Offensive</Role>
+            <HotLaunch>false</HotLaunch>
+            <SelfDestructOnLost>false</SelfDestructOnLost>
+            <Maneuvers>None</Maneuvers>
+            <DefensiveDoctrine>
+              <Mode>Uniform</Mode>
+              <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
+              <TargetSizeOrdering>Descending</TargetSizeOrdering>
+              <SalvoSize>0</SalvoSize>
+              <ConvSalvo>16843008</ConvSalvo>
+              <HybridSalvo>16843008</HybridSalvo>
+              <CraftSalvo>16843008</CraftSalvo>
+              <FarthestFirst>false</FarthestFirst>
+            </DefensiveDoctrine>
+            <ApproachAngleControl>true</ApproachAngleControl>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>6</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/Cluster Decoy Launcher</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>4</Size>
+          <InstalledComponent xsi:type="MissileEngineSettings">
+            <ComponentKey />
+            <BalanceValues>
+              <A>0.33333</A>
+              <B>0.33333</B>
+              <C>0.33333</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+      </Sockets>
+    </MissileTemplate>
+  </MissileTypes>
+</Fleet>

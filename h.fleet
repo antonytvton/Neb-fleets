@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>h</Name>
+  <Version>3</Version>
+  <TotalPoints>380</TotalPoints>
+  <FactionKey>prism/Prism</FactionKey>
+  <SortOverrideOrder xsi:nil="true" />
+  <ModDependencies>
+    <unsignedLong>2789730936</unsignedLong>
+  </ModDependencies>
+  <Ships>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>4a75776c-6dc5-46b7-8b7a-856bd43f0b70</Key>
+      <Name>Earth</Name>
+      <Cost>380</Cost>
+      <Number>507</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>prism/DD_noether</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>mount345_DD1</Key>
+          <ComponentName>guns/c3 Fusillade</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mount345_DD2</Key>
+          <ComponentName>guns/c3 Fusillade</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mount345_DD3</Key>
+          <ComponentName>guns/c3 Bastion</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mount345_DD4</Key>
+          <ComponentName>guns/c3 Fusillade</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mediumcompartment1</Key>
+          <ComponentName>Stock/Basic CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mediumcompartment2</Key>
+          <ComponentName>Stock/Reinforced Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>xKVgw6M8YESAVnDrRdBEdQ</MagazineKey>
+                <MunitionKey>Stock/450mm AP Shell</MunitionKey>
+                <Quantity>100</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>MHLCUjsmEUCNkiCMu7mDdQ</MagazineKey>
+                <MunitionKey>Stock/120mm HE-RPF Shell</MunitionKey>
+                <Quantity>100</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>largemodule1</Key>
+          <ComponentName>Stock/FR4800 Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>largemodule2</Key>
+          <ComponentName>Stock/FM200 Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>smallmodule1</Key>
+          <ComponentName>Stock/RS35 'Frontline' Radar</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>livery</Key>
+          <ComponentName>prism/Theme Stripes</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
+    </Ship>
+  </Ships>
+</Fleet>

@@ -1,0 +1,1149 @@
+<?xml version="1.0"?>
+<Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Test2</Name>
+  <Version>3</Version>
+  <TotalPoints>2651</TotalPoints>
+  <FactionKey>Stock/Alliance</FactionKey>
+  <SortOverrideOrder xsi:nil="true" />
+  <Ships>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>592254df-e0fb-4f7a-9c2a-787671b3e906</Key>
+      <Name>Radar</Name>
+      <Cost>2651</Cost>
+      <Number>492</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>Stock/Levy Escort Carrier</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>NysR9qLdykCdsphUx1foSg</Key>
+          <ComponentName>Stock/Basic CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>ww85-B3EY02T4hEoPQBLPg</Key>
+          <ComponentName>Stock/Deck Gear Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>_yC35vSVhU6ziXsLtVwSAg</Key>
+          <ComponentName>Stock/Deck Gear Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>J0fhl0E9OE2qbBM4dNSlIQ</Key>
+          <ComponentName>Stock/Bulk Internal Hangar</ComponentName>
+          <ComponentData xsi:type="CraftHangarData">
+            <StoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/PF-440A SU-57</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/PF-440A SU-57</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/E-44 Sundial</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/PF-440A SU-57</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/PF-440A SU-57</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/PF-440A SU-57</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/PF-440A SU-57</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/PF-440A SU-57</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/PF-440A SU-57</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/PF-440A SU-57</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/PF-440A SU-57</CraftTemplateKey>
+              </SavedStoredCraft>
+            </StoredCraft>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>n9Ru447zt0O2PqoeCqEDKw</Key>
+          <ComponentName>Stock/Bulk Internal Hangar</ComponentName>
+          <ComponentData xsi:type="CraftHangarData">
+            <StoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/B-86 Claymore</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/B-86 Claymore</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/PF-440A SU-57</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/PF-440A SU-57</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/PF-440A SU-57</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/PF-440A SU-57</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/PF-440A SU-57</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/PF-440A SU-57</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/PF-440A SU-57</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/PF-440A SU-57</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/PF-440A SU-57</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/PF-440A SU-57</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/PF-440A SU-57</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/PF-440A SU-57</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/PF-440A SU-57</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/PF-440A SU-57</CraftTemplateKey>
+              </SavedStoredCraft>
+            </StoredCraft>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>TCnobRXZTUmbBhWLB2_bMA</Key>
+          <ComponentName>Stock/Bulk Internal Hangar</ComponentName>
+          <ComponentData xsi:type="CraftHangarData">
+            <StoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/B-86 Claymore</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/B-86 Claymore</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/B-86 Claymore</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/B-86 Claymore</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/B-86 Claymore</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/B-86 Claymore</CraftTemplateKey>
+              </SavedStoredCraft>
+            </StoredCraft>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>Rqj_R1kXHkC9Il-jpVDWAA</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>kGpey4jwHkC7A9qpEpIcJQ</MagazineKey>
+                <MunitionKey>Stock/15mm Sandshot</MunitionKey>
+                <Quantity>400</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>iQJlhTKGkUGPW1vfEh0iRA</MagazineKey>
+                <MunitionKey>$MODMIS$/SDM-100 Lunge</MunitionKey>
+                <Quantity>40</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>24sjp_Nfzk6Y7JJ5jW6Ufg</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-100 Flashbang</MunitionKey>
+                <Quantity>32</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>vf782ElqB0i_dgyQG06zmA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-100 Joust</MunitionKey>
+                <Quantity>32</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>kqUF-I25fUWpRo5TJVd6bw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block II</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>eq-Dmuob10usxpoA1QgQYQ</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-300 Pilum Block III</MunitionKey>
+                <Quantity>16</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>7DSX-21gH0C9Kic0nrdYuA</MagazineKey>
+                <MunitionKey>$MODMIS$/SDM-100 Windbreaker</MunitionKey>
+                <Quantity>32</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>VRT4JesYZUmXgqX1BK03vw</Key>
+          <ComponentName>Stock/FR4800 Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>tRoUxR8d7E2g8VMuBvtgPA</Key>
+          <ComponentName>Stock/FM500 Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>dsNyjGBVUkWbOJ_DhpBlWg</Key>
+          <ComponentName>Stock/Flight Deck Traversal System</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>QPu81rov_k2q0TUPljf1wQ</Key>
+          <ComponentName>Stock/Flight Deck Traversal System</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>aUJW0fBCR0mJc2o0WtSTtg</Key>
+          <ComponentName>Stock/RS35 'Frontline' Radar</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
+    </Ship>
+  </Ships>
+  <MissileTypes>
+    <MissileTemplate>
+      <Designation>SDM-100</Designation>
+      <Nickname>Lunge</Nickname>
+      <Description>DIRECT - &lt;color=#D3D11F&gt;CMD&lt;/color&gt; - HE FRAG</Description>
+      <LongDescription>The &lt;noparse&gt;SDM-100 Lunge&lt;/noparse&gt; is a size 1 direct guidance missile.  It is based on the SDM-1 body, which is a flexible defensive missile with a booster.  This missile will deliver a Proximity Fuze, High Explosive, Blast Fragmentation warhead.  It homes in on its target using command guidance from its launching ship.
+
+Control Method: DIRECT
+Targeting Modes: &lt;b&gt;&lt;color=#D4211D&gt;POSITION&lt;/color&gt;	&lt;color=#3BC81E&gt;TRACK&lt;/color&gt;&lt;/b&gt;
+
+Primary Seeker: COMMAND (&lt;color=#D3D11F&gt;Requires COMMS Enabled&lt;/color&gt;)
+
+&lt;b&gt;Boost&lt;/b&gt;
+Speed: 743 m/s
+Distance: 3,126 m
+Top Speed In: 0.5 s
+Turn Rate: 7.7 G
+
+&lt;b&gt;Main&lt;/b&gt;
+Speed: 317 m/s
+Distance: 2,690 m
+Top Speed In: 0.6 s
+Turn Rate: 8.7 G
+
+: Stage Trigger at 2,090m from Target or On Burnout
+
+Terminal Maneuvers: None
+
+Warhead: Proximity Fuze, High Explosive, Blast Fragmentation
+Armor: 0.31cm
+Component: 65.34hp
+Blast Radius: 61 m
+
+Body Integrity: 10 
+Wall Thickness: 0.05
+Programming Time: 6 s
+Radar Signature Bonus: 100 %
+Boost-Phase Duration: 3 s
+Boost-Phase Strafe: 100 %
+Boost-Phase Turn Rate: 100 %
+Failure Rate: 0 %</LongDescription>
+      <Cost>9</Cost>
+      <BodyKey>Stock/SDM-1 Body</BodyKey>
+      <TemplateKey>b9b5a75f-d92e-4f9f-a89e-4ec63347908f</TemplateKey>
+      <BaseColor>
+        <r>1</r>
+        <g>0.4862745</g>
+        <b>0</b>
+        <a>1</a>
+      </BaseColor>
+      <StripeColor>
+        <r>0.254901975</r>
+        <g>0.254901975</g>
+        <b>0.254901975</b>
+        <a>1</a>
+      </StripeColor>
+      <Sockets>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="CommandSeekerSettings">
+            <ComponentKey>Stock/Command Receiver</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="DirectGuidanceSettings">
+            <ComponentKey>Stock/Direct Guidance</ComponentKey>
+            <Role>Defensive</Role>
+            <HotLaunch>false</HotLaunch>
+            <SelfDestructOnLost>false</SelfDestructOnLost>
+            <Maneuvers>None</Maneuvers>
+            <DefensiveDoctrine>
+              <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
+              <TargetSizeOrdering>Descending</TargetSizeOrdering>
+              <SalvoSize>0</SalvoSize>
+              <FarthestFirst>false</FarthestFirst>
+            </DefensiveDoctrine>
+            <ApproachAngleControl>true</ApproachAngleControl>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>4</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/Blast Fragmentation EL</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>3</Size>
+          <InstalledComponent xsi:type="MissileEngineSettings">
+            <ComponentKey />
+            <BalanceValues>
+              <A>0.4473229</A>
+              <B>0.155327871</B>
+              <C>0.397349238</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="MissileEngineSettings">
+            <ComponentKey />
+            <BalanceValues>
+              <A>0.4654865</A>
+              <B>0.4834478</B>
+              <C>0.0510657132</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+      </Sockets>
+    </MissileTemplate>
+    <MissileTemplate>
+      <Designation>SGM-100</Designation>
+      <Nickname>Joust</Nickname>
+      <Description>DIRECT - ACT(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;) - HE FRAG</Description>
+      <LongDescription>The &lt;noparse&gt;SGM-100 Joust&lt;/noparse&gt; is a size 1 direct guidance missile.  It is based on the SGM-1 body, which is a nimble general-purpose missile.  This missile will deliver a Proximity Fuze, High Explosive, Blast Fragmentation warhead.  It homes in on its target using an Active Radar seeker.
+
+Control Method: DIRECT
+Targeting Modes: &lt;b&gt;&lt;color=#3BC81E&gt;POSITION&lt;/color&gt;	&lt;color=#3BC81E&gt;TRACK&lt;/color&gt;&lt;/b&gt;
+
+Primary Seeker: ACTIVE &lt;color=#3BC81E&gt;RADAR&lt;/color&gt;
+
+Speed: 383 m/s
+Distance: 2,112 m
+Top Speed In: 1.0 s
+Turn Rate: 6.2 G
+Terminal Maneuvers: None
+
+Warhead: Proximity Fuze, High Explosive, Blast Fragmentation
+Armor: 0.21cm
+Component: 65.34hp
+Blast Radius: 47 m
+
+Body Integrity: 10 
+Wall Thickness: 0.05
+Programming Time: 6 s
+Radar Signature Bonus: 100 %
+Boost-Phase Duration: 3 s
+Boost-Phase Strafe: 100 %
+Boost-Phase Turn Rate: 100 %
+Failure Rate: 0 %</LongDescription>
+      <Cost>2</Cost>
+      <BodyKey>Stock/SGM-1 Body</BodyKey>
+      <TemplateKey>d09fd9e2-efec-48b1-a55c-1c241ded5116</TemplateKey>
+      <BaseColor>
+        <r>1</r>
+        <g>0.4862745</g>
+        <b>0</b>
+        <a>1</a>
+      </BaseColor>
+      <StripeColor>
+        <r>0.254901975</r>
+        <g>0.254901975</g>
+        <b>0.254901975</b>
+        <a>1</a>
+      </StripeColor>
+      <Sockets>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="ActiveSeekerSettings">
+            <ComponentKey>Stock/Steerable Active Radar Seeker</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <DetectPDTargets>true</DetectPDTargets>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="DirectGuidanceSettings">
+            <ComponentKey>Stock/Direct Guidance</ComponentKey>
+            <Role>Defensive</Role>
+            <HotLaunch>false</HotLaunch>
+            <SelfDestructOnLost>false</SelfDestructOnLost>
+            <Maneuvers>None</Maneuvers>
+            <DefensiveDoctrine>
+              <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
+              <TargetSizeOrdering>Descending</TargetSizeOrdering>
+              <SalvoSize>0</SalvoSize>
+              <FarthestFirst>false</FarthestFirst>
+            </DefensiveDoctrine>
+            <ApproachAngleControl>true</ApproachAngleControl>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>4</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/Blast Fragmentation</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>3</Size>
+          <InstalledComponent xsi:type="MissileEngineSettings">
+            <ComponentKey />
+            <BalanceValues>
+              <A>0.8856471</A>
+              <B>0</B>
+              <C>0.114352882</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+      </Sockets>
+    </MissileTemplate>
+    <MissileTemplate>
+      <Designation>SGM-100</Designation>
+      <Nickname>Flashbang</Nickname>
+      <Description>DIRECT - ARAD(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;) - NONE</Description>
+      <LongDescription>The &lt;noparse&gt;SGM-100 Flashbang&lt;/noparse&gt; is a size 1 direct guidance missile.  It is based on the SGM-1 body, which is a nimble general-purpose missile.  This missile will deliver no payload.  It homes in on its target using a Radar Anti-Radiation seeker.
+
+Control Method: DIRECT
+Targeting Modes: &lt;b&gt;&lt;color=#3BC81E&gt;POSITION&lt;/color&gt;	&lt;color=#3BC81E&gt;TRACK&lt;/color&gt;&lt;/b&gt;
+
+Primary Seeker: ANTI-RADIATION (All &lt;color=#3BC81E&gt;RADAR&lt;/color&gt; Signals)
+
+Speed: 250 m/s
+Distance: 2,958 m
+Top Speed In: 0.3 s
+Turn Rate: 13.3 G
+Terminal Maneuvers: None
+
+Body Integrity: 10 
+Wall Thickness: 0.05
+Programming Time: 6 s
+Radar Signature Bonus: 100 %
+Boost-Phase Duration: 3 s
+Boost-Phase Strafe: 100 %
+Boost-Phase Turn Rate: 100 %
+Failure Rate: 0 %</LongDescription>
+      <Cost>2</Cost>
+      <BodyKey>Stock/SGM-1 Body</BodyKey>
+      <TemplateKey>ffb9af10-7138-4f74-96d3-b24749521840</TemplateKey>
+      <BaseColor>
+        <r>1</r>
+        <g>0.4862745</g>
+        <b>0</b>
+        <a>1</a>
+      </BaseColor>
+      <StripeColor>
+        <r>0.254901975</r>
+        <g>0.254901975</g>
+        <b>0.254901975</b>
+        <a>1</a>
+      </StripeColor>
+      <Sockets>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="PassiveARHSeekerSettings">
+            <ComponentKey>Stock/Fixed Anti-Radiation Seeker</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <TargetType>All</TargetType>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="DirectGuidanceSettings">
+            <ComponentKey>Stock/Direct Guidance</ComponentKey>
+            <Role>Defensive</Role>
+            <HotLaunch>false</HotLaunch>
+            <SelfDestructOnLost>false</SelfDestructOnLost>
+            <Maneuvers>None</Maneuvers>
+            <DefensiveDoctrine>
+              <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
+              <TargetSizeOrdering>Descending</TargetSizeOrdering>
+              <SalvoSize>0</SalvoSize>
+              <FarthestFirst>false</FarthestFirst>
+            </DefensiveDoctrine>
+            <ApproachAngleControl>true</ApproachAngleControl>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>6</Size>
+          <InstalledComponent xsi:type="MissileEngineSettings">
+            <ComponentKey />
+            <BalanceValues>
+              <A>0</A>
+              <B>3.31136931E-08</B>
+              <C>0.99999994</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+      </Sockets>
+    </MissileTemplate>
+    <MissileTemplate>
+      <Designation>SGT-300</Designation>
+      <Nickname>Pilum Block II</Nickname>
+      <Description>DIRECT - &lt;color=#D3D11F&gt;CMD&lt;/color&gt;/PSV(&lt;color=#D4211D&gt;WAKE&lt;/color&gt;) - HE SHAPED</Description>
+      <LongDescription>The &lt;noparse&gt;SGT-300 Pilum Block II&lt;/noparse&gt; is a size 3 direct guidance missile.  It is based on the SGT-3 body, which is a heavy anti-ship torpedo.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using command guidance from its launching ship  If the primary seeker does not find a target or is jammed, it can fall back on a Passive Wake seeker.
+
+Control Method: DIRECT
+Targeting Modes: &lt;b&gt;&lt;color=#3BC81E&gt;POSITION&lt;/color&gt;	&lt;color=#3BC81E&gt;TRACK&lt;/color&gt;&lt;/b&gt;
+
+Primary Seeker: COMMAND (&lt;color=#D3D11F&gt;Requires COMMS Enabled&lt;/color&gt;)
+Backup Seeker: PASSIVE (&lt;color=#D4211D&gt;WAKE&lt;/color&gt;)
+
+Speed: 204 m/s
+Distance: 3,341 m
+Top Speed In: 1.3 s
+Turn Rate: 1.6 G
+Terminal Maneuvers: None
+
+Warhead: Contact Fuze, High Explosive, Shaped
+Armor: 139cm
+Component: 6,480hp
+Blast Angle: 70 deg
+Damage Per Fragment: 50.0
+
+Body Integrity: 160 
+Wall Thickness: 0.25
+Programming Time: 3 s
+Radar Signature Bonus: 100 %
+Boost-Phase Duration: 3 s
+Boost-Phase Strafe: 100 %
+Boost-Phase Turn Rate: 100 %
+Failure Rate: 0 %</LongDescription>
+      <Cost>12</Cost>
+      <BodyKey>Stock/SGT-3 Body</BodyKey>
+      <TemplateKey>52a132b9-d8a5-4400-86b7-f07af52603c8</TemplateKey>
+      <BaseColor>
+        <r>0.2627451</r>
+        <g>0.2627451</g>
+        <b>0.2627451</b>
+        <a>1</a>
+      </BaseColor>
+      <StripeColor>
+        <r>0.8509804</r>
+        <g>0.3647059</g>
+        <b>0.180392161</b>
+        <a>1</a>
+      </StripeColor>
+      <Sockets>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="CommandSeekerSettings">
+            <ComponentKey>Stock/Command Receiver</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="PassiveSeekerSettings">
+            <ComponentKey>Stock/Wake-Homing Seeker</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <DetectPDTargets>false</DetectPDTargets>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="DirectGuidanceSettings">
+            <ComponentKey>Stock/Direct Guidance</ComponentKey>
+            <Role>Offensive</Role>
+            <HotLaunch>false</HotLaunch>
+            <SelfDestructOnLost>false</SelfDestructOnLost>
+            <Maneuvers>None</Maneuvers>
+            <DefensiveDoctrine>
+              <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
+              <TargetSizeOrdering>Descending</TargetSizeOrdering>
+              <SalvoSize>0</SalvoSize>
+              <FarthestFirst>false</FarthestFirst>
+            </DefensiveDoctrine>
+            <ApproachAngleControl>true</ApproachAngleControl>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>9</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/HE Impact</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>5</Size>
+          <InstalledComponent xsi:type="MissileEngineSettings">
+            <ComponentKey />
+            <BalanceValues>
+              <A>0.229359776</A>
+              <B>0.6885309</B>
+              <C>0.0821093</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+      </Sockets>
+    </MissileTemplate>
+    <MissileTemplate>
+      <Designation>SGT-300</Designation>
+      <Nickname>Pilum Block III</Nickname>
+      <Description>DIRECT - &lt;color=#D3D11F&gt;CMD&lt;/color&gt;/ACT(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;) - HE SHAPED</Description>
+      <LongDescription>The &lt;noparse&gt;SGT-300 Pilum Block III&lt;/noparse&gt; is a size 3 direct guidance missile.  It is based on the SGT-3 body, which is a heavy anti-ship torpedo.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using command guidance from its launching ship  If the primary seeker does not find a target or is jammed, it can fall back on an Active Radar seeker.
+
+Control Method: DIRECT
+Targeting Modes: &lt;b&gt;&lt;color=#3BC81E&gt;POSITION&lt;/color&gt;	&lt;color=#3BC81E&gt;TRACK&lt;/color&gt;&lt;/b&gt;
+
+Primary Seeker: COMMAND (&lt;color=#D3D11F&gt;Requires COMMS Enabled&lt;/color&gt;)
+Backup Seeker: ACTIVE &lt;color=#3BC81E&gt;RADAR&lt;/color&gt;
+
+Speed: 212 m/s
+Distance: 3,389 m
+Top Speed In: 1.1 s
+Turn Rate: 3.3 G
+Terminal Maneuvers: Corkscrew
+(&lt;color=#D3D11F&gt;May decrease effective range&lt;/color&gt;)
+
+Warhead: Contact Fuze, High Explosive, Shaped
+Armor: 104cm
+Component: 3,600hp
+Blast Angle: 70 deg
+Damage Per Fragment: 50.0
+
+Body Integrity: 160 
+Wall Thickness: 0.25
+Programming Time: 3 s
+Radar Signature Bonus: 100 %
+Boost-Phase Duration: 3 s
+Boost-Phase Strafe: 100 %
+Boost-Phase Turn Rate: 100 %
+Failure Rate: 0 %</LongDescription>
+      <Cost>15</Cost>
+      <BodyKey>Stock/SGT-3 Body</BodyKey>
+      <TemplateKey>2c0a608c-c519-4ed3-94af-6e11b97b9f17</TemplateKey>
+      <BaseColor>
+        <r>0.2627451</r>
+        <g>0.2627451</g>
+        <b>0.2627451</b>
+        <a>1</a>
+      </BaseColor>
+      <StripeColor>
+        <r>0.8509804</r>
+        <g>0.3647059</g>
+        <b>0.180392161</b>
+        <a>1</a>
+      </StripeColor>
+      <Sockets>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="CommandSeekerSettings">
+            <ComponentKey>Stock/Command Receiver</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="ActiveSeekerSettings">
+            <ComponentKey>Stock/Steerable Active Radar Seeker</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <DetectPDTargets>false</DetectPDTargets>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="DirectGuidanceSettings">
+            <ComponentKey>Stock/Direct Guidance</ComponentKey>
+            <Role>Offensive</Role>
+            <HotLaunch>false</HotLaunch>
+            <SelfDestructOnLost>false</SelfDestructOnLost>
+            <Maneuvers>Corkscrew</Maneuvers>
+            <DefensiveDoctrine>
+              <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
+              <TargetSizeOrdering>Descending</TargetSizeOrdering>
+              <SalvoSize>0</SalvoSize>
+              <FarthestFirst>false</FarthestFirst>
+            </DefensiveDoctrine>
+            <ApproachAngleControl>true</ApproachAngleControl>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>5</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/HE Impact</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>9</Size>
+          <InstalledComponent xsi:type="MissileEngineSettings">
+            <ComponentKey />
+            <BalanceValues>
+              <A>0.2938431</A>
+              <B>0.239504948</B>
+              <C>0.466651976</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+      </Sockets>
+    </MissileTemplate>
+    <MissileTemplate>
+      <Designation>SDM-100</Designation>
+      <Nickname>Windbreaker</Nickname>
+      <Description>DIRECT - ACT(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;) - HE FRAG</Description>
+      <LongDescription>The &lt;noparse&gt;SDM-100 Windbreaker&lt;/noparse&gt; is a size 1 direct guidance missile.  It is based on the SDM-1 body, which is a flexible defensive missile with a booster.  This missile will deliver a Proximity Fuze, High Explosive, Blast Fragmentation warhead.  It homes in on its target using an Active Radar seeker.
+
+Control Method: DIRECT
+Targeting Modes: &lt;b&gt;&lt;color=#3BC81E&gt;POSITION&lt;/color&gt;	&lt;color=#3BC81E&gt;TRACK&lt;/color&gt;&lt;/b&gt;
+
+Primary Seeker: ACTIVE &lt;color=#3BC81E&gt;RADAR&lt;/color&gt;
+
+&lt;b&gt;Boost&lt;/b&gt;
+Speed: 850 m/s
+Distance: 2,309 m
+Top Speed In: 0.6 s
+Turn Rate: 7.7 G
+
+&lt;b&gt;Main&lt;/b&gt;
+Speed: 400 m/s
+Distance: 4,571 m
+Top Speed In: 1.1 s
+Turn Rate: 5.0 G
+
+: Stage Trigger at 2,000m from Target or On Burnout (&lt;color=#D3D11F&gt;Limited By Seeker Range&lt;/color&gt;)
+
+Terminal Maneuvers: None
+
+Warhead: Proximity Fuze, High Explosive, Blast Fragmentation
+Armor: 0.15cm
+Component: 32.67hp
+Blast Radius: 30 m
+
+Body Integrity: 10 
+Wall Thickness: 0.05
+Programming Time: 6 s
+Radar Signature Bonus: 100 %
+Boost-Phase Duration: 3 s
+Boost-Phase Strafe: 100 %
+Boost-Phase Turn Rate: 100 %
+Failure Rate: 0 %</LongDescription>
+      <Cost>3</Cost>
+      <BodyKey>Stock/SDM-1 Body</BodyKey>
+      <TemplateKey>09be8bd8-9172-4f1b-9f02-f2552ccbbbce</TemplateKey>
+      <BaseColor>
+        <r>1</r>
+        <g>0.4862745</g>
+        <b>0</b>
+        <a>1</a>
+      </BaseColor>
+      <StripeColor>
+        <r>0.254901975</r>
+        <g>0.254901975</g>
+        <b>0.254901975</b>
+        <a>1</a>
+      </StripeColor>
+      <Sockets>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="ActiveSeekerSettings">
+            <ComponentKey>Stock/Steerable Active Radar Seeker</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <DetectPDTargets>true</DetectPDTargets>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="DirectGuidanceSettings">
+            <ComponentKey>Stock/Direct Guidance</ComponentKey>
+            <Role>Defensive</Role>
+            <HotLaunch>false</HotLaunch>
+            <SelfDestructOnLost>false</SelfDestructOnLost>
+            <Maneuvers>None</Maneuvers>
+            <DefensiveDoctrine>
+              <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
+              <TargetSizeOrdering>Descending</TargetSizeOrdering>
+              <SalvoSize>0</SalvoSize>
+              <FarthestFirst>false</FarthestFirst>
+            </DefensiveDoctrine>
+            <ApproachAngleControl>true</ApproachAngleControl>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/Blast Fragmentation EL</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>6</Size>
+          <InstalledComponent xsi:type="MissileEngineSettings">
+            <ComponentKey />
+            <BalanceValues>
+              <A>1</A>
+              <B>0</B>
+              <C>0</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="MissileEngineSettings">
+            <ComponentKey />
+            <BalanceValues>
+              <A>1</A>
+              <B>0</B>
+              <C>0</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+      </Sockets>
+    </MissileTemplate>
+  </MissileTypes>
+  <CraftTypes>
+    <CraftTemplate>
+      <AssociatedTemplateName>A SU-57</AssociatedTemplateName>
+      <DesignationSuffix>A</DesignationSuffix>
+      <Nickname>SU-57</Nickname>
+      <LongDescription>Frame Model: Tanto
+Frame Class: Interceptor
+Base Cost: 8
+Storage Size: 1
+Pad Size: 6 x 6
+PD Threat Size: 2
+
+Frame Integrity: 50 
+Skin Thickness: 1.75 mm
+Target Size: 0.26  (&lt;link="craft-health-targetsize"&gt;&lt;color=#3BC81E&gt;-66%&lt;/color&gt;&lt;/link&gt;)
+Stopped Hit DR: 0.5 %
+
+Radar Signature: 50 % (&lt;link="craft-sigmult-radar"&gt;&lt;color=#3BC81E&gt;-50%&lt;/color&gt;&lt;/link&gt;)
+Wake Signature: 100 %
+Missiles/Bombs
+CMD Control Cap: 1 
+Missile Launch Angle: 120 deg. (&lt;link="craft-missile-ontargetangle"&gt;&lt;color=#3BC81E&gt;+300%&lt;/color&gt;&lt;/link&gt;)
+Bomb Leveling Time: 3 sec.
+
+Pre-Flight Time
+No ships carrying this design
+
+Idle Speed: 35 m/s
+Cruise Speed: 75 m/s
+Cruise (HBRN) Speed: 113 m/s
+Combat Speed: 113 m/s
+
+Fuel Capacity: 2,200
+Loiter Time: 21:57
+Cruise Range: 90 km
+
+Thruster Power: 150 
+Turn Rate: 79.8  (&lt;link="craft-mnvr-turnrate"&gt;&lt;color=#3BC81E&gt;+33%&lt;/color&gt;&lt;/link&gt;)
+Off Angle Thrust: 90 deg.
+Off Angle Turn: 75 deg.
+Frame Mass: 10.00
+Loadout Mass: -
+Total Mass: 10.00
+
+&lt;b&gt;Components:&lt;/b&gt;
+Nose: 15mm Coilgun
+Centerline: Centerline Fuel Tank
+Avionics: Helmet-Mounted Display
+Fuselage: Stealth Coating
+Engine: Articulated Nozzles
+Countermeasures: Standard CM Launcher
+
+&lt;b&gt;Loadouts:&lt;/b&gt;
+Joust: 6x &lt;noparse&gt;15mm Sandshot&lt;/noparse&gt;, 1x &lt;noparse&gt;SDM-100 Windbreaker&lt;/noparse&gt;, 1x &lt;noparse&gt;SGM-100 Joust&lt;/noparse&gt;, 1x &lt;noparse&gt;SGM-100 Flashbang&lt;/noparse&gt;, 1x &lt;noparse&gt;SDM-100 Lunge&lt;/noparse&gt;
+Jam: 6x &lt;noparse&gt;15mm Sandshot&lt;/noparse&gt;, 2x &lt;noparse&gt;SDM-100 Lunge&lt;/noparse&gt;
+Scramble: 6x &lt;noparse&gt;15mm Sandshot&lt;/noparse&gt;</LongDescription>
+      <Cost>28</Cost>
+      <FrameKey>Stock/AN Interceptor</FrameKey>
+      <TemplateKey>d431d865-b648-488d-802e-17bb74189905</TemplateKey>
+      <InstalledComponents>
+        <SerializedCraftSocket>
+          <SocketKey>nose</SocketKey>
+          <ComponentKey>nose_coilgun15mm</ComponentKey>
+        </SerializedCraftSocket>
+        <SerializedCraftSocket>
+          <SocketKey>centerline</SocketKey>
+          <ComponentKey>centerline_fuel</ComponentKey>
+        </SerializedCraftSocket>
+        <SerializedCraftSocket>
+          <SocketKey>avionics</SocketKey>
+          <ComponentKey>avionics-hmd</ComponentKey>
+        </SerializedCraftSocket>
+        <SerializedCraftSocket>
+          <SocketKey>fuselage</SocketKey>
+          <ComponentKey>fuselage-stealthcoating</ComponentKey>
+        </SerializedCraftSocket>
+        <SerializedCraftSocket>
+          <SocketKey>engine</SocketKey>
+          <ComponentKey>engine-articulatednozzles</ComponentKey>
+        </SerializedCraftSocket>
+        <SerializedCraftSocket>
+          <SocketKey>countermeasures</SocketKey>
+          <ComponentKey>cml-standard</ComponentKey>
+        </SerializedCraftSocket>
+      </InstalledComponents>
+      <Loadouts>
+        <CraftLoadout>
+          <LoadoutName>Joust</LoadoutName>
+          <Elements>
+            <GeneralLoadoutElement xsi:type="SimpleAmmoSelection">
+              <SocketKey>nose</SocketKey>
+              <AmmoKey>Stock/15mm Sandshot</AmmoKey>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement xsi:type="SimpleOccupiedElement" />
+            <GeneralLoadoutElement xsi:type="SimpleOccupiedElement" />
+            <GeneralLoadoutElement xsi:type="SimpleOccupiedElement" />
+            <GeneralLoadoutElement xsi:type="SimpleOccupiedElement" />
+            <GeneralLoadoutElement xsi:type="SimpleOccupiedElement" />
+            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+              <SocketKey>winginboard</SocketKey>
+              <ComponentKey>winginboard_s1pylons</ComponentKey>
+              <Loadout xsi:type="MissileSelection">
+                <SocketKey>winginboard</SocketKey>
+                <MissileKeys>
+                  <string>$MODMIS$/SDM-100 Windbreaker</string>
+                  <string>$MODMIS$/SGM-100 Joust</string>
+                </MissileKeys>
+              </Loadout>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+              <SocketKey>wingoutboard</SocketKey>
+              <ComponentKey>wingoutboard_s1pylons</ComponentKey>
+              <Loadout xsi:type="MissileSelection">
+                <SocketKey>wingoutboard</SocketKey>
+                <MissileKeys>
+                  <string>$MODMIS$/SGM-100 Flashbang</string>
+                  <string>$MODMIS$/SDM-100 Lunge</string>
+                </MissileKeys>
+              </Loadout>
+            </GeneralLoadoutElement>
+          </Elements>
+        </CraftLoadout>
+        <CraftLoadout>
+          <LoadoutName>Jam</LoadoutName>
+          <Elements>
+            <GeneralLoadoutElement xsi:type="SimpleAmmoSelection">
+              <SocketKey>nose</SocketKey>
+              <AmmoKey>Stock/15mm Sandshot</AmmoKey>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement xsi:type="SimpleOccupiedElement" />
+            <GeneralLoadoutElement xsi:type="SimpleOccupiedElement" />
+            <GeneralLoadoutElement xsi:type="SimpleOccupiedElement" />
+            <GeneralLoadoutElement xsi:type="SimpleOccupiedElement" />
+            <GeneralLoadoutElement xsi:type="SimpleOccupiedElement" />
+            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+              <SocketKey>winginboard</SocketKey>
+              <ComponentKey>winginboard_s1pylons</ComponentKey>
+              <Loadout xsi:type="MissileSelection">
+                <SocketKey>winginboard</SocketKey>
+                <MissileKeys>
+                  <string>$MODMIS$/SDM-100 Lunge</string>
+                  <string>$MODMIS$/SDM-100 Lunge</string>
+                </MissileKeys>
+              </Loadout>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+              <SocketKey>wingoutboard</SocketKey>
+              <ComponentKey>wingoutboard_radarjammer</ComponentKey>
+              <Loadout xsi:type="SimpleOccupiedElement" />
+            </GeneralLoadoutElement>
+          </Elements>
+        </CraftLoadout>
+        <CraftLoadout>
+          <LoadoutName>Scramble</LoadoutName>
+          <Elements>
+            <GeneralLoadoutElement xsi:type="SimpleAmmoSelection">
+              <SocketKey>nose</SocketKey>
+              <AmmoKey>Stock/15mm Sandshot</AmmoKey>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement xsi:type="SimpleOccupiedElement" />
+            <GeneralLoadoutElement xsi:type="SimpleOccupiedElement" />
+            <GeneralLoadoutElement xsi:type="SimpleOccupiedElement" />
+            <GeneralLoadoutElement xsi:type="SimpleOccupiedElement" />
+            <GeneralLoadoutElement xsi:type="SimpleOccupiedElement" />
+          </Elements>
+        </CraftLoadout>
+      </Loadouts>
+      <TemplateMissileTypes />
+      <ModDependencies />
+    </CraftTemplate>
+    <CraftTemplate>
+      <Nickname>Claymore</Nickname>
+      <LongDescription>Frame Model: Claymore
+Frame Class: Bomber
+Base Cost: 12
+Storage Size: 2
+Pad Size: 10 x 10
+PD Threat Size: 3
+
+Frame Integrity: 135 
+Skin Thickness: 3 mm
+Target Size: 0.34  (&lt;link="craft-health-targetsize"&gt;&lt;color=#3BC81E&gt;-66%&lt;/color&gt;&lt;/link&gt;)
+Stopped Hit DR: 0.5 %
+
+Radar Signature: 50 % (&lt;link="craft-sigmult-radar"&gt;&lt;color=#3BC81E&gt;-50%&lt;/color&gt;&lt;/link&gt;)
+Wake Signature: 67 % (&lt;link="craft-sigmult-wake"&gt;&lt;color=#3BC81E&gt;-33%&lt;/color&gt;&lt;/link&gt;)
+Missiles/Bombs
+CMD Control Cap: -1 
+Missile Launch Angle: 30 deg.
+Bomb Leveling Time: 3 sec.
+
+Idle Speed: 30 m/s
+Cruise Speed: 65 m/s
+Cruise (HBRN) Speed: 98 m/s
+Combat Speed: 98 m/s
+
+Fuel Capacity: 2,000
+Loiter Time: 13:20
+Cruise Range: 43 km
+
+Thruster Power: 250 
+Turn Rate: 45 
+Off Angle Thrust: 90 deg.
+Off Angle Turn: 25 deg.
+Frame Mass: 25.00
+Loadout Mass: -
+Total Mass: 25.00
+
+&lt;b&gt;Components:&lt;/b&gt;
+Centerline: S3 Missile Bay
+Fuselage: Stealth Coating
+Engine: Shrouded Exhaust
+Countermeasures: Standard CM Launcher
+
+&lt;b&gt;Loadouts:&lt;/b&gt;
+Bomb: 1x &lt;noparse&gt;SGT-300 Pilum Block II&lt;/noparse&gt;, 1x &lt;noparse&gt;SGT-300 Pilum Block III&lt;/noparse&gt;</LongDescription>
+      <Cost>22</Cost>
+      <FrameKey>Stock/AN Bomber</FrameKey>
+      <TemplateKey>e02d1d6d-10f4-42ba-a39e-cfbdc5d53728</TemplateKey>
+      <InstalledComponents>
+        <SerializedCraftSocket>
+          <SocketKey>centerline</SocketKey>
+          <ComponentKey>centerline_s3bay</ComponentKey>
+        </SerializedCraftSocket>
+        <SerializedCraftSocket>
+          <SocketKey>fuselage</SocketKey>
+          <ComponentKey>fuselage-stealthcoating</ComponentKey>
+        </SerializedCraftSocket>
+        <SerializedCraftSocket>
+          <SocketKey>engine</SocketKey>
+          <ComponentKey>engine-shroudedexhaust</ComponentKey>
+        </SerializedCraftSocket>
+        <SerializedCraftSocket>
+          <SocketKey>countermeasures</SocketKey>
+          <ComponentKey>cml-standard</ComponentKey>
+        </SerializedCraftSocket>
+      </InstalledComponents>
+      <Loadouts>
+        <CraftLoadout>
+          <LoadoutName>Bomb</LoadoutName>
+          <Elements>
+            <GeneralLoadoutElement xsi:type="MissileSelection">
+              <SocketKey>centerline</SocketKey>
+              <MissileKeys>
+                <string>$MODMIS$/SGT-300 Pilum Block II</string>
+                <string>$MODMIS$/SGT-300 Pilum Block III</string>
+              </MissileKeys>
+            </GeneralLoadoutElement>
+          </Elements>
+        </CraftLoadout>
+      </Loadouts>
+      <TemplateMissileTypes />
+      <ModDependencies />
+    </CraftTemplate>
+    <CraftTemplate>
+      <Nickname>Sundial</Nickname>
+      <LongDescription>Frame Model: Sundial
+Frame Class: SEWAC
+Base Cost: 75
+Storage Size: 2
+Pad Size: 10 x 10
+PD Threat Size: 1
+
+Frame Integrity: 135 
+Skin Thickness: 3 mm
+Target Size: 1 
+Stopped Hit DR: 0.5 %
+
+Radar Signature: 100 %
+Wake Signature: 67 % (&lt;link="craft-sigmult-wake"&gt;&lt;color=#3BC81E&gt;-33%&lt;/color&gt;&lt;/link&gt;)
+Missiles/Bombs
+CMD Control Cap: 1 
+Missile Launch Angle: 30 deg.
+Bomb Leveling Time: 1 sec.
+
+Idle Speed: 25 m/s
+Cruise Speed: 60 m/s
+Cruise (HBRN) Speed: 90 m/s
+Combat Speed: 90 m/s
+
+Fuel Capacity: 2,000
+Loiter Time: 42:40
+Cruise Range: 60 km
+
+Thruster Power: 150 
+Turn Rate: 30 
+Off Angle Thrust: 90 deg.
+Off Angle Turn: 25 deg.
+Frame Mass: 25.00
+Loadout Mass: -
+Total Mass: 25.00
+
+&lt;b&gt;Components:&lt;/b&gt;
+Mission Package: ELINT Sensor
+Fuselage: None
+Engine: Shrouded Exhaust
+Countermeasures: High-Capacity CM Launcher</LongDescription>
+      <Cost>104</Cost>
+      <FrameKey>Stock/AN SEWAC</FrameKey>
+      <TemplateKey>a4d55031-f2bc-4fb0-b395-3d8a736a3e9e</TemplateKey>
+      <InstalledComponents>
+        <SerializedCraftSocket>
+          <SocketKey>mission</SocketKey>
+          <ComponentKey>mission_elint</ComponentKey>
+        </SerializedCraftSocket>
+        <SerializedCraftSocket>
+          <SocketKey>engine</SocketKey>
+          <ComponentKey>engine-shroudedexhaust</ComponentKey>
+        </SerializedCraftSocket>
+        <SerializedCraftSocket>
+          <SocketKey>countermeasures</SocketKey>
+          <ComponentKey>cml-endurance</ComponentKey>
+        </SerializedCraftSocket>
+      </InstalledComponents>
+      <Loadouts />
+      <TemplateMissileTypes />
+      <ModDependencies />
+    </CraftTemplate>
+  </CraftTypes>
+</Fleet>

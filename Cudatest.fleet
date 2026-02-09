@@ -1,0 +1,821 @@
+<?xml version="1.0"?>
+<Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Cudatest</Name>
+  <Version>3</Version>
+  <TotalPoints>1422</TotalPoints>
+  <FactionKey>Stock/Protectorate</FactionKey>
+  <SortOverrideOrder xsi:nil="true" />
+  <Ships>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>03ea6731-0bad-4ff7-87ab-0f49b438ea9c</Key>
+      <Name>Ember and Fare</Name>
+      <Cost>1471</Cost>
+      <Number>680</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>Stock/Ore Carrier</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>tW4zUlc7-UagVFXCOGl63g</Key>
+          <ComponentName>Stock/C4 Mount Hangar</ComponentName>
+          <ComponentData xsi:type="CraftHangarData">
+            <StoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/RS-35 Halberd</CraftTemplateKey>
+              </SavedStoredCraft>
+            </StoredCraft>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>qfEBVY3HjUiyhpq9YQGAOQ</Key>
+          <ComponentName>Stock/R550 Early Warning Radar</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>O5f_mflyPEKi1lfh7sBXEQ</Key>
+          <ComponentName>Stock/VLS-1-23 Launcher</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>WOcyvxHHOkyhv-HdM6-voQ</MagazineKey>
+                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
+                <Quantity>6</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>LajQ6rvr4kqkxI1p1IWiNQ</MagazineKey>
+                <MunitionKey>Stock/EA20 Flare Decoy</MunitionKey>
+                <Quantity>2</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>DLNetkwH9kerkhRuQ4lIjQ</Key>
+          <ComponentName>Stock/Basic CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>9EA-sLPvv0yedARGhtJv3Q</Key>
+          <ComponentName>Stock/Plant Control Center</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>utS8omLdfUCo4DXRpR4Hyw</Key>
+          <ComponentName>Stock/Deck Gear Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>ZwILnhyKLkigJgek0cM9Lw</Key>
+          <ComponentName>Stock/Large DC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>-F3V0WPprkWQ7ktL8CwXXg</Key>
+          <ComponentName>Stock/Deck Gear Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>gi0EFXIps0q_499wfJPBVA</Key>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>e4_BvjBdxU2qWTl25JuO1A</MagazineKey>
+                <MunitionKey>Stock/20mm Slug</MunitionKey>
+                <Quantity>10000</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>l3Y-oyuxA0a85S-4Phc1pg</MagazineKey>
+                <MunitionKey>Stock/35mm Flechette</MunitionKey>
+                <Quantity>8000</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>xkNoLfmBaUmctmLeMnZ0ig</MagazineKey>
+                <MunitionKey>$MODMIS$/SDM-284 Rustle Block II</MunitionKey>
+                <Quantity>20</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>9Gz-c1Vyb0mBAmlCeOSrKQ</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-104 Messer II Block II</MunitionKey>
+                <Quantity>100</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>yE3K5NsK60CSbMrnw39d0g</MagazineKey>
+                <MunitionKey>Stock/S2 Glide Bomb</MunitionKey>
+                <Quantity>40</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>WD76t5l4OEaFVOVK2cPTKA</MagazineKey>
+                <MunitionKey>Stock/S0 Rocket</MunitionKey>
+                <Quantity>100</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>8FSEH_EpRUasipRoRQz8GA</Key>
+          <ComponentName>Stock/Bulk Internal Hangar</ComponentName>
+          <ComponentData xsi:type="CraftHangarData">
+            <StoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/PF-386 Barracuda</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/PF-386 Barracuda</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/PF-386 Barracuda</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/PF-386 Barracuda</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/PF-386 Barracuda</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/PF-386 Barracuda</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/RS-35 Halberd</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/RS-35 Halberd</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/RF-286 Pike</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/RF-286 Pike</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/PF-386 Barracuda</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/PF-386 Barracuda</CraftTemplateKey>
+              </SavedStoredCraft>
+            </StoredCraft>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>ezH8FOVSDEOrs8eyc1KSLQ</Key>
+          <ComponentName>Stock/Bulk Internal Hangar</ComponentName>
+          <ComponentData xsi:type="CraftHangarData">
+            <StoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/PF-386 Barracuda</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/PF-386 Barracuda</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/PF-386 Barracuda</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/PF-386 Barracuda</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/PF-386 Barracuda</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/PF-386 Barracuda</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/RS-35A Halberd</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/RF-286 Pike</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/RF-286 Pike</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/PF-386 Barracuda</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/PF-386 Barracuda</CraftTemplateKey>
+              </SavedStoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/RF-286 Pike</CraftTemplateKey>
+              </SavedStoredCraft>
+            </StoredCraft>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>lI4IkFx-REuV2AXbvC5iFg</Key>
+          <ComponentName>Stock/Civilian Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>_UqBymnw70G2AZvAW49lOg</Key>
+          <ComponentName>Stock/BW800 Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>LCuzzD0pwEyDvYSCs_g2CA</Key>
+          <ComponentName>Stock/Flight Deck Traversal System</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>fafk0RBeJUicFDn6OLLP4A</Key>
+          <ComponentName>Stock/Flight Deck Traversal System</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>TtYHca1GZESvz0szdY3BMA</Key>
+          <ComponentName>Stock/Small Reactor Booster</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
+    </Ship>
+  </Ships>
+  <MissileTypes>
+    <MissileTemplate>
+      <AssociatedTemplateName>SDM-284 Rustle Block II</AssociatedTemplateName>
+      <Designation>SDM-284</Designation>
+      <Nickname>Rustle Block II</Nickname>
+      <Description>DIRECT - &lt;color=#D3D11F&gt;CMD&lt;/color&gt;/ACT(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;) - HE FRAG</Description>
+      <LongDescription>The &lt;noparse&gt;SDM-284 Rustle Block II&lt;/noparse&gt; is a size 2 direct guidance missile.  It is based on the SDM-2 body, which is a flexible defensive missile with a booster.  This missile will deliver a Proximity Fuze, High Explosive, Blast Fragmentation warhead.  It homes in on its target using command guidance from its launching ship  If the primary seeker does not find a target or is jammed, it can fall back on an Active Radar seeker.
+
+Control Method: DIRECT
+Targeting Modes: &lt;b&gt;&lt;color=#3BC81E&gt;POSITION&lt;/color&gt;	&lt;color=#3BC81E&gt;TRACK&lt;/color&gt;&lt;/b&gt;
+
+Primary Seeker: COMMAND (&lt;color=#D3D11F&gt;Requires COMMS Enabled&lt;/color&gt;)
+Backup Seeker: ACTIVE &lt;color=#3BC81E&gt;RADAR&lt;/color&gt;
+
+&lt;b&gt;Boost&lt;/b&gt;
+Speed: 850 m/s
+Distance: 7,898 m
+Top Speed In: 1.4 s
+Turn Rate: 5.0 G
+
+&lt;b&gt;Main&lt;/b&gt;
+Speed: 191 m/s
+Distance: 1,450 m
+Top Speed In: 0.8 s
+Turn Rate: 5.8 G
+
+: Stage Trigger at 470m from Target or On Burnout
+
+Terminal Maneuvers: None
+
+Warhead: Proximity Fuze, High Explosive, Blast Fragmentation
+Armor: 0.35cm
+Component: 110.12hp
+Blast Radius: 79 m
+
+Body Integrity: 25 
+Wall Thickness: 0.05
+Programming Time: 10 s
+Radar Signature Bonus: 100 %
+Boost-Phase Duration: 3 s
+Boost-Phase Strafe: 100 %
+Boost-Phase Turn Rate: 100 %
+Failure Rate: 0 %</LongDescription>
+      <Cost>8</Cost>
+      <BodyKey>Stock/SDM-2 Body</BodyKey>
+      <TemplateKey>553bb8d4-6bf0-4c2a-a0a2-b1d7991c6ba7</TemplateKey>
+      <BaseColor>
+        <r>1</r>
+        <g>1</g>
+        <b>1</b>
+        <a>1</a>
+      </BaseColor>
+      <StripeColor>
+        <r>0.274509817</r>
+        <g>0.129411772</g>
+        <b>0.7058824</b>
+        <a>1</a>
+      </StripeColor>
+      <Sockets>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="CommandSeekerSettings">
+            <ComponentKey>Stock/Command Receiver</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="ActiveSeekerSettings">
+            <ComponentKey>Stock/Steerable Active Radar Seeker</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <DetectPDTargets>true</DetectPDTargets>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="DirectGuidanceSettings">
+            <ComponentKey>Stock/Direct Guidance</ComponentKey>
+            <Role>Defensive</Role>
+            <HotLaunch>true</HotLaunch>
+            <SelfDestructOnLost>false</SelfDestructOnLost>
+            <Maneuvers>None</Maneuvers>
+            <DefensiveDoctrine>
+              <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>SmallCraft</TargetType>
+              <TargetSizeOrdering>Descending</TargetSizeOrdering>
+              <SalvoSize>0</SalvoSize>
+              <FarthestFirst>false</FarthestFirst>
+            </DefensiveDoctrine>
+            <ApproachAngleControl>false</ApproachAngleControl>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>5</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/Blast Fragmentation</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>2</Size>
+          <InstalledComponent xsi:type="MissileEngineSettings">
+            <ComponentKey />
+            <BalanceValues>
+              <A>0.5477115</A>
+              <B>3.225036E-09</B>
+              <C>0.4522885</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="MissileEngineSettings">
+            <ComponentKey />
+            <BalanceValues>
+              <A>1</A>
+              <B>0</B>
+              <C>0</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+      </Sockets>
+    </MissileTemplate>
+    <MissileTemplate>
+      <AssociatedTemplateName>SGM-104 Messer II Block II</AssociatedTemplateName>
+      <Designation>SGM-104</Designation>
+      <Nickname>Messer II Block II</Nickname>
+      <Description>DIRECT - PSV(&lt;color=#ED211D&gt;THERM&lt;/color&gt;) - HE FRAG</Description>
+      <LongDescription>The &lt;noparse&gt;SGM-104 Messer II Block II&lt;/noparse&gt; is a size 1 direct guidance missile.  It is based on the SGM-1 body, which is a nimble general-purpose missile.  This missile will deliver a Proximity Fuze, High Explosive, Blast Fragmentation warhead.  It homes in on its target using a Passive Wake seeker.
+
+Control Method: DIRECT
+Targeting Modes: &lt;b&gt;&lt;color=#3BC81E&gt;POSITION&lt;/color&gt;	&lt;color=#3BC81E&gt;TRACK&lt;/color&gt;&lt;/b&gt;
+
+Primary Seeker: PASSIVE (&lt;color=#ED211D&gt;THERM&lt;/color&gt;)
+
+Speed: 289 m/s
+Distance: 4,051 m
+Top Speed In: 0.5 s
+Turn Rate: 9.0 G
+Terminal Maneuvers: None
+
+Warhead: Proximity Fuze, High Explosive, Blast Fragmentation
+Armor: 0.18cm
+Component: 56.58hp
+Blast Radius: 40 m
+
+Body Integrity: 10 
+Wall Thickness: 0.05
+Programming Time: 6 s
+Radar Signature Bonus: 100 %
+Boost-Phase Duration: 3 s
+Boost-Phase Strafe: 100 %
+Boost-Phase Turn Rate: 100 %
+Failure Rate: 0 %</LongDescription>
+      <Cost>1</Cost>
+      <BodyKey>Stock/SGM-1 Body</BodyKey>
+      <TemplateKey>dd57a97e-f9a8-4c0c-a469-a92489958f2f</TemplateKey>
+      <BaseColor>
+        <r>0.928571463</r>
+        <g>0.9999999</g>
+        <b>0</b>
+        <a>1</a>
+      </BaseColor>
+      <StripeColor>
+        <r>0.9132591</r>
+        <g>0.0481530167</g>
+        <b>0.3262226</b>
+        <a>1</a>
+      </StripeColor>
+      <Sockets>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="PassiveSeekerSettings">
+            <ComponentKey>Stock/Wake-Thermal Seeker</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <DetectPDTargets>true</DetectPDTargets>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="DirectGuidanceSettings">
+            <ComponentKey>Stock/Direct Guidance</ComponentKey>
+            <Role>Defensive</Role>
+            <HotLaunch>true</HotLaunch>
+            <SelfDestructOnLost>false</SelfDestructOnLost>
+            <Maneuvers>None</Maneuvers>
+            <DefensiveDoctrine>
+              <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
+              <TargetSizeOrdering>Descending</TargetSizeOrdering>
+              <SalvoSize>0</SalvoSize>
+              <FarthestFirst>false</FarthestFirst>
+            </DefensiveDoctrine>
+            <ApproachAngleControl>true</ApproachAngleControl>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>3</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/Blast Fragmentation</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>4</Size>
+          <InstalledComponent xsi:type="MissileEngineSettings">
+            <ComponentKey />
+            <BalanceValues>
+              <A>0.259115845</A>
+              <B>0.2620373</B>
+              <C>0.478846848</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+      </Sockets>
+    </MissileTemplate>
+  </MissileTypes>
+  <CraftTypes>
+    <CraftTemplate>
+      <Nickname>Barracuda</Nickname>
+      <LongDescription>Frame Model: Barracuda
+Frame Class: Strike Fighter
+Base Cost: 8
+Storage Size: 1
+Pad Size: 6 x 6
+PD Threat Size: 2
+Frame Integrity: 60
+Skin Thickness: 0.30
+
+Idle Speed: 35 m/s
+Cruise Speed: 65 m/s
+Cruise (HBRN) Speed: 114 m/s
+Combat Speed: 114 m/s
+
+Fuel Capacity: 900
+Loiter Time: 10:00
+Cruise Range: 31 km
+
+Thruster Power: 150
+Frame Mass: 11.00
+Loadout Mass: -
+Total Mass: 11.00
+
+&lt;b&gt;Components:&lt;/b&gt;
+Nose: 20mm Gun
+
+&lt;b&gt;Loadouts:&lt;/b&gt;
+Sniper: 1,000x &lt;noparse&gt;20mm Slug&lt;/noparse&gt;, 2x &lt;noparse&gt;SGM-104 Messer II Block II&lt;/noparse&gt;, 2x &lt;noparse&gt;SGM-104 Messer II Block II&lt;/noparse&gt;, 1x &lt;noparse&gt;SDM-284 Rustle Block II&lt;/noparse&gt;
+Dogfighter: 1,000x &lt;noparse&gt;20mm Slug&lt;/noparse&gt;, 2x &lt;noparse&gt;SGM-104 Messer II Block II&lt;/noparse&gt;, 2x &lt;noparse&gt;SGM-104 Messer II Block II&lt;/noparse&gt;, 2x &lt;noparse&gt;SGM-104 Messer II Block II&lt;/noparse&gt;
+Strike: 1,000x &lt;noparse&gt;20mm Slug&lt;/noparse&gt;, 6x R-1 'Perch' Rocket, 2x KBU-22 Bomb</LongDescription>
+      <Cost>8</Cost>
+      <FrameKey>Stock/OSP Interceptor</FrameKey>
+      <TemplateKey>176110db-02ff-424b-8b7b-61e9c58a1c38</TemplateKey>
+      <InstalledComponents>
+        <SerializedCraftSocket>
+          <SocketKey>nose</SocketKey>
+          <ComponentKey>nose_gun20mm</ComponentKey>
+        </SerializedCraftSocket>
+      </InstalledComponents>
+      <Loadouts>
+        <CraftLoadout>
+          <LoadoutName>Sniper</LoadoutName>
+          <Elements>
+            <GeneralLoadoutElement xsi:type="SimpleAmmoSelection">
+              <SocketKey>nose</SocketKey>
+              <AmmoKey>Stock/20mm Slug</AmmoKey>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+              <SocketKey>wingtopin</SocketKey>
+              <ComponentKey>wingtopin_s1pylons</ComponentKey>
+              <Loadout xsi:type="MissileSelection">
+                <SocketKey>wingtopin</SocketKey>
+                <MissileKeys>
+                  <string>$MODMIS$/SGM-104 Messer II Block II</string>
+                  <string>$MODMIS$/SGM-104 Messer II Block II</string>
+                </MissileKeys>
+              </Loadout>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+              <SocketKey>wingtopout</SocketKey>
+              <ComponentKey>wingtopout_s1pylons</ComponentKey>
+              <Loadout xsi:type="MissileSelection">
+                <SocketKey>wingtopout</SocketKey>
+                <MissileKeys>
+                  <string>$MODMIS$/SGM-104 Messer II Block II</string>
+                  <string>$MODMIS$/SGM-104 Messer II Block II</string>
+                </MissileKeys>
+              </Loadout>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+              <SocketKey>wingbottomin</SocketKey>
+              <ComponentKey>wingbottomin_s2pylons</ComponentKey>
+              <Loadout xsi:type="MissileSelection">
+                <SocketKey>wingbottomin</SocketKey>
+                <MissileKeys>
+                  <string>$MODMIS$/SDM-284 Rustle Block II</string>
+                  <string xsi:nil="true" />
+                </MissileKeys>
+              </Loadout>
+            </GeneralLoadoutElement>
+          </Elements>
+        </CraftLoadout>
+        <CraftLoadout>
+          <LoadoutName>Dogfighter</LoadoutName>
+          <Elements>
+            <GeneralLoadoutElement xsi:type="SimpleAmmoSelection">
+              <SocketKey>nose</SocketKey>
+              <AmmoKey>Stock/20mm Slug</AmmoKey>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+              <SocketKey>wingtopin</SocketKey>
+              <ComponentKey>wingtopin_s1pylons</ComponentKey>
+              <Loadout xsi:type="MissileSelection">
+                <SocketKey>wingtopin</SocketKey>
+                <MissileKeys>
+                  <string>$MODMIS$/SGM-104 Messer II Block II</string>
+                  <string>$MODMIS$/SGM-104 Messer II Block II</string>
+                </MissileKeys>
+              </Loadout>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+              <SocketKey>wingtopout</SocketKey>
+              <ComponentKey>wingtopout_s1pylons</ComponentKey>
+              <Loadout xsi:type="MissileSelection">
+                <SocketKey>wingtopout</SocketKey>
+                <MissileKeys>
+                  <string>$MODMIS$/SGM-104 Messer II Block II</string>
+                  <string>$MODMIS$/SGM-104 Messer II Block II</string>
+                </MissileKeys>
+              </Loadout>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+              <SocketKey>wingbottomin</SocketKey>
+              <ComponentKey>wingbottomin_s1pylons</ComponentKey>
+              <Loadout xsi:type="MissileSelection">
+                <SocketKey>wingbottomin</SocketKey>
+                <MissileKeys>
+                  <string>$MODMIS$/SGM-104 Messer II Block II</string>
+                  <string>$MODMIS$/SGM-104 Messer II Block II</string>
+                </MissileKeys>
+              </Loadout>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+              <SocketKey>wingbottomout</SocketKey>
+              <ComponentKey>wingbottomout_radarjammer</ComponentKey>
+              <Loadout xsi:type="SimpleOccupiedElement" />
+            </GeneralLoadoutElement>
+          </Elements>
+        </CraftLoadout>
+        <CraftLoadout>
+          <LoadoutName>Strike</LoadoutName>
+          <Elements>
+            <GeneralLoadoutElement xsi:type="SimpleAmmoSelection">
+              <SocketKey>nose</SocketKey>
+              <AmmoKey>Stock/20mm Slug</AmmoKey>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+              <SocketKey>wingtopin</SocketKey>
+              <ComponentKey>wingtop_rocketpods</ComponentKey>
+              <Loadout xsi:type="SimpleAmmoSelection">
+                <SocketKey>wingtopin</SocketKey>
+                <AmmoKey>Stock/S0 Rocket</AmmoKey>
+              </Loadout>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+              <SocketKey>wingbottomin</SocketKey>
+              <ComponentKey>wingbottomin_s2pylons</ComponentKey>
+              <Loadout xsi:type="MissileSelection">
+                <SocketKey>wingbottomin</SocketKey>
+                <MissileKeys>
+                  <string>Stock/S2 Glide Bomb</string>
+                  <string>Stock/S2 Glide Bomb</string>
+                </MissileKeys>
+              </Loadout>
+            </GeneralLoadoutElement>
+          </Elements>
+        </CraftLoadout>
+      </Loadouts>
+      <TemplateMissileTypes />
+      <ModDependencies />
+    </CraftTemplate>
+    <CraftTemplate>
+      <Nickname>Halberd</Nickname>
+      <LongDescription>Frame Model: Halberd
+Frame Class: Skiff
+Base Cost: 15
+Storage Size: 1
+Pad Size: 6 x 6
+PD Threat Size: 1
+Frame Integrity: 130
+Skin Thickness: 0.30
+
+Idle Speed: 20 m/s
+Cruise Speed: 45 m/s
+Cruise (HBRN) Speed: 68 m/s
+Combat Speed: 68 m/s
+
+Fuel Capacity: 1,200
+Loiter Time: 33:20
+Cruise Range: 36 km
+
+Thruster Power: 188
+Frame Mass: 30.00
+Loadout Mass: -
+Total Mass: 30.00
+
+&lt;b&gt;Components:&lt;/b&gt;
+Nose: 35mm Gun
+Mission Package: Wake Sensor
+
+&lt;b&gt;Loadouts:&lt;/b&gt;
+New Loadout: 1,000x &lt;noparse&gt;35mm Flechette&lt;/noparse&gt;</LongDescription>
+      <Cost>30</Cost>
+      <FrameKey>Stock/OSP Skiff</FrameKey>
+      <TemplateKey>1479d76e-368b-4641-87f9-8bbae68f2b42</TemplateKey>
+      <InstalledComponents>
+        <SerializedCraftSocket>
+          <SocketKey>nose</SocketKey>
+          <ComponentKey>nose_gun50mm</ComponentKey>
+        </SerializedCraftSocket>
+        <SerializedCraftSocket>
+          <SocketKey>mission</SocketKey>
+          <ComponentKey>mission_wake</ComponentKey>
+        </SerializedCraftSocket>
+      </InstalledComponents>
+      <Loadouts>
+        <CraftLoadout>
+          <LoadoutName>New Loadout</LoadoutName>
+          <Elements>
+            <GeneralLoadoutElement xsi:type="SimpleAmmoSelection">
+              <SocketKey>nose</SocketKey>
+              <AmmoKey>Stock/35mm Flechette</AmmoKey>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement xsi:type="SimpleOccupiedElement" />
+          </Elements>
+        </CraftLoadout>
+      </Loadouts>
+      <TemplateMissileTypes />
+      <ModDependencies />
+    </CraftTemplate>
+    <CraftTemplate>
+      <Nickname>Pike</Nickname>
+      <LongDescription>Frame Model: Pike
+Frame Class: Scout
+Base Cost: 8
+Storage Size: 1
+Pad Size: 6 x 6
+PD Threat Size: 1
+Frame Integrity: 40
+Skin Thickness: 0.10
+
+Idle Speed: 40 m/s
+Cruise Speed: 85 m/s
+Cruise (HBRN) Speed: 128 m/s
+Combat Speed: 128 m/s
+
+Fuel Capacity: 500
+Loiter Time: 11:07
+Cruise Range: 43 km
+
+Thruster Power: 150
+Frame Mass: 5.00
+Loadout Mass: -
+Total Mass: 5.00
+
+&lt;b&gt;Components:&lt;/b&gt;
+Nose: 20mm Gun
+Top: EO Targeting Ball
+
+&lt;b&gt;Loadouts:&lt;/b&gt;
+jam: 1,000x &lt;noparse&gt;20mm Slug&lt;/noparse&gt;
+ilum: 1,000x &lt;noparse&gt;20mm Slug&lt;/noparse&gt;
+ext: 1,000x &lt;noparse&gt;20mm Slug&lt;/noparse&gt;</LongDescription>
+      <Cost>20</Cost>
+      <FrameKey>Stock/OSP Scout</FrameKey>
+      <TemplateKey>0c7f4d18-13b2-4563-a314-f0f197ddb2c7</TemplateKey>
+      <InstalledComponents>
+        <SerializedCraftSocket>
+          <SocketKey>nose</SocketKey>
+          <ComponentKey>nose_gun20mm</ComponentKey>
+        </SerializedCraftSocket>
+        <SerializedCraftSocket>
+          <SocketKey>top</SocketKey>
+          <ComponentKey>top_targeting</ComponentKey>
+        </SerializedCraftSocket>
+      </InstalledComponents>
+      <Loadouts>
+        <CraftLoadout>
+          <LoadoutName>jam</LoadoutName>
+          <Elements>
+            <GeneralLoadoutElement xsi:type="SimpleAmmoSelection">
+              <SocketKey>nose</SocketKey>
+              <AmmoKey>Stock/20mm Slug</AmmoKey>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+              <SocketKey>outboard</SocketKey>
+              <ComponentKey>outboard_radarjammer</ComponentKey>
+              <Loadout xsi:type="SimpleOccupiedElement" />
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement xsi:type="SimpleOccupiedElement" />
+          </Elements>
+        </CraftLoadout>
+        <CraftLoadout>
+          <LoadoutName>ilum</LoadoutName>
+          <Elements>
+            <GeneralLoadoutElement xsi:type="SimpleAmmoSelection">
+              <SocketKey>nose</SocketKey>
+              <AmmoKey>Stock/20mm Slug</AmmoKey>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+              <SocketKey>outboard</SocketKey>
+              <ComponentKey>outboard_illuminator</ComponentKey>
+              <Loadout xsi:type="SimpleOccupiedElement" />
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement xsi:type="SimpleOccupiedElement" />
+          </Elements>
+        </CraftLoadout>
+        <CraftLoadout>
+          <LoadoutName>ext</LoadoutName>
+          <Elements>
+            <GeneralLoadoutElement xsi:type="SimpleAmmoSelection">
+              <SocketKey>nose</SocketKey>
+              <AmmoKey>Stock/20mm Slug</AmmoKey>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+              <SocketKey>outboard</SocketKey>
+              <ComponentKey>outboard_fuelpods</ComponentKey>
+              <Loadout xsi:type="SimpleOccupiedElement" />
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement xsi:type="SimpleOccupiedElement" />
+          </Elements>
+        </CraftLoadout>
+      </Loadouts>
+      <TemplateMissileTypes />
+      <ModDependencies />
+    </CraftTemplate>
+    <CraftTemplate>
+      <DesignationSuffix>A</DesignationSuffix>
+      <Nickname>Halberd</Nickname>
+      <LongDescription>Frame Model: Halberd
+Frame Class: Skiff
+Base Cost: 15
+Storage Size: 1
+Pad Size: 6 x 6
+PD Threat Size: 1
+Frame Integrity: 130
+Skin Thickness: 0.30
+
+Idle Speed: 20 m/s
+Cruise Speed: 45 m/s
+Cruise (HBRN) Speed: 68 m/s
+Combat Speed: 68 m/s
+
+Fuel Capacity: 1,200
+Loiter Time: 33:20
+Cruise Range: 36 km
+
+Thruster Power: 188
+Frame Mass: 30.00
+Loadout Mass: -
+Total Mass: 30.00
+
+&lt;b&gt;Components:&lt;/b&gt;
+Nose: 35mm Gun
+Mission Package: Internal Radar (Advanced)
+
+&lt;b&gt;Loadouts:&lt;/b&gt;
+New Loadout: 1,000x &lt;noparse&gt;35mm Flechette&lt;/noparse&gt;</LongDescription>
+      <Cost>50</Cost>
+      <FrameKey>Stock/OSP Skiff</FrameKey>
+      <TemplateKey>f7678178-9a81-4740-a159-7683d37dce94</TemplateKey>
+      <InstalledComponents>
+        <SerializedCraftSocket>
+          <SocketKey>nose</SocketKey>
+          <ComponentKey>nose_gun50mm</ComponentKey>
+        </SerializedCraftSocket>
+        <SerializedCraftSocket>
+          <SocketKey>mission</SocketKey>
+          <ComponentKey>mission_advancedradar</ComponentKey>
+        </SerializedCraftSocket>
+      </InstalledComponents>
+      <Loadouts>
+        <CraftLoadout>
+          <LoadoutName>New Loadout</LoadoutName>
+          <Elements>
+            <GeneralLoadoutElement xsi:type="SimpleAmmoSelection">
+              <SocketKey>nose</SocketKey>
+              <AmmoKey>Stock/35mm Flechette</AmmoKey>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement xsi:type="SimpleOccupiedElement" />
+          </Elements>
+        </CraftLoadout>
+      </Loadouts>
+      <TemplateMissileTypes />
+      <ModDependencies />
+    </CraftTemplate>
+  </CraftTypes>
+</Fleet>

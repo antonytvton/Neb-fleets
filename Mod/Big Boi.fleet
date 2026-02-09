@@ -1,0 +1,372 @@
+<?xml version="1.0"?>
+<Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Big Boi</Name>
+  <Version>3</Version>
+  <TotalPoints>3000</TotalPoints>
+  <FactionKey>State Yards Surplus/Nationless Yards</FactionKey>
+  <SortOverrideOrder xsi:nil="true" />
+  <ModDependencies>
+    <unsignedLong>2831277422</unsignedLong>
+  </ModDependencies>
+  <Ships>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>2bd6d758-773c-4d89-a391-1fe6ffb7cb12</Key>
+      <Name>Neck</Name>
+      <Cost>2562</Cost>
+      <Number>696</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>State Yards Surplus/BC_mako</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>com_01</Key>
+          <ComponentName>Stock/Basic CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>com_02</Key>
+          <ComponentName>Stock/Reinforced Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>oElQBHkpw0GRRskWqzZpNg</MagazineKey>
+                <MunitionKey>State Yards Surplus/150EIN AP Shell</MunitionKey>
+                <Quantity>1600</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>2Yjqysi1o0OKhQou74E6lA</MagazineKey>
+                <MunitionKey>State Yards Surplus/150EIN Sabot Shell</MunitionKey>
+                <Quantity>1566</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>X5z6nPybYU-WIAiwDAlJ6Q</MagazineKey>
+                <MunitionKey>Stock/20mm Slug</MunitionKey>
+                <Quantity>16000</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>C8q8lMGYh0uGBMPPx4upEg</MagazineKey>
+                <MunitionKey>State Yards Surplus/78mm AP Shell</MunitionKey>
+                <Quantity>1000</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>rgJXCO461E6W2jyoAW7RYw</MagazineKey>
+                <MunitionKey>State Yards Surplus/78mm HE Shell</MunitionKey>
+                <Quantity>1000</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>com_03</Key>
+          <ComponentName>Stock/Gun Plotting Center</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>com_04</Key>
+          <ComponentName>Stock/Reinforced CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>com_05</Key>
+          <ComponentName>Stock/Large DC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>com_06</Key>
+          <ComponentName>Stock/Reinforced DC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>com_07</Key>
+          <ComponentName>Stock/Reinforced DC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>com_08</Key>
+          <ComponentName>Stock/Large DC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>com_09</Key>
+          <ComponentName>Stock/Large DC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>com_10</Key>
+          <ComponentName>Stock/Reinforced Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>oElQBHkpw0GRRskWqzZpNg</MagazineKey>
+                <MunitionKey>State Yards Surplus/150EIN AP Shell</MunitionKey>
+                <Quantity>1741</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>2Yjqysi1o0OKhQou74E6lA</MagazineKey>
+                <MunitionKey>State Yards Surplus/150EIN Sabot Shell</MunitionKey>
+                <Quantity>1700</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>X5z6nPybYU-WIAiwDAlJ6Q</MagazineKey>
+                <MunitionKey>Stock/20mm Slug</MunitionKey>
+                <Quantity>16000</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>6PzuRWntmkOIHw9p1QOA6w</MagazineKey>
+                <MunitionKey>State Yards Surplus/78mm AP Shell</MunitionKey>
+                <Quantity>500</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>SWH3rUjUeU-L04prJObC_Q</MagazineKey>
+                <MunitionKey>State Yards Surplus/78mm HE Shell</MunitionKey>
+                <Quantity>400</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>com_11</Key>
+          <ComponentName>Stock/Damage Control Central</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>com_12</Key>
+          <ComponentName>Stock/Small Workshop</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>com_13</Key>
+          <ComponentName>Stock/Auxiliary Steering</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>com_14</Key>
+          <ComponentName>Stock/Reinforced DC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mod_dr_01</Key>
+          <ComponentName>Stock/FM530 'Whiplash' Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mod_dr_02</Key>
+          <ComponentName>Stock/FM230 'Whiplash' Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mod_re_01</Key>
+          <ComponentName>Stock/FM240 'Dragonfly' Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mod_re_02</Key>
+          <ComponentName>Stock/FM200R Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mod_01</Key>
+          <ComponentName>Stock/FR3300 Micro Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mod_02</Key>
+          <ComponentName>Stock/Ammunition Elevators</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mod_03</Key>
+          <ComponentName>Stock/Ammunition Elevators</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mod_04</Key>
+          <ComponentName>Stock/Ammunition Elevators</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mod_05</Key>
+          <ComponentName>Stock/Ammunition Elevators</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mod_06</Key>
+          <ComponentName>Stock/Ammunition Elevators</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mod_07</Key>
+          <ComponentName>Stock/FR3300 Micro Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mod_08</Key>
+          <ComponentName>Stock/Reinforced Thruster Nozzles</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mod_09</Key>
+          <ComponentName>Stock/Ammunition Elevators</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mod_10</Key>
+          <ComponentName>Stock/RM50 'Parallax' Radar</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mod_11</Key>
+          <ComponentName>Stock/Small Reactor Booster</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mod_12</Key>
+          <ComponentName>Stock/ES32 'Scryer' Missile ID System</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mod_13</Key>
+          <ComponentName>Stock/Mount Gyros</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c1_mou_01</Key>
+          <ComponentName>Stock/RF101 'Bullseye' Radar</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c1_mou_02</Key>
+          <ComponentName>Stock/VLS-1-23 Launcher</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>ymw2FBujLEKBDlHZ5-2D4A</MagazineKey>
+                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>llQMWoH_REiMpQVTVMR_vg</MagazineKey>
+                <MunitionKey>Stock/EA20 Flare Decoy</MunitionKey>
+                <Quantity>8</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>c2_mou_01</Key>
+          <ComponentName>State Yards Surplus/M3-65 ALC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c2_mou_02</Key>
+          <ComponentName>Stock/Mk20 'Defender' PDT</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c2_mou_03</Key>
+          <ComponentName>State Yards Surplus/M3-65 ALC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c2_mou_04</Key>
+          <ComponentName>Stock/Mk20 'Defender' PDT</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c2_mou_05</Key>
+          <ComponentName>State Yards Surplus/M3-65 ALC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c2_mou_06</Key>
+          <ComponentName>Stock/Mk20 'Defender' PDT</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c2_mou_07</Key>
+          <ComponentName>State Yards Surplus/M3-65 ALC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c2_mou_08</Key>
+          <ComponentName>Stock/Mk20 'Defender' PDT</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c4_mou_01</Key>
+          <ComponentName>State Yards Surplus/Avalanche Autocannon</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c4_mou_02</Key>
+          <ComponentName>State Yards Surplus/Avalanche Autocannon</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c4_mou_03</Key>
+          <ComponentName>Stock/E70 'Interruption' Jammer</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c4_mou_04</Key>
+          <ComponentName>State Yards Surplus/Avalanche Autocannon</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c4_mou_05</Key>
+          <ComponentName>State Yards Surplus/Avalanche Autocannon</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c4_mou_06</Key>
+          <ComponentName>State Yards Surplus/Avalanche Autocannon</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups>
+        <WepGroup Name="ALC">
+          <MemberKeys>
+            <string>c2_mou_01</string>
+            <string>c2_mou_05</string>
+            <string>c2_mou_07</string>
+            <string>c2_mou_03</string>
+          </MemberKeys>
+        </WepGroup>
+        <WepGroup Name="Avalanch">
+          <MemberKeys>
+            <string>c4_mou_01</string>
+            <string>c4_mou_02</string>
+            <string>c4_mou_04</string>
+            <string>c4_mou_05</string>
+            <string>c4_mou_06</string>
+          </MemberKeys>
+        </WepGroup>
+      </WeaponGroups>
+      <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
+    </Ship>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>c85554b1-a460-4494-8cac-6e32a71ac767</Key>
+      <Name>Leek</Name>
+      <Cost>438</Cost>
+      <Number>542</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>State Yards Surplus/FF_dogfish</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>com_01</Key>
+          <ComponentName>Stock/Basic CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>com_02</Key>
+          <ComponentName>Stock/Reinforced DC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>com_03</Key>
+          <ComponentName>Stock/Reinforced Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>cK7SnqQNXUGI6VK3ZRfQdg</MagazineKey>
+                <MunitionKey>Stock/15mm Sandshot</MunitionKey>
+                <Quantity>650</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>com_04</Key>
+          <ComponentName>Stock/Auxiliary Steering</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mod_01</Key>
+          <ComponentName>Stock/FM200 Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mod_02</Key>
+          <ComponentName>Stock/FR4800 Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mod_03</Key>
+          <ComponentName>Stock/FR3300 Micro Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mod_06</Key>
+          <ComponentName>Stock/RS35 'Frontline' Radar</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mou_01</Key>
+          <ComponentName>Stock/Mk95 'Sarissa' PDT</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mou_02</Key>
+          <ComponentName>Stock/Mk95 'Sarissa' PDT</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mou_03</Key>
+          <ComponentName>Stock/L50 Laser Dazzler</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
+    </Ship>
+  </Ships>
+</Fleet>

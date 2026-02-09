@@ -1,0 +1,521 @@
+<?xml version="1.0"?>
+<Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Yes please</Name>
+  <Version>3</Version>
+  <TotalPoints>2998</TotalPoints>
+  <FactionKey>State Yards Surplus/Nationless Yards</FactionKey>
+  <SortOverrideOrder xsi:nil="true" />
+  <ModDependencies>
+    <unsignedLong>2831277422</unsignedLong>
+  </ModDependencies>
+  <Ships>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>37615ae1-708c-4ae8-abd3-7456a21bb286</Key>
+      <Name>Venom</Name>
+      <Cost>2998</Cost>
+      <Number>356</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>State Yards Surplus/BC_mako</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>com_02</Key>
+          <ComponentName>Stock/Plant Control Center</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>com_03</Key>
+          <ComponentName>Stock/Reinforced Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>2B_ZFFZJQkugMCVofVzpLQ</MagazineKey>
+                <MunitionKey>State Yards Surplus/175EIN Flak Shell</MunitionKey>
+                <Quantity>500</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>RyZ_5p-MnES0U8r41v1wTA</MagazineKey>
+                <MunitionKey>State Yards Surplus/175EIN HE Shell</MunitionKey>
+                <Quantity>500</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>com_04</Key>
+          <ComponentName>Stock/Reinforced CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>com_05</Key>
+          <ComponentName>Stock/Plant Control Center</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>com_06</Key>
+          <ComponentName>Stock/Reinforced DC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>com_07</Key>
+          <ComponentName>Stock/Large DC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>com_08</Key>
+          <ComponentName>Stock/Large DC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>com_09</Key>
+          <ComponentName>Stock/Rapid DC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>com_10</Key>
+          <ComponentName>Stock/Small Workshop</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>com_11</Key>
+          <ComponentName>Stock/Reinforced CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>com_12</Key>
+          <ComponentName>Stock/Damage Control Central</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>com_13</Key>
+          <ComponentName>Stock/Reinforced DC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>com_14</Key>
+          <ComponentName>Stock/Reinforced DC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mod_dr_01</Key>
+          <ComponentName>Stock/FM530 'Whiplash' Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mod_dr_02</Key>
+          <ComponentName>Stock/FR4800 Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mod_re_01</Key>
+          <ComponentName>Stock/FR4800 Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mod_re_02</Key>
+          <ComponentName>Stock/FM200R Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mod_01</Key>
+          <ComponentName>Stock/Focused Particle Accelerator</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mod_02</Key>
+          <ComponentName>Stock/Focused Particle Accelerator</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mod_03</Key>
+          <ComponentName>Stock/Small Energy Regulator</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mod_04</Key>
+          <ComponentName>Stock/Small Energy Regulator</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mod_05</Key>
+          <ComponentName>Stock/Small Energy Regulator</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mod_07</Key>
+          <ComponentName>Stock/Energy Regulator</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mod_08</Key>
+          <ComponentName>Stock/ES32 'Scryer' Missile ID System</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mod_10</Key>
+          <ComponentName>Stock/RM50 'Parallax' Radar</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c1_mou_01</Key>
+          <ComponentName>Stock/RF101 'Bullseye' Radar</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c1_mou_02</Key>
+          <ComponentName>Stock/VLS-1-23 Launcher</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>OzaqPI-pAkGwdaTwUNo7Jw</MagazineKey>
+                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
+                <Quantity>15</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>xI2kBXFQfUCmHZbH4eGHYQ</MagazineKey>
+                <MunitionKey>Stock/EA20 Flare Decoy</MunitionKey>
+                <Quantity>8</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>c2_mou_01</Key>
+          <ComponentName>State Yards Surplus/175 Beater</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c2_mou_02</Key>
+          <ComponentName>State Yards Surplus/175 Beater</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c2_mou_03</Key>
+          <ComponentName>State Yards Surplus/175 Beater</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c2_mou_04</Key>
+          <ComponentName>State Yards Surplus/175 Beater</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c2_mou_05</Key>
+          <ComponentName>State Yards Surplus/175 Beater</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c2_mou_06</Key>
+          <ComponentName>State Yards Surplus/175 Beater</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c2_mou_07</Key>
+          <ComponentName>State Yards Surplus/175 Beater</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c2_mou_08</Key>
+          <ComponentName>State Yards Surplus/175 Beater</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c4_mou_01</Key>
+          <ComponentName>State Yards Surplus/Heavy Plasma Driver</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c4_mou_02</Key>
+          <ComponentName>State Yards Surplus/Heavy Plasma Driver</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c4_mou_03</Key>
+          <ComponentName>Stock/VLS-3 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>iAudbna7O06Ww-lsw47EDw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl</MunitionKey>
+                <Quantity>8</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>9nCcOM1t0kmZeDzn86HcUA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-300 Atlatl Block II</MunitionKey>
+                <Quantity>4</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>c4_mou_04</Key>
+          <ComponentName>State Yards Surplus/Heavy Plasma Driver</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c4_mou_05</Key>
+          <ComponentName>State Yards Surplus/Heavy Plasma Driver</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c4_mou_06</Key>
+          <ComponentName>State Yards Surplus/Heavy Plasma Driver</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups>
+        <WepGroup Name="Plasnma">
+          <MemberKeys>
+            <string>c4_mou_06</string>
+            <string>c4_mou_05</string>
+            <string>c4_mou_04</string>
+            <string>c4_mou_02</string>
+            <string>c4_mou_01</string>
+          </MemberKeys>
+        </WepGroup>
+        <WepGroup Name="Beat">
+          <MemberKeys>
+            <string>c2_mou_08</string>
+            <string>c2_mou_07</string>
+            <string>c2_mou_06</string>
+            <string>c2_mou_05</string>
+            <string>c2_mou_04</string>
+            <string>c2_mou_03</string>
+            <string>c2_mou_02</string>
+            <string>c2_mou_01</string>
+          </MemberKeys>
+        </WepGroup>
+      </WeaponGroups>
+      <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
+    </Ship>
+  </Ships>
+  <MissileTypes>
+    <MissileTemplate>
+      <Designation>SGM-H-300</Designation>
+      <Nickname>Atlatl</Nickname>
+      <Description>DIRECT - &lt;color=#D3D11F&gt;CMD&lt;/color&gt;/ARAD(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;) - HEKP</Description>
+      <LongDescription>The &lt;noparse&gt;SGM-H-300 Atlatl&lt;/noparse&gt; is a size 3 direct guidance missile.  It is based on the SGM-H-3 body, which is a high speed hybrid missile designed to strike heavy targets.  This missile will deliver a Delayed Contact Fuze, High Explosive, Kinetic Penetrator warhead.  It homes in on its target using command guidance from its launching ship  If the primary seeker does not find a target or is jammed, it can fall back on a Radar Anti-Radiation seeker.
+
+Control Method: DIRECT
+Targeting Modes: &lt;b&gt;&lt;color=#3BC81E&gt;POSITION&lt;/color&gt;	&lt;color=#3BC81E&gt;TRACK&lt;/color&gt;&lt;/b&gt;
+
+Primary Seeker: COMMAND (&lt;color=#D3D11F&gt;Requires COMMS Enabled&lt;/color&gt;)
+Backup Seeker: ANTI-RADIATION (All &lt;color=#3BC81E&gt;RADAR&lt;/color&gt; Signals)
+
+&lt;b&gt;Cruise&lt;/b&gt;
+Speed: 156 m/s
+Distance: 12,287 m
+Top Speed In: 2.1 s
+Turn Rate: 1.6 G
+
+&lt;b&gt;Sprint&lt;/b&gt;
+Speed: 823 m/s
+Distance: 3,622 m
+Top Speed In: 1.0 s
+Turn Rate: 26.7 G
+
+: Stage Trigger at 3,010m from Target
+
+Terminal Maneuvers: None
+
+Warhead: Delayed Contact Fuze, High Explosive, Kinetic Penetrator
+
+&lt;b&gt;Penetrator&lt;/b&gt;
+Armor: 589 cm
+Component: 232 hp
+
+&lt;b&gt;Explosive&lt;/b&gt;
+Component: 4,320 hp
+
+Body Integrity: 60 
+Wall Thickness: 0.05
+Programming Time: 16 s
+Radar Signature Bonus: 100 %
+Boost-Phase Duration: 3 s
+Boost-Phase Strafe: 100 %
+Boost-Phase Turn Rate: 100 %
+Failure Rate: 0 %</LongDescription>
+      <Cost>52</Cost>
+      <BodyKey>Stock/SGM-H-3 Body</BodyKey>
+      <TemplateKey>71169089-06d1-4345-ad1b-60185ebc9217</TemplateKey>
+      <BaseColor>
+        <r>1</r>
+        <g>1</g>
+        <b>1</b>
+        <a>1</a>
+      </BaseColor>
+      <StripeColor>
+        <r>0.117647059</r>
+        <g>0.6313726</g>
+        <b>0.192156866</b>
+        <a>1</a>
+      </StripeColor>
+      <Sockets>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="CommandSeekerSettings">
+            <ComponentKey>Stock/Command Receiver</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="PassiveARHSeekerSettings">
+            <ComponentKey>Stock/Fixed Anti-Radiation Seeker</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <TargetType>All</TargetType>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/Decoy Launcher</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="DirectGuidanceSettings">
+            <ComponentKey>Stock/Direct Guidance</ComponentKey>
+            <Role>Offensive</Role>
+            <HotLaunch>false</HotLaunch>
+            <SelfDestructOnLost>false</SelfDestructOnLost>
+            <Maneuvers>None</Maneuvers>
+            <DefensiveDoctrine>
+              <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
+              <TargetSizeOrdering>Descending</TargetSizeOrdering>
+              <SalvoSize>0</SalvoSize>
+              <FarthestFirst>false</FarthestFirst>
+            </DefensiveDoctrine>
+            <ApproachAngleControl>true</ApproachAngleControl>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>6</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/HE Kinetic Penetrator</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>4</Size>
+          <InstalledComponent xsi:type="MissileEngineSettings">
+            <ComponentKey />
+            <BalanceValues>
+              <A>0.606254339</A>
+              <B>0.1955144</B>
+              <C>0.198231265</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="MissileEngineSettings">
+            <ComponentKey />
+            <BalanceValues>
+              <A>0.5565216</A>
+              <B>2.944151E-10</B>
+              <C>0.4434784</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+      </Sockets>
+    </MissileTemplate>
+    <MissileTemplate>
+      <Designation>SGM-H-300</Designation>
+      <Nickname>Atlatl Block II</Nickname>
+      <Description>DIRECT - &lt;color=#D3D11F&gt;CMD&lt;/color&gt;/ACT(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;) - HEKP</Description>
+      <LongDescription>The &lt;noparse&gt;SGM-H-300 Atlatl Block II&lt;/noparse&gt; is a size 3 direct guidance missile.  It is based on the SGM-H-3 body, which is a high speed hybrid missile designed to strike heavy targets.  This missile will deliver a Delayed Contact Fuze, High Explosive, Kinetic Penetrator warhead.  It homes in on its target using command guidance from its launching ship  If the primary seeker does not find a target or is jammed, it can fall back on an Active Radar seeker.
+
+Control Method: DIRECT
+Targeting Modes: &lt;b&gt;&lt;color=#3BC81E&gt;POSITION&lt;/color&gt;	&lt;color=#3BC81E&gt;TRACK&lt;/color&gt;&lt;/b&gt;
+
+Primary Seeker: COMMAND (&lt;color=#D3D11F&gt;Requires COMMS Enabled&lt;/color&gt;)
+Backup Seeker: ACTIVE &lt;color=#3BC81E&gt;RADAR&lt;/color&gt;
+
+&lt;b&gt;Cruise&lt;/b&gt;
+Speed: 156 m/s
+Distance: 12,287 m
+Top Speed In: 2.1 s
+Turn Rate: 1.6 G
+
+&lt;b&gt;Sprint&lt;/b&gt;
+Speed: 823 m/s
+Distance: 3,622 m
+Top Speed In: 1.0 s
+Turn Rate: 26.7 G
+
+: Stage Trigger at 3,010m from Target
+
+Terminal Maneuvers: None
+
+Warhead: Delayed Contact Fuze, High Explosive, Kinetic Penetrator
+
+&lt;b&gt;Penetrator&lt;/b&gt;
+Armor: 589 cm
+Component: 232 hp
+
+&lt;b&gt;Explosive&lt;/b&gt;
+Component: 4,320 hp
+
+Body Integrity: 60 
+Wall Thickness: 0.05
+Programming Time: 16 s
+Radar Signature Bonus: 100 %
+Boost-Phase Duration: 3 s
+Boost-Phase Strafe: 100 %
+Boost-Phase Turn Rate: 100 %
+Failure Rate: 0 %</LongDescription>
+      <Cost>51</Cost>
+      <BodyKey>Stock/SGM-H-3 Body</BodyKey>
+      <TemplateKey>8e0a0caf-382e-47f8-a4ef-e26d206d183d</TemplateKey>
+      <BaseColor>
+        <r>1</r>
+        <g>1</g>
+        <b>1</b>
+        <a>1</a>
+      </BaseColor>
+      <StripeColor>
+        <r>0.117647059</r>
+        <g>0.6313726</g>
+        <b>0.192156866</b>
+        <a>1</a>
+      </StripeColor>
+      <Sockets>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="CommandSeekerSettings">
+            <ComponentKey>Stock/Command Receiver</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="ActiveSeekerSettings">
+            <ComponentKey>Stock/Steerable Active Radar Seeker</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <DetectPDTargets>false</DetectPDTargets>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/Decoy Launcher</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="DirectGuidanceSettings">
+            <ComponentKey>Stock/Direct Guidance</ComponentKey>
+            <Role>Offensive</Role>
+            <HotLaunch>false</HotLaunch>
+            <SelfDestructOnLost>false</SelfDestructOnLost>
+            <Maneuvers>None</Maneuvers>
+            <DefensiveDoctrine>
+              <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
+              <TargetSizeOrdering>Descending</TargetSizeOrdering>
+              <SalvoSize>0</SalvoSize>
+              <FarthestFirst>false</FarthestFirst>
+            </DefensiveDoctrine>
+            <ApproachAngleControl>true</ApproachAngleControl>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>6</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/HE Kinetic Penetrator</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>4</Size>
+          <InstalledComponent xsi:type="MissileEngineSettings">
+            <ComponentKey />
+            <BalanceValues>
+              <A>0.606254339</A>
+              <B>0.1955144</B>
+              <C>0.198231265</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="MissileEngineSettings">
+            <ComponentKey />
+            <BalanceValues>
+              <A>0.5565216</A>
+              <B>2.944151E-10</B>
+              <C>0.4434784</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+      </Sockets>
+    </MissileTemplate>
+  </MissileTypes>
+</Fleet>

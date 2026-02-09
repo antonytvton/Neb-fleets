@@ -1,0 +1,501 @@
+<?xml version="1.0"?>
+<Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>YES</Name>
+  <Version>3</Version>
+  <TotalPoints>3000</TotalPoints>
+  <FactionKey>prism/Prism</FactionKey>
+  <SortOverrideOrder xsi:nil="true" />
+  <ModDependencies>
+    <unsignedLong>2789730936</unsignedLong>
+  </ModDependencies>
+  <Ships>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>02724281-a2f5-4693-acb8-24556c835018</Key>
+      <Name>Towny</Name>
+      <Cost>1011</Cost>
+      <Number>964</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>prism/CL_thales</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>mount646_CL1</Key>
+          <ComponentName>Stock/VLS-3 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>oRinZBbP_UCQDdJWzKj_FQ</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-3EP00 Headway Block II</MunitionKey>
+                <Quantity>14</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>mount646_CL2</Key>
+          <ComponentName>Stock/VLS-3 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>oRinZBbP_UCQDdJWzKj_FQ</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-3EP00 Headway Block II</MunitionKey>
+                <Quantity>14</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>spine_1</Key>
+          <ComponentName>prism/Spine VLS-3-8</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>nDbAkfOH1UKwa0JKXPM_sA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-3EP00 Headway Block II</MunitionKey>
+                <Quantity>7</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>spine_2</Key>
+          <ComponentName>prism/Spine VLS-3-8</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>vrnrMBamY0S3oqBEg1eW-w</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-3EP00 Headway Block II</MunitionKey>
+                <Quantity>8</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>spine_3</Key>
+          <ComponentName>prism/Spine VLS-3-8</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>vrnrMBamY0S3oqBEg1eW-w</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-3EP00 Headway Block II</MunitionKey>
+                <Quantity>8</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>spine_4</Key>
+          <ComponentName>prism/Spine VLS-3-8</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>vrnrMBamY0S3oqBEg1eW-w</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-3EP00 Headway Block II</MunitionKey>
+                <Quantity>8</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>largemodule1</Key>
+          <ComponentName>Stock/FR4800 Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>largemodule2</Key>
+          <ComponentName>Stock/FM500 Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>modulemedium1</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>modulemedium2</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>modulesmall1</Key>
+          <ComponentName>Stock/RS35 'Frontline' Radar</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>hugecompartment1</Key>
+          <ComponentName>Stock/Basic CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>hugecompartment2</Key>
+          <ComponentName>Stock/Reinforced Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>gf5KdjPZHUi9kS3ihUs11Q</MagazineKey>
+                <MunitionKey>Stock/120mm HE-RPF Shell</MunitionKey>
+                <Quantity>201</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>livery</Key>
+          <ComponentName>prism/Theme Stripes</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
+    </Ship>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>d0133823-e843-4555-afed-0d7fa60cf238</Key>
+      <Name>Fairy</Name>
+      <Cost>998</Cost>
+      <Number>882</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>prism/CL_thales</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>mount646_CL1</Key>
+          <ComponentName>Stock/VLS-3 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>oRinZBbP_UCQDdJWzKj_FQ</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-3EP00 Headway Block II</MunitionKey>
+                <Quantity>14</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>mount646_CL2</Key>
+          <ComponentName>Stock/VLS-3 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>oRinZBbP_UCQDdJWzKj_FQ</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-3EP00 Headway Block II</MunitionKey>
+                <Quantity>14</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>spine_1</Key>
+          <ComponentName>prism/Spine VLS-3-8</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>nDbAkfOH1UKwa0JKXPM_sA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-3EP00 Headway Block II</MunitionKey>
+                <Quantity>7</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>spine_2</Key>
+          <ComponentName>prism/Spine VLS-3-8</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>vrnrMBamY0S3oqBEg1eW-w</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-3EP00 Headway Block II</MunitionKey>
+                <Quantity>8</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>spine_3</Key>
+          <ComponentName>prism/Spine VLS-3-8</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>vrnrMBamY0S3oqBEg1eW-w</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-3EP00 Headway Block II</MunitionKey>
+                <Quantity>8</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>spine_4</Key>
+          <ComponentName>prism/Spine VLS-3-8</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>vrnrMBamY0S3oqBEg1eW-w</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-3EP00 Headway Block II</MunitionKey>
+                <Quantity>8</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>largemodule1</Key>
+          <ComponentName>Stock/FR4800 Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>largemodule2</Key>
+          <ComponentName>Stock/FM500 Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>modulemedium1</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>modulemedium2</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>hugecompartment1</Key>
+          <ComponentName>Stock/Basic CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>hugecompartment2</Key>
+          <ComponentName>Stock/Reinforced Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load />
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>livery</Key>
+          <ComponentName>prism/Theme Stripes</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
+    </Ship>
+    <Ship>
+      <SaveID xsi:nil="true" />
+      <Key>7ef38c0f-73d8-4b49-aac0-f653d4cd5e4c</Key>
+      <Name>Tulip</Name>
+      <Cost>991</Cost>
+      <Number>897</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>prism/CL_thales</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>mount646_CL1</Key>
+          <ComponentName>Stock/VLS-3 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>oRinZBbP_UCQDdJWzKj_FQ</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-3EP00 Headway Block II</MunitionKey>
+                <Quantity>14</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>mount646_CL2</Key>
+          <ComponentName>Stock/VLS-3 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>oRinZBbP_UCQDdJWzKj_FQ</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-3EP00 Headway Block II</MunitionKey>
+                <Quantity>14</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>spine_1</Key>
+          <ComponentName>prism/Spine VLS-3-8</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>nDbAkfOH1UKwa0JKXPM_sA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-3EP00 Headway Block II</MunitionKey>
+                <Quantity>7</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>spine_2</Key>
+          <ComponentName>prism/Spine VLS-3-8</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>vrnrMBamY0S3oqBEg1eW-w</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-3EP00 Headway Block II</MunitionKey>
+                <Quantity>8</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>spine_3</Key>
+          <ComponentName>prism/Spine VLS-3-8</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>vrnrMBamY0S3oqBEg1eW-w</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-3EP00 Headway Block II</MunitionKey>
+                <Quantity>8</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>spine_4</Key>
+          <ComponentName>prism/Spine VLS-3-8</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>vrnrMBamY0S3oqBEg1eW-w</MagazineKey>
+                <MunitionKey>$MODMIS$/SGT-3EP00 Headway Block II</MunitionKey>
+                <Quantity>7</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>largemodule1</Key>
+          <ComponentName>Stock/FR4800 Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>largemodule2</Key>
+          <ComponentName>Stock/FM500 Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>modulemedium1</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>modulemedium2</Key>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>hugecompartment1</Key>
+          <ComponentName>Stock/Basic CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>hugecompartment2</Key>
+          <ComponentName>Stock/Reinforced Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load />
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>livery</Key>
+          <ComponentName>prism/Theme Stripes</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
+    </Ship>
+  </Ships>
+  <MissileTypes>
+    <MissileTemplate>
+      <Designation>SGT-3EP00</Designation>
+      <Nickname>Headway Block II</Nickname>
+      <Description>DIRECT - &lt;color=#D3D11F&gt;CMD&lt;/color&gt;/&lt;color=#F7651B&gt;GOT&lt;/color&gt; - HE SHAPED</Description>
+      <LongDescription>The &lt;noparse&gt;SGT-3EP00 Headway Block II&lt;/noparse&gt; is a size 3 direct guidance missile.  It is based on the SGT-3EP body, which is a enhanced penetration anti-ship torpedo.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using command guidance from its launching ship  If the primary seeker does not find a target or is jammed, it can fall back on predicts target postion based on last good target data.
+
+Control Method: DIRECT
+Targeting Modes: &lt;b&gt;&lt;color=#3BC81E&gt;POSITION&lt;/color&gt;	&lt;color=#3BC81E&gt;TRACK&lt;/color&gt;&lt;/b&gt;
+
+Primary Seeker: COMMAND (&lt;color=#D3D11F&gt;Requires COMMS Enabled&lt;/color&gt;)
+Backup Seeker: GOTO TARGET
+
+Speed: 207 m/s
+Distance: 13,767 m
+Top Speed In: 2.2 s
+Turn Rate: 0.7 G
+Terminal Maneuvers: None
+
+Warhead: Contact Fuze, High Explosive, Shaped
+Armor: 85cm
+Component: 2,400hp
+Blast Angle: 70 deg
+Damage Per Fragment: 50.0
+
+Body Integrity: 150 
+Wall Thickness: 0.25
+Programming Time: 8 s
+Radar Signature Bonus: 100 %
+Boost-Phase Duration: 0 s
+Boost-Phase Strafe: 100 %
+Boost-Phase Turn Rate: 100 %
+Failure Rate: 0 %</LongDescription>
+      <Cost>7</Cost>
+      <BodyKey>guns/SGT 3 Enhanced Penetration</BodyKey>
+      <TemplateKey>05145589-605e-4833-a2de-ec5a6fd76367</TemplateKey>
+      <BaseColor>
+        <r>0.5</r>
+        <g>0.5</g>
+        <b>0.5</b>
+        <a>1</a>
+      </BaseColor>
+      <StripeColor>
+        <r>0.7</r>
+        <g>0.210000008</g>
+        <b>0.210000008</b>
+        <a>1</a>
+      </StripeColor>
+      <Sockets>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="CommandSeekerSettings">
+            <ComponentKey>Stock/Command Receiver</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="CommandSeekerSettings">
+            <ComponentKey>guns/Inertial Guidance Package</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="DirectGuidanceSettings">
+            <ComponentKey>Stock/Direct Guidance</ComponentKey>
+            <Role>Offensive</Role>
+            <HotLaunch>false</HotLaunch>
+            <SelfDestructOnLost>false</SelfDestructOnLost>
+            <Maneuvers>None</Maneuvers>
+            <DefensiveDoctrine>
+              <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
+              <TargetSizeOrdering>Descending</TargetSizeOrdering>
+              <SalvoSize>0</SalvoSize>
+              <FarthestFirst>false</FarthestFirst>
+            </DefensiveDoctrine>
+            <ApproachAngleControl>true</ApproachAngleControl>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>5</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/HE Impact</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>9</Size>
+          <InstalledComponent xsi:type="MissileEngineSettings">
+            <ComponentKey />
+            <BalanceValues>
+              <A>0.6743678</A>
+              <B>0.125199363</B>
+              <C>0.200432852</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+      </Sockets>
+      <ModDependencies>
+        <unsignedLong>2789730936</unsignedLong>
+      </ModDependencies>
+    </MissileTemplate>
+  </MissileTypes>
+</Fleet>
