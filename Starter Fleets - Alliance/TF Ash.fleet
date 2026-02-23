@@ -4,9 +4,9 @@
   <Version>3</Version>
   <TotalPoints>3000</TotalPoints>
   <FactionKey>Stock/Alliance</FactionKey>
-  <Description>Difficulty: &lt;color=yellow&gt;MODERATE&lt;/color&gt;
+  <Description>Difficulty: &lt;color=red&gt;HARD&lt;/color&gt;
 
-A fragile formation focusing on the application of maximum violence from underneath the cover of heavy electronic warfare. Success with TF Ash is heavily reliant on ambush tactics - hide behind terrain until the right moment, pre-aim towards likely target locations with the HDG command, and utilize your radar and comms jamming to get your destroyers into range and bring their beams on target before the opponent can effectively retaliate. Use of the BSHRT toggle is essential to maximize violence and avoid waiting for the beam cannons to cycle. Solid complements of anti-craft and anti-ship missiles enable the destruction of enemy sensor platforms which could spot your force by flanking around your jamming cones.
+A fragile formation focusing on the application of maximum violence from underneath the cover of heavy electronic warfare. Success with TF Ash is heavily reliant on ambush tactics, pre-aiming with the HDG command, and utilizing your radar and comms jamming to bring your destroyers' beams on target before the opponent can effectively retaliate. Use of the BSHRT toggle is essential to maximize both violence and survivability. A complement of anti-craft missiles allow for the destruction of enemy sensor assets which could spot your force, and a deep stockpile of anti-ship missiles gives the force limited ability to strike against targets at medium-range. The missiles can also be used to finish off beamed targets, allowing your destroyers to move on to the next target faster.
   </Description>
   <SortOverrideOrder>5</SortOverrideOrder>
   <Ships>
@@ -90,10 +90,10 @@ A fragile formation focusing on the application of maximum violence from underne
       <SaveID xsi:nil="true" />
       <Key>0fb347e8-cdbc-4ebe-8603-a1f606e1e491</Key>
       <Name>Apply Damage</Name>
-      <Cost>867</Cost>
+      <Cost>882</Cost>
       <Callsign />
       <Number>1011</Number>
-      <SymbolOption>2</SymbolOption>
+      <SymbolOption>0</SymbolOption>
       <HullType>Stock/Keystone Destroyer</HullType>
       <SocketMap>
         <HullSocket>
@@ -108,12 +108,17 @@ A fragile formation focusing on the application of maximum violence from underne
               <MagSaveData>
                 <MagazineKey>SGRXoo8WPEiTHJzp5JnqOw</MagazineKey>
                 <MunitionKey>Stock/EA99 Active Decoy</MunitionKey>
-                <Quantity>7</Quantity>
+                <Quantity>2</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>yvpjiZBN-EmbbhPmn3a1SA</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-H-242 Flyswatter ASM</MunitionKey>
-                <Quantity>8</Quantity>
+                <MagazineKey>s5q8PNK_BU2ixBQQsrNsag</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-230 Finisher ASM</MunitionKey>
+                <Quantity>18</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>hSbPVnDJ70SuS3g8VRnCkw</MagazineKey>
+                <MunitionKey>$MODMIS$/SDM-220 Protector ACM</MunitionKey>
+                <Quantity>4</Quantity>
               </MagSaveData>
             </MissileLoad>
           </ComponentData>
@@ -132,14 +137,14 @@ A fragile formation focusing on the application of maximum violence from underne
           <ComponentData xsi:type="CellLauncherData">
             <MissileLoad>
               <MagSaveData>
-                <MagazineKey>Tg6UYMNYq0C7Tl4VHnpS2Q</MagazineKey>
+                <MagazineKey>y1y33bb31E-ua9RV0CGafw</MagazineKey>
                 <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>7</Quantity>
+                <Quantity>6</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>iS8lryTRzEWNyRfvs3Hu5Q</MagazineKey>
+                <MagazineKey>g_eR6JsZ_0eWvhkY_4hxSA</MagazineKey>
                 <MunitionKey>Stock/EA20 Flare Decoy</MunitionKey>
-                <Quantity>3</Quantity>
+                <Quantity>2</Quantity>
               </MagSaveData>
             </MissileLoad>
           </ComponentData>
@@ -154,7 +159,7 @@ A fragile formation focusing on the application of maximum violence from underne
         </HullSocket>
         <HullSocket>
           <Key>PlyaCcjDo0qu155JIZgm6A</Key>
-          <ComponentName>Stock/Rapid DC Locker</ComponentName>
+          <ComponentName>Stock/Small DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>ytRGy84X_kW1odHYCBICDQ</Key>
@@ -164,7 +169,7 @@ A fragile formation focusing on the application of maximum violence from underne
               <MagSaveData>
                 <MagazineKey>akVUlDi7QkeFCXLlKr_FGg</MagazineKey>
                 <MunitionKey>Stock/20mm Slug</MunitionKey>
-                <Quantity>10000</Quantity>
+                <Quantity>12000</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -207,7 +212,7 @@ A fragile formation focusing on the application of maximum violence from underne
         </HullSocket>
         <HullSocket>
           <Key>E9sMCEquVk-NNj5heGmIlQ</Key>
-          <ComponentName>Stock/RS41 'Spyglass' Radar</ComponentName>
+          <ComponentName>Stock/RM50 'Parallax' Radar</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>gx2UKetKWUm5BfZhiD5phQ</Key>
@@ -240,10 +245,10 @@ A fragile formation focusing on the application of maximum violence from underne
       <SaveID xsi:nil="true" />
       <Key>64784cb3-276c-481f-9a1d-1579f7e7a9c8</Key>
       <Name>Energy Transfer</Name>
-      <Cost>848</Cost>
+      <Cost>860</Cost>
       <Callsign />
       <Number>1012</Number>
-      <SymbolOption>2</SymbolOption>
+      <SymbolOption>1</SymbolOption>
       <HullType>Stock/Keystone Destroyer</HullType>
       <SocketMap>
         <HullSocket>
@@ -252,14 +257,19 @@ A fragile formation focusing on the application of maximum violence from underne
           <ComponentData xsi:type="ResizableCellLauncherData">
             <MissileLoad>
               <MagSaveData>
-                <MagazineKey>xhfd4la6qU2Hj0Euax_rBA</MagazineKey>
-                <MunitionKey>$MODMIS$/SDM-220 Protector ACM</MunitionKey>
-                <Quantity>7</Quantity>
+                <MagazineKey>s91-FdxDB0KFucG_viY_pQ</MagazineKey>
+                <MunitionKey>Stock/EA99 Active Decoy</MunitionKey>
+                <Quantity>2</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>myifS76Hk06Va-kNJqtB1Q</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-H-242 Flyswatter ASM</MunitionKey>
-                <Quantity>8</Quantity>
+                <MagazineKey>7_LNWiXJB0eYU9kHpNiRXw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-230 Finisher ASM</MunitionKey>
+                <Quantity>18</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>xhfd4la6qU2Hj0Euax_rBA</MagazineKey>
+                <MunitionKey>$MODMIS$/SDM-220 Protector ACM</MunitionKey>
+                <Quantity>4</Quantity>
               </MagSaveData>
             </MissileLoad>
           </ComponentData>
@@ -284,7 +294,7 @@ A fragile formation focusing on the application of maximum violence from underne
               <MagSaveData>
                 <MagazineKey>y1y33bb31E-ua9RV0CGafw</MagazineKey>
                 <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>10</Quantity>
+                <Quantity>6</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>o8drfZfG7k2IuL2Lne7IFg</MagazineKey>
@@ -360,6 +370,10 @@ A fragile formation focusing on the application of maximum violence from underne
           <ComponentName>Stock/RM50 'Parallax' Radar</ComponentName>
         </HullSocket>
         <HullSocket>
+          <Key>gx2UKetKWUm5BfZhiD5phQ</Key>
+          <ComponentName>Stock/Adaptive Radar Receiver</ComponentName>
+        </HullSocket>
+        <HullSocket>
           <Key>ZJTmbGdjAk-XEKihIYHEuw</Key>
           <ComponentName>Stock/Focused Particle Accelerator</ComponentName>
         </HullSocket>
@@ -386,7 +400,7 @@ A fragile formation focusing on the application of maximum violence from underne
       <SaveID xsi:nil="true" />
       <Key>44d24d3a-0e95-448b-abeb-620481d33a8e</Key>
       <Name>Consider This</Name>
-      <Cost>860</Cost>
+      <Cost>833</Cost>
       <Callsign />
       <Number>1013</Number>
       <SymbolOption>2</SymbolOption>
@@ -402,14 +416,19 @@ A fragile formation focusing on the application of maximum violence from underne
           <ComponentData xsi:type="ResizableCellLauncherData">
             <MissileLoad>
               <MagSaveData>
-                <MagazineKey>xhfd4la6qU2Hj0Euax_rBA</MagazineKey>
-                <MunitionKey>$MODMIS$/SDM-220 Protector ACM</MunitionKey>
-                <Quantity>7</Quantity>
+                <MagazineKey>M43LT4Oip0WWEtKcXJpXBg</MagazineKey>
+                <MunitionKey>Stock/EA99 Active Decoy</MunitionKey>
+                <Quantity>2</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>myifS76Hk06Va-kNJqtB1Q</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-H-242 Flyswatter ASM</MunitionKey>
-                <Quantity>8</Quantity>
+                <MagazineKey>z3rVelnByku1m0yvjfA1-A</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-230 Finisher ASM</MunitionKey>
+                <Quantity>18</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>Um7ckMrVnUidtA-NkgyJ-g</MagazineKey>
+                <MunitionKey>$MODMIS$/SDM-220 Protector ACM</MunitionKey>
+                <Quantity>3</Quantity>
               </MagSaveData>
             </MissileLoad>
           </ComponentData>
@@ -430,12 +449,12 @@ A fragile formation focusing on the application of maximum violence from underne
               <MagSaveData>
                 <MagazineKey>y1y33bb31E-ua9RV0CGafw</MagazineKey>
                 <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>10</Quantity>
+                <Quantity>5</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>P9ChY5BKl066S1u9lEqdmg</MagazineKey>
                 <MunitionKey>Stock/EA20 Flare Decoy</MunitionKey>
-                <Quantity>3</Quantity>
+                <Quantity>2</Quantity>
               </MagSaveData>
             </MissileLoad>
           </ComponentData>
@@ -450,7 +469,7 @@ A fragile formation focusing on the application of maximum violence from underne
         </HullSocket>
         <HullSocket>
           <Key>PlyaCcjDo0qu155JIZgm6A</Key>
-          <ComponentName>Stock/Rapid DC Locker</ComponentName>
+          <ComponentName>Stock/Small DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>ytRGy84X_kW1odHYCBICDQ</Key>
@@ -460,7 +479,7 @@ A fragile formation focusing on the application of maximum violence from underne
               <MagSaveData>
                 <MagazineKey>RCVbvlP8r0ySd-Mt1Em1AQ</MagazineKey>
                 <MunitionKey>Stock/20mm Slug</MunitionKey>
-                <Quantity>10000</Quantity>
+                <Quantity>12000</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -503,7 +522,11 @@ A fragile formation focusing on the application of maximum violence from underne
         </HullSocket>
         <HullSocket>
           <Key>E9sMCEquVk-NNj5heGmIlQ</Key>
-          <ComponentName>Stock/RM50 'Parallax' Radar</ComponentName>
+          <ComponentName>Stock/RS41 'Spyglass' Radar</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>gx2UKetKWUm5BfZhiD5phQ</Key>
+          <ComponentName>Stock/Small Reactor Booster</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>ZJTmbGdjAk-XEKihIYHEuw</Key>
@@ -530,6 +553,114 @@ A fragile formation focusing on the application of maximum violence from underne
     </Ship>
   </Ships>
   <MissileTypes>
+    <MissileTemplate>
+      <Designation>SGM-230</Designation>
+      <Nickname>Finisher ASM</Nickname>
+      <Description>$MISSILEGUIDANCE_MODE_DIRECT - $MISSILESEEKER_MODE_ACTIVE_ABBREV(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;)/[$MISSILESEEKER_MODE_PASSIVE_ABBREV(&lt;color=#D4211D&gt;WAKE&lt;/color&gt;)] - $MISSILEWARHEAD_SHORT_HEIMPACT</Description>
+      <LongDescription>The &lt;noparse&gt;SGM-230 Finisher ASM&lt;/noparse&gt; is a size 2 direct guidance missile.  It is based on the SGM-2 body, which is a flexible mainstay anti-ship missile.  This missile will deliver a $MISSILEWARHEAD_DETAIL_HEIMPACT warhead.  It homes in on its target using an Active Radar seeker, validating that it is the correct target using a Passive Wake seeker.
+
+$MISSILESTAT_CONTROLMETHOD: $MISSILEGUIDANCE_MODE_DIRECT
+$MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
+
+$MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_ACTIVE_CAPS &lt;color=#3BC81E&gt;RADAR&lt;/color&gt;
+$MISSILESTAT_VALIDATOR: $MISSILESEEKER_MODE_PASSIVE_CAPS (&lt;color=#D4211D&gt;WAKE&lt;/color&gt;)
+
+$MISSILESTAT_SPEED: 247 $UNIT_METERSPERSEC
+$MISSILESTAT_DISTANCE: 12,000 $UNIT_METERS
+$MISSILESTAT_TOPSPEEDTIME: 1.3 $UNIT_SECONDS
+$MISSILESTAT_TURNRATE: 3.5 $UNIT_GS
+$MISSILESTAT_TERMINALS: Weave
+(&lt;color=#D3D11F&gt;$MISSILESTAT_TERMINALS_WARN_RANGE&lt;/color&gt;)
+
+$MISSILESTAT_WARHEAD: $MISSILEWARHEAD_DETAIL_HEIMPACT
+$MISSILESTAT_ARMORDAMAGE: 54$UNIT_CENTIMETERS
+$MISSILESTAT_COMPONENTDAMAGE: 960$UNIT_HP
+$MISSILESTAT_BLASTANGLE: 70 $UNIT_DEGREES
+$MISSILESTAT_DAMAGEPERFRAGMENT: 50.0
+
+$MISSILESTAT_HEALTH: 30 
+$MISSILESTAT_WALLTHICKNESS: 0.05
+$MISSILESTAT_PROGTIME: 8 $UNIT_SECONDS
+$MISSILESTAT_RADARSIG: 100 %
+$MISSILESTAT_BOOSTTIME: 3 $UNIT_SECONDS
+$MISSILESTAT_BOOSTSTRAFE: 100 %
+$MISSILESTAT_BOOSTTURN: 100 %
+$MISSILESTAT_FAILRATE: 0 %</LongDescription>
+      <Cost>5</Cost>
+      <BodyKey>Stock/SGM-2 Body</BodyKey>
+      <TemplateKey>b13add50-958a-48e8-a5ff-c10af660348a</TemplateKey>
+      <BaseColor>
+        <r>1</r>
+        <g>1</g>
+        <b>1</b>
+        <a>1</a>
+      </BaseColor>
+      <StripeColor>
+        <r>0.7058824</r>
+        <g>0.129411772</g>
+        <b>0.129411772</b>
+        <a>1</a>
+      </StripeColor>
+      <Sockets>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="ActiveSeekerSettings">
+            <ComponentKey>Stock/Fixed Active Radar Seeker</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <DetectPDTargets>false</DetectPDTargets>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="PassiveSeekerSettings">
+            <ComponentKey>Stock/Wake-Homing Seeker</ComponentKey>
+            <Mode>Validation</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <DetectPDTargets>false</DetectPDTargets>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="DirectGuidanceSettings">
+            <ComponentKey>Stock/Direct Guidance</ComponentKey>
+            <Role>Offensive</Role>
+            <HotLaunch>false</HotLaunch>
+            <SelfDestructOnLost>false</SelfDestructOnLost>
+            <Maneuvers>Weave</Maneuvers>
+            <DefensiveDoctrine>
+              <Mode>Uniform</Mode>
+              <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
+              <TargetSizeOrdering>Descending</TargetSizeOrdering>
+              <SalvoSize>0</SalvoSize>
+              <ConvSalvo>0</ConvSalvo>
+              <HybridSalvo>0</HybridSalvo>
+              <CraftSalvo>0</CraftSalvo>
+              <FarthestFirst>false</FarthestFirst>
+            </DefensiveDoctrine>
+            <ApproachAngleControl>true</ApproachAngleControl>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>4</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/HE Impact</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>6</Size>
+          <InstalledComponent xsi:type="MissileEngineSettings">
+            <ComponentKey />
+            <BalanceValues>
+              <A>0.394749671</A>
+              <B>0.262456864</B>
+              <C>0.342793465</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+      </Sockets>
+    </MissileTemplate>
     <MissileTemplate>
       <Designation>SDM-220</Designation>
       <Nickname>Protector ACM</Nickname>
@@ -614,7 +745,7 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
             <Maneuvers>None</Maneuvers>
             <DefensiveDoctrine>
               <Mode>Uniform</Mode>
-              <TargetSizeMask>8</TargetSizeMask>
+              <TargetSizeMask>12</TargetSizeMask>
               <TargetType>SmallCraft</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>0</SalvoSize>
@@ -640,135 +771,6 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
               <A>0.339398056</A>
               <B>0</B>
               <C>0.660602</C>
-            </BalanceValues>
-          </InstalledComponent>
-        </MissileSocket>
-        <MissileSocket>
-          <Size>1</Size>
-          <InstalledComponent xsi:type="MissileEngineSettings">
-            <ComponentKey />
-            <BalanceValues>
-              <A>1</A>
-              <B>0</B>
-              <C>0</C>
-            </BalanceValues>
-          </InstalledComponent>
-        </MissileSocket>
-      </Sockets>
-    </MissileTemplate>
-    <MissileTemplate>
-      <AssociatedTemplateName>SGM-H-242 Mamquam</AssociatedTemplateName>
-      <Designation>SGM-H-242</Designation>
-      <Nickname>Flyswatter ASM</Nickname>
-      <Description>$MISSILEGUIDANCE_MODE_DIRECT - $MISSILESEEKER_MODE_ARAD_PULSED_ABBREV(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;)/$MISSILESEEKER_MODE_ACTIVE_ABBREV(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;) - $MISSILEWARHEAD_SHORT_HEIMPACT</Description>
-      <LongDescription>The &lt;noparse&gt;SGM-H-242 Flyswatter ASM&lt;/noparse&gt; is a size 2 direct guidance missile.  It is based on the SGM-H-2 body, which is a multi-purpose hybrid missile designed to penetrate point defense grids.  This missile will deliver a $MISSILEWARHEAD_DETAIL_HEIMPACT warhead.  It homes in on its target using a Radar Anti-Radiation seeker  If the primary seeker does not find a target or is jammed, it can fall back on an Active Radar seeker.
-
-$MISSILESTAT_CONTROLMETHOD: $MISSILEGUIDANCE_MODE_DIRECT
-$MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
-
-$MISSILESTAT_PRIMARYSEEKER: ANTI-RADIATION (All &lt;color=#3BC81E&gt;RADAR&lt;/color&gt; Signals)
-$MISSILESTAT_BACKUPSEEKER: $MISSILESEEKER_MODE_ACTIVE_CAPS &lt;color=#3BC81E&gt;RADAR&lt;/color&gt;
-
-&lt;b&gt;Cruise&lt;/b&gt;
-$MISSILESTAT_SPEED: 350 $UNIT_METERSPERSEC
-$MISSILESTAT_DISTANCE: 13,234 $UNIT_METERS
-$MISSILESTAT_TOPSPEEDTIME: 4.4 $UNIT_SECONDS
-$MISSILESTAT_TURNRATE: 0.9 $UNIT_GS
-
-&lt;b&gt;Sprint&lt;/b&gt;
-$MISSILESTAT_SPEED: 724 $UNIT_METERSPERSEC
-$MISSILESTAT_DISTANCE: 2,785 $UNIT_METERS
-$MISSILESTAT_TOPSPEEDTIME: 0.7 $UNIT_SECONDS
-$MISSILESTAT_TURNRATE: 18.7 $UNIT_GS
-
-: $MISSILEENGINE_STAGE_TRIGGER_DETECTION (&lt;color=#D3D11F&gt;$MISSILEENGINE_STAGE_DIRECTIONONLY&lt;/color&gt;)
-
-$MISSILESTAT_TERMINALS: None
-
-$MISSILESTAT_WARHEAD: $MISSILEWARHEAD_DETAIL_HEIMPACT
-$MISSILESTAT_ARMORDAMAGE: 59$UNIT_CENTIMETERS
-$MISSILESTAT_COMPONENTDAMAGE: 1,152$UNIT_HP
-$MISSILESTAT_BLASTANGLE: 70 $UNIT_DEGREES
-$MISSILESTAT_DAMAGEPERFRAGMENT: 50.0
-
-$MISSILESTAT_HEALTH: 25 
-$MISSILESTAT_WALLTHICKNESS: 0.05
-$MISSILESTAT_PROGTIME: 10 $UNIT_SECONDS
-$MISSILESTAT_RADARSIG: 100 %
-$MISSILESTAT_BOOSTTIME: 3 $UNIT_SECONDS
-$MISSILESTAT_BOOSTSTRAFE: 100 %
-$MISSILESTAT_BOOSTTURN: 100 %
-$MISSILESTAT_FAILRATE: 0 %</LongDescription>
-      <Cost>12</Cost>
-      <BodyKey>Stock/SGM-H-2 Body</BodyKey>
-      <TemplateKey>ca12f335-6f8c-402b-9d6d-f0beca81e8e7</TemplateKey>
-      <BaseColor>
-        <r>0</r>
-        <g>0</g>
-        <b>0</b>
-        <a>1</a>
-      </BaseColor>
-      <StripeColor>
-        <r>0.0647458956</r>
-        <g>0.32533893</g>
-        <b>0.3792548</b>
-        <a>1</a>
-      </StripeColor>
-      <Sockets>
-        <MissileSocket>
-          <Size>1</Size>
-          <InstalledComponent xsi:type="PassiveARHSeekerSettings">
-            <ComponentKey>Stock/Fixed Anti-Radiation Seeker</ComponentKey>
-            <Mode>Targeting</Mode>
-            <RejectUnvalidated>false</RejectUnvalidated>
-            <TargetType>All</TargetType>
-          </InstalledComponent>
-        </MissileSocket>
-        <MissileSocket>
-          <Size>1</Size>
-          <InstalledComponent xsi:type="ActiveSeekerSettings">
-            <ComponentKey>Stock/Fixed Active Radar Seeker</ComponentKey>
-            <Mode>Targeting</Mode>
-            <RejectUnvalidated>false</RejectUnvalidated>
-            <DetectPDTargets>false</DetectPDTargets>
-          </InstalledComponent>
-        </MissileSocket>
-        <MissileSocket>
-          <Size>1</Size>
-          <InstalledComponent xsi:type="DirectGuidanceSettings">
-            <ComponentKey>Stock/Direct Guidance</ComponentKey>
-            <Role>Offensive</Role>
-            <HotLaunch>false</HotLaunch>
-            <SelfDestructOnLost>false</SelfDestructOnLost>
-            <Maneuvers>None</Maneuvers>
-            <DefensiveDoctrine>
-              <Mode>Uniform</Mode>
-              <TargetSizeMask>12</TargetSizeMask>
-              <TargetType>All</TargetType>
-              <TargetSizeOrdering>Descending</TargetSizeOrdering>
-              <SalvoSize>0</SalvoSize>
-              <ConvSalvo>0</ConvSalvo>
-              <HybridSalvo>0</HybridSalvo>
-              <CraftSalvo>0</CraftSalvo>
-              <FarthestFirst>false</FarthestFirst>
-            </DefensiveDoctrine>
-            <ApproachAngleControl>true</ApproachAngleControl>
-          </InstalledComponent>
-        </MissileSocket>
-        <MissileSocket>
-          <Size>6</Size>
-          <InstalledComponent>
-            <ComponentKey>Stock/HE Impact</ComponentKey>
-          </InstalledComponent>
-        </MissileSocket>
-        <MissileSocket>
-          <Size>2</Size>
-          <InstalledComponent xsi:type="MissileEngineSettings">
-            <ComponentKey />
-            <BalanceValues>
-              <A>0.4479711</A>
-              <B>0.5520289</B>
-              <C>0</C>
             </BalanceValues>
           </InstalledComponent>
         </MissileSocket>

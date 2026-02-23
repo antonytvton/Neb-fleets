@@ -13,8 +13,8 @@ Garnet Squadron is a multi-role heavy attack fleet featuring a swarm of monitors
     <Ship>
       <SaveID xsi:nil="true" />
       <Key>76b0957b-7c49-4f86-99a7-4b49bfde464b</Key>
-      <Name>Just The Warm Up</Name>
-      <Cost>664</Cost>
+      <Name>On The Whistle Blow</Name>
+      <Cost>706</Cost>
       <Callsign />
       <Number>699</Number>
       <SymbolOption>0</SymbolOption>
@@ -42,7 +42,26 @@ Garnet Squadron is a multi-role heavy attack fleet featuring a swarm of monitors
         </HullSocket>
         <HullSocket>
           <Key>_y-Bd-EWjUeMIrmzG3UxvQ</Key>
-          <ComponentName>Stock/J75 Jammer</ComponentName>
+          <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>9EJ0UdsbnE6_4BOomKd3ig</MagazineKey>
+                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
+                <Quantity>8</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>dRYjC3GV_EGx8wWTypesyg</MagazineKey>
+                <MunitionKey>Stock/EA20 Flare Decoy</MunitionKey>
+                <Quantity>3</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>G_qmH_HArUaSJdKLeBbmyA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-100 Anti-Hybrid</MunitionKey>
+                <Quantity>25</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
         </HullSocket>
         <HullSocket>
           <Key>gDQghm5iik2syYcoJqUPFg</Key>
@@ -97,9 +116,9 @@ Garnet Squadron is a multi-role heavy attack fleet featuring a swarm of monitors
                 <Quantity>100</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>0SEZbYi8PU23LvtlSwwe_g</MagazineKey>
-                <MunitionKey>$MODMIS$/SDM-230 Anti-Bomber</MunitionKey>
-                <Quantity>9</Quantity>
+                <MagazineKey>E6TMlU7W_UaDdMkQvFVjiA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Anti-Bomber</MunitionKey>
+                <Quantity>14</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -129,21 +148,15 @@ Garnet Squadron is a multi-role heavy attack fleet featuring a swarm of monitors
           <ComponentName>Stock/Ammunition Elevators</ComponentName>
         </HullSocket>
       </SocketMap>
-      <WeaponGroups>
-        <WepGroup Name="Anti-Missile Jammer">
-          <MemberKeys>
-            <string>_y-Bd-EWjUeMIrmzG3UxvQ</string>
-          </MemberKeys>
-        </WepGroup>
-      </WeaponGroups>
+      <WeaponGroups />
       <TemplateMissileTypes />
       <TemplateSpacecraftTypes />
     </Ship>
     <Ship>
       <SaveID xsi:nil="true" />
       <Key>31f7aba2-e5f3-427d-a15a-e6cda788dd4c</Key>
-      <Name>Serious Callers Only</Name>
-      <Cost>574</Cost>
+      <Name>In The Trenches</Name>
+      <Cost>575</Cost>
       <Callsign />
       <Number>377</Number>
       <SymbolOption>0</SymbolOption>
@@ -224,7 +237,7 @@ Garnet Squadron is a multi-role heavy attack fleet featuring a swarm of monitors
               <MagSaveData>
                 <MagazineKey>ArNrwix87EmApOiEeVwQrw</MagazineKey>
                 <MunitionKey>Stock/Flak Round</MunitionKey>
-                <Quantity>300</Quantity>
+                <Quantity>375</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>H2yFhFe5Nk2TvjLDCZi-lg</MagazineKey>
@@ -273,145 +286,9 @@ Garnet Squadron is a multi-role heavy attack fleet featuring a swarm of monitors
     </Ship>
     <Ship>
       <SaveID xsi:nil="true" />
-      <Key>1f9ec199-70b3-4ede-8a1e-eae0c2fc1766</Key>
-      <Name>Excuse The Interruption</Name>
-      <Cost>584</Cost>
-      <Callsign />
-      <Number>525</Number>
-      <SymbolOption>0</SymbolOption>
-      <HullType>Stock/Bulk Feeder</HullType>
-      <SocketMap>
-        <HullSocket>
-          <Key>4V6twrIUcEKE11tom-tDXQ</Key>
-          <ComponentName>Stock/C90 Cannon</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>yN7f-9tEXEKlBNskqP6EbA</Key>
-          <ComponentName>Stock/T30 Cannon</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>Z2uDs34J-ESu64-i9YGnxQ</Key>
-          <ComponentName>Stock/T81 Plasma Cannon</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>gb6_3kWBY0KlEWeex3ruDg</Key>
-          <ComponentName>Stock/RF44 'Pinpoint' Radar</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>_y-Bd-EWjUeMIrmzG3UxvQ</Key>
-          <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
-          <ComponentData xsi:type="CellLauncherData">
-            <MissileLoad>
-              <MagSaveData>
-                <MagazineKey>9EJ0UdsbnE6_4BOomKd3ig</MagazineKey>
-                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>7</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>G_qmH_HArUaSJdKLeBbmyA</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-100 Anti-Hybrid</MunitionKey>
-                <Quantity>15</Quantity>
-              </MagSaveData>
-            </MissileLoad>
-          </ComponentData>
-        </HullSocket>
-        <HullSocket>
-          <Key>gDQghm5iik2syYcoJqUPFg</Key>
-          <ComponentName>Stock/Reinforced CIC</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>TTM8O-MUDky06__LwvSo8w</Key>
-          <ComponentName>Stock/Auxiliary Steering</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>rGVFgJ8GyUePoRkz33c1sw</Key>
-          <ComponentName>Stock/Small DC Locker</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>_hUvj899GkWP0bnjDN1ODw</Key>
-          <ComponentName>Stock/Citadel Magazine</ComponentName>
-          <ComponentData xsi:type="BulkMagazineData">
-            <Load>
-              <MagSaveData>
-                <MagazineKey>S69VtZHSXUOqeW3-ZUgWEw</MagazineKey>
-                <MunitionKey>Stock/100mm AP Shell</MunitionKey>
-                <Quantity>250</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>XKI_ujtHf06HOHAhCxnE9A</MagazineKey>
-                <MunitionKey>Stock/100mm HE Shell</MunitionKey>
-                <Quantity>500</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>J2ATgplVuEu3xtspvhMvyQ</MagazineKey>
-                <MunitionKey>Stock/100mm HE-HC Shell</MunitionKey>
-                <Quantity>500</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>HmpldVdGfUusNud6URnXNw</MagazineKey>
-                <MunitionKey>Stock/600mm Bomb Shell</MunitionKey>
-                <Quantity>50</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>NTjWYmHZn0Ks3gdorgPYFA</MagazineKey>
-                <MunitionKey>Stock/600mm HE Shell</MunitionKey>
-                <Quantity>100</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>fqurH_1sFkOw391-6tFcsw</MagazineKey>
-                <MunitionKey>Stock/400mm Plasma Ampoule</MunitionKey>
-                <Quantity>125</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>H2yFhFe5Nk2TvjLDCZi-lg</MagazineKey>
-                <MunitionKey>Stock/100mm Grapeshot</MunitionKey>
-                <Quantity>250</Quantity>
-              </MagSaveData>
-            </Load>
-          </ComponentData>
-        </HullSocket>
-        <HullSocket>
-          <Key>N4KIOsNqeUGVAUrx5OW3DQ</Key>
-          <ComponentName>Stock/Damage Control Complex</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>9K_1ZNCgFESrvaoQMOH3yw</Key>
-          <ComponentName>Stock/Civilian Reactor</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>HNv6B-78FEuhV8YT9A6uZw</Key>
-          <ComponentName>Stock/CHI-777 Yard Drive</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>DaqWEX-8gEeIzYrhp8NIMw</Key>
-          <ComponentName>Stock/Ammunition Elevators</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>EvZ6JN5xV0aUlKEeeKxFTQ</Key>
-          <ComponentName>Stock/Ithaca Bridgemaster</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>CU_oraqJxEaB3dTzZW2MkA</Key>
-          <ComponentName>Stock/Ammunition Elevators</ComponentName>
-        </HullSocket>
-      </SocketMap>
-      <WeaponGroups />
-      <InitialFormation>
-        <GuideKey>76b0957b-7c49-4f86-99a7-4b49bfde464b</GuideKey>
-        <RelativePosition>
-          <x>19.9630814</x>
-          <y>22.3651733</y>
-          <z>-0.315307617</z>
-        </RelativePosition>
-      </InitialFormation>
-      <TemplateMissileTypes />
-      <TemplateSpacecraftTypes />
-    </Ship>
-    <Ship>
-      <SaveID xsi:nil="true" />
       <Key>6dac2052-d9a1-4cdf-a3db-c1ffeaad8071</Key>
-      <Name>Just Passing Through</Name>
-      <Cost>574</Cost>
+      <Name>To The Bitter End</Name>
+      <Cost>575</Cost>
       <Callsign />
       <Number>465</Number>
       <SymbolOption>0</SymbolOption>
@@ -492,7 +369,7 @@ Garnet Squadron is a multi-role heavy attack fleet featuring a swarm of monitors
               <MagSaveData>
                 <MagazineKey>ArNrwix87EmApOiEeVwQrw</MagazineKey>
                 <MunitionKey>Stock/Flak Round</MunitionKey>
-                <Quantity>300</Quantity>
+                <Quantity>375</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>H2yFhFe5Nk2TvjLDCZi-lg</MagazineKey>
@@ -541,9 +418,136 @@ Garnet Squadron is a multi-role heavy attack fleet featuring a swarm of monitors
     </Ship>
     <Ship>
       <SaveID xsi:nil="true" />
+      <Key>1f9ec199-70b3-4ede-8a1e-eae0c2fc1766</Key>
+      <Name>Fix Bayonets </Name>
+      <Cost>562</Cost>
+      <Callsign />
+      <Number>525</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>Stock/Bulk Feeder</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>4V6twrIUcEKE11tom-tDXQ</Key>
+          <ComponentName>Stock/C90 Cannon</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>yN7f-9tEXEKlBNskqP6EbA</Key>
+          <ComponentName>Stock/T30 Cannon</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>Z2uDs34J-ESu64-i9YGnxQ</Key>
+          <ComponentName>Stock/T81 Plasma Cannon</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>gb6_3kWBY0KlEWeex3ruDg</Key>
+          <ComponentName>Stock/RF44 'Pinpoint' Radar</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>_y-Bd-EWjUeMIrmzG3UxvQ</Key>
+          <ComponentName>Stock/P20 Flak PDT</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>gDQghm5iik2syYcoJqUPFg</Key>
+          <ComponentName>Stock/Reinforced CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>TTM8O-MUDky06__LwvSo8w</Key>
+          <ComponentName>Stock/Auxiliary Steering</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>rGVFgJ8GyUePoRkz33c1sw</Key>
+          <ComponentName>Stock/Small DC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>_hUvj899GkWP0bnjDN1ODw</Key>
+          <ComponentName>Stock/Citadel Magazine</ComponentName>
+          <ComponentData xsi:type="BulkMagazineData">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>S69VtZHSXUOqeW3-ZUgWEw</MagazineKey>
+                <MunitionKey>Stock/100mm AP Shell</MunitionKey>
+                <Quantity>250</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>XKI_ujtHf06HOHAhCxnE9A</MagazineKey>
+                <MunitionKey>Stock/100mm HE Shell</MunitionKey>
+                <Quantity>500</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>J2ATgplVuEu3xtspvhMvyQ</MagazineKey>
+                <MunitionKey>Stock/100mm HE-HC Shell</MunitionKey>
+                <Quantity>500</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>HmpldVdGfUusNud6URnXNw</MagazineKey>
+                <MunitionKey>Stock/600mm Bomb Shell</MunitionKey>
+                <Quantity>50</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>NTjWYmHZn0Ks3gdorgPYFA</MagazineKey>
+                <MunitionKey>Stock/600mm HE Shell</MunitionKey>
+                <Quantity>100</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>fqurH_1sFkOw391-6tFcsw</MagazineKey>
+                <MunitionKey>Stock/400mm Plasma Ampoule</MunitionKey>
+                <Quantity>125</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>ArNrwix87EmApOiEeVwQrw</MagazineKey>
+                <MunitionKey>Stock/Flak Round</MunitionKey>
+                <Quantity>375</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>H2yFhFe5Nk2TvjLDCZi-lg</MagazineKey>
+                <MunitionKey>Stock/100mm Grapeshot</MunitionKey>
+                <Quantity>250</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>N4KIOsNqeUGVAUrx5OW3DQ</Key>
+          <ComponentName>Stock/Damage Control Complex</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>9K_1ZNCgFESrvaoQMOH3yw</Key>
+          <ComponentName>Stock/Civilian Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>HNv6B-78FEuhV8YT9A6uZw</Key>
+          <ComponentName>Stock/CHI-777 Yard Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>DaqWEX-8gEeIzYrhp8NIMw</Key>
+          <ComponentName>Stock/Ammunition Elevators</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>EvZ6JN5xV0aUlKEeeKxFTQ</Key>
+          <ComponentName>Stock/Ithaca Bridgemaster</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>CU_oraqJxEaB3dTzZW2MkA</Key>
+          <ComponentName>Stock/Ammunition Elevators</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <InitialFormation>
+        <GuideKey>76b0957b-7c49-4f86-99a7-4b49bfde464b</GuideKey>
+        <RelativePosition>
+          <x>19.9630814</x>
+          <y>22.3651733</y>
+          <z>-0.315307617</z>
+        </RelativePosition>
+      </InitialFormation>
+      <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
+    </Ship>
+    <Ship>
+      <SaveID xsi:nil="true" />
       <Key>ba2939a5-7b35-4b7a-aef5-da63319fd52b</Key>
-      <Name>Open For Business</Name>
-      <Cost>604</Cost>
+      <Name>One Last Push</Name>
+      <Cost>582</Cost>
       <Callsign />
       <Number>496</Number>
       <SymbolOption>0</SymbolOption>
@@ -563,21 +567,7 @@ Garnet Squadron is a multi-role heavy attack fleet featuring a swarm of monitors
         </HullSocket>
         <HullSocket>
           <Key>gb6_3kWBY0KlEWeex3ruDg</Key>
-          <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
-          <ComponentData xsi:type="CellLauncherData">
-            <MissileLoad>
-              <MagSaveData>
-                <MagazineKey>9EJ0UdsbnE6_4BOomKd3ig</MagazineKey>
-                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>7</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>G_qmH_HArUaSJdKLeBbmyA</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-100 Anti-Hybrid</MunitionKey>
-                <Quantity>15</Quantity>
-              </MagSaveData>
-            </MissileLoad>
-          </ComponentData>
+          <ComponentName>Stock/P20 Flak PDT</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>_y-Bd-EWjUeMIrmzG3UxvQ</Key>
@@ -631,6 +621,11 @@ Garnet Squadron is a multi-role heavy attack fleet featuring a swarm of monitors
                 <Quantity>125</Quantity>
               </MagSaveData>
               <MagSaveData>
+                <MagazineKey>ArNrwix87EmApOiEeVwQrw</MagazineKey>
+                <MunitionKey>Stock/Flak Round</MunitionKey>
+                <Quantity>375</Quantity>
+              </MagSaveData>
+              <MagSaveData>
                 <MagazineKey>H2yFhFe5Nk2TvjLDCZi-lg</MagazineKey>
                 <MunitionKey>Stock/100mm Grapeshot</MunitionKey>
                 <Quantity>250</Quantity>
@@ -678,35 +673,136 @@ Garnet Squadron is a multi-role heavy attack fleet featuring a swarm of monitors
   </Ships>
   <MissileTypes>
     <MissileTemplate>
+      <Designation>SGM-200</Designation>
+      <Nickname>Anti-Bomber</Nickname>
+      <Description>DIRECT - &lt;color=#D3D11F&gt;CMD&lt;/color&gt;/ACT(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;) - HE FRAG</Description>
+      <LongDescription>The &lt;noparse&gt;SGM-200 Anti-Bomber&lt;/noparse&gt; is a size 2 direct guidance missile.  It is based on the SGM-2 body, which is a flexible mainstay anti-ship missile.  This missile will deliver a Proximity Fuze, High Explosive, Blast Fragmentation warhead.  It homes in on its target using command guidance from its launching ship  If the primary seeker does not find a target or is jammed, it can fall back on an Active Radar seeker.
+
+Control Method: DIRECT
+Targeting Modes: &lt;b&gt;&lt;color=#3BC81E&gt;POSITION&lt;/color&gt;	&lt;color=#3BC81E&gt;TRACK&lt;/color&gt;&lt;/b&gt;
+
+Primary Seeker: COMMAND (&lt;color=#D3D11F&gt;Requires COMMS Enabled&lt;/color&gt;)
+Backup Seeker: ACTIVE &lt;color=#3BC81E&gt;RADAR&lt;/color&gt;
+
+Speed: 223 m/s
+Distance: 8,127 m
+Top Speed In: 1.1 s
+Turn Rate: 3.7 G
+Terminal Maneuvers: None
+
+Warhead: Proximity Fuze, High Explosive, Blast Fragmentation
+Armor: 0.44cm
+Component: 139.30hp
+Blast Radius: 99 m
+
+Body Integrity: 30 
+Wall Thickness: 0.05
+Programming Time: 8 s
+Radar Signature Bonus: 100 %
+Boost-Phase Duration: 3 s
+Boost-Phase Strafe: 100 %
+Boost-Phase Turn Rate: 100 %
+Failure Rate: 0 %</LongDescription>
+      <Cost>7</Cost>
+      <BodyKey>Stock/SGM-2 Body</BodyKey>
+      <TemplateKey>a76a7c54-bb8d-40de-a45e-27bfeded97c7</TemplateKey>
+      <BaseColor>
+        <r>1</r>
+        <g>1</g>
+        <b>1</b>
+        <a>1</a>
+      </BaseColor>
+      <StripeColor>
+        <r>0.7058824</r>
+        <g>0.129411772</g>
+        <b>0.129411772</b>
+        <a>1</a>
+      </StripeColor>
+      <Sockets>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="CommandSeekerSettings">
+            <ComponentKey>Stock/Command Receiver</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="ActiveSeekerSettings">
+            <ComponentKey>Stock/Fixed Active Radar Seeker</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <DetectPDTargets>true</DetectPDTargets>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="DirectGuidanceSettings">
+            <ComponentKey>Stock/Direct Guidance</ComponentKey>
+            <Role>Defensive</Role>
+            <HotLaunch>false</HotLaunch>
+            <SelfDestructOnLost>false</SelfDestructOnLost>
+            <Maneuvers>None</Maneuvers>
+            <DefensiveDoctrine>
+              <TargetSizeMask>8</TargetSizeMask>
+              <TargetType>SmallCraft</TargetType>
+              <TargetSizeOrdering>Descending</TargetSizeOrdering>
+              <SalvoSize>0</SalvoSize>
+              <FarthestFirst>false</FarthestFirst>
+            </DefensiveDoctrine>
+            <ApproachAngleControl>true</ApproachAngleControl>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>6</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/Blast Fragmentation</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>4</Size>
+          <InstalledComponent xsi:type="MissileEngineSettings">
+            <ComponentKey />
+            <BalanceValues>
+              <A>0.254348427</A>
+              <B>0.327231467</B>
+              <C>0.4184201</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+      </Sockets>
+    </MissileTemplate>
+    <MissileTemplate>
       <Designation>SGM-100</Designation>
       <Nickname>Anti-Hybrid</Nickname>
-      <Description>$MISSILEGUIDANCE_MODE_DIRECT - $MISSILESEEKER_MODE_ACTIVE_ABBREV(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;) - $MISSILEWARHEAD_SHORT_BLASTFRAG</Description>
-      <LongDescription>The &lt;noparse&gt;SGM-100 Anti-Hybrid&lt;/noparse&gt; is a size 1 direct guidance missile.  It is based on the SGM-1 body, which is a nimble general-purpose missile.  This missile will deliver a $MISSILEWARHEAD_DETAIL_BLASTFRAG warhead.  It homes in on its target using an Active Radar seeker.
+      <Description>DIRECT - ACT(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;) - HE FRAG</Description>
+      <LongDescription>The &lt;noparse&gt;SGM-100 Anti-Hybrid&lt;/noparse&gt; is a size 1 direct guidance missile.  It is based on the SGM-1 body, which is a nimble general-purpose missile.  This missile will deliver a Proximity Fuze, High Explosive, Blast Fragmentation warhead.  It homes in on its target using an Active Radar seeker.
 
-$MISSILESTAT_CONTROLMETHOD: $MISSILEGUIDANCE_MODE_DIRECT
-$MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
+Control Method: DIRECT
+Targeting Modes: &lt;b&gt;&lt;color=#3BC81E&gt;POSITION&lt;/color&gt;	&lt;color=#3BC81E&gt;TRACK&lt;/color&gt;&lt;/b&gt;
 
-$MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_ACTIVE_CAPS &lt;color=#3BC81E&gt;RADAR&lt;/color&gt;
+Primary Seeker: ACTIVE &lt;color=#3BC81E&gt;RADAR&lt;/color&gt;
 
-$MISSILESTAT_SPEED: 250 $UNIT_METERSPERSEC
-$MISSILESTAT_DISTANCE: 2,500 $UNIT_METERS
-$MISSILESTAT_TOPSPEEDTIME: 0.4 $UNIT_SECONDS
-$MISSILESTAT_TURNRATE: 11.0 $UNIT_GS
-$MISSILESTAT_TERMINALS: None
+Speed: 250 m/s
+Distance: 2,500 m
+Top Speed In: 0.4 s
+Turn Rate: 11.0 G
+Terminal Maneuvers: None
 
-$MISSILESTAT_WARHEAD: $MISSILEWARHEAD_DETAIL_BLASTFRAG
-$MISSILESTAT_ARMORDAMAGE: 0.21$UNIT_CENTIMETERS
-$MISSILESTAT_COMPONENTDAMAGE: 65.34$UNIT_HP
-$MISSILESTAT_BLASTRADIUS: 47 $UNIT_METERS
+Warhead: Proximity Fuze, High Explosive, Blast Fragmentation
+Armor: 0.21cm
+Component: 65.34hp
+Blast Radius: 47 m
 
-$MISSILESTAT_HEALTH: 10 
-$MISSILESTAT_WALLTHICKNESS: 0.05
-$MISSILESTAT_PROGTIME: 6 $UNIT_SECONDS
-$MISSILESTAT_RADARSIG: 100 %
-$MISSILESTAT_BOOSTTIME: 3 $UNIT_SECONDS
-$MISSILESTAT_BOOSTSTRAFE: 100 %
-$MISSILESTAT_BOOSTTURN: 100 %
-$MISSILESTAT_FAILRATE: 0 %</LongDescription>
+Body Integrity: 10 
+Wall Thickness: 0.05
+Programming Time: 6 s
+Radar Signature Bonus: 100 %
+Boost-Phase Duration: 3 s
+Boost-Phase Strafe: 100 %
+Boost-Phase Turn Rate: 100 %
+Failure Rate: 0 %</LongDescription>
       <Cost>2</Cost>
       <BodyKey>Stock/SGM-1 Body</BodyKey>
       <TemplateKey>93f156ea-8593-4565-89a7-63fd7df4ba67</TemplateKey>
@@ -741,14 +837,10 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
             <SelfDestructOnLost>false</SelfDestructOnLost>
             <Maneuvers>None</Maneuvers>
             <DefensiveDoctrine>
-              <Mode>Matrix</Mode>
               <TargetSizeMask>12</TargetSizeMask>
               <TargetType>Hybrid</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>0</SalvoSize>
-              <ConvSalvo>0</ConvSalvo>
-              <HybridSalvo>131328</HybridSalvo>
-              <CraftSalvo>0</CraftSalvo>
               <FarthestFirst>false</FarthestFirst>
             </DefensiveDoctrine>
             <ApproachAngleControl>true</ApproachAngleControl>
@@ -768,133 +860,6 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
               <A>0</A>
               <B>0.232736826</B>
               <C>0.7672632</C>
-            </BalanceValues>
-          </InstalledComponent>
-        </MissileSocket>
-      </Sockets>
-    </MissileTemplate>
-    <MissileTemplate>
-      <AssociatedTemplateName>SDM-230 Whirlwind</AssociatedTemplateName>
-      <Designation>SDM-230</Designation>
-      <Nickname>Anti-Bomber</Nickname>
-      <Description>$MISSILEGUIDANCE_MODE_DIRECT - &lt;color=#D3D11F&gt;$MISSILESEEKER_MODE_COMMAND_ABBREV&lt;/color&gt;/$MISSILESEEKER_MODE_PASSIVE_ABBREV(&lt;color=#D4211D&gt;WAKE&lt;/color&gt;) - $MISSILEWARHEAD_SHORT_BLASTFRAG</Description>
-      <LongDescription>The &lt;noparse&gt;SDM-230 Anti-Bomber&lt;/noparse&gt; is a size 2 direct guidance missile.  It is based on the SDM-2 body, which is a flexible defensive missile with a booster.  This missile will deliver a $MISSILEWARHEAD_DETAIL_BLASTFRAG warhead.  It homes in on its target using command guidance from its launching ship  If the primary seeker does not find a target or is jammed, it can fall back on a Passive Wake seeker.
-
-$MISSILESTAT_CONTROLMETHOD: $MISSILEGUIDANCE_MODE_DIRECT
-$MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
-
-$MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_COMMAND_CAPS (&lt;color=#D3D11F&gt;$MISSILESEEKER_COMMAND_COMMSNOTE&lt;/color&gt;)
-$MISSILESTAT_BACKUPSEEKER: $MISSILESEEKER_MODE_PASSIVE_CAPS (&lt;color=#D4211D&gt;WAKE&lt;/color&gt;)
-
-&lt;b&gt;Boost&lt;/b&gt;
-$MISSILESTAT_SPEED: 850 $UNIT_METERSPERSEC
-$MISSILESTAT_DISTANCE: 6,198 $UNIT_METERS
-$MISSILESTAT_TOPSPEEDTIME: 1.4 $UNIT_SECONDS
-$MISSILESTAT_TURNRATE: 5.0 $UNIT_GS
-
-&lt;b&gt;Main&lt;/b&gt;
-$MISSILESTAT_SPEED: 150 $UNIT_METERSPERSEC
-$MISSILESTAT_DISTANCE: 1,165 $UNIT_METERS
-$MISSILESTAT_TOPSPEEDTIME: 0.5 $UNIT_SECONDS
-$MISSILESTAT_TURNRATE: 8.2 $UNIT_GS
-
-: Stage Trigger at 340m from Target or On Burnout
-
-$MISSILESTAT_TERMINALS: None
-
-$MISSILESTAT_WARHEAD: $MISSILEWARHEAD_DETAIL_BLASTFRAG
-$MISSILESTAT_ARMORDAMAGE: 0.45$UNIT_CENTIMETERS
-$MISSILESTAT_COMPONENTDAMAGE: 142.17$UNIT_HP
-$MISSILESTAT_BLASTRADIUS: 102 $UNIT_METERS
-
-$MISSILESTAT_HEALTH: 25 
-$MISSILESTAT_WALLTHICKNESS: 0.05
-$MISSILESTAT_PROGTIME: 10 $UNIT_SECONDS
-$MISSILESTAT_RADARSIG: 100 %
-$MISSILESTAT_BOOSTTIME: 3 $UNIT_SECONDS
-$MISSILESTAT_BOOSTSTRAFE: 100 %
-$MISSILESTAT_BOOSTTURN: 100 %
-$MISSILESTAT_FAILRATE: 0 %</LongDescription>
-      <Cost>8</Cost>
-      <BodyKey>Stock/SDM-2 Body</BodyKey>
-      <TemplateKey>b2c748a3-2711-48ff-9705-84e191b61172</TemplateKey>
-      <BaseColor>
-        <r>0.9999999</r>
-        <g>0.9999998</g>
-        <b>0.9999998</b>
-        <a>1</a>
-      </BaseColor>
-      <StripeColor>
-        <r>0.36555922</r>
-        <g>0</g>
-        <b>0.188513964</b>
-        <a>1</a>
-      </StripeColor>
-      <Sockets>
-        <MissileSocket>
-          <Size>1</Size>
-          <InstalledComponent xsi:type="CommandSeekerSettings">
-            <ComponentKey>Stock/Command Receiver</ComponentKey>
-            <Mode>Targeting</Mode>
-            <RejectUnvalidated>false</RejectUnvalidated>
-          </InstalledComponent>
-        </MissileSocket>
-        <MissileSocket>
-          <Size>1</Size>
-          <InstalledComponent xsi:type="PassiveSeekerSettings">
-            <ComponentKey>Stock/Wake-Homing Seeker</ComponentKey>
-            <Mode>Targeting</Mode>
-            <RejectUnvalidated>false</RejectUnvalidated>
-            <DetectPDTargets>true</DetectPDTargets>
-          </InstalledComponent>
-        </MissileSocket>
-        <MissileSocket>
-          <Size>1</Size>
-          <InstalledComponent xsi:type="DirectGuidanceSettings">
-            <ComponentKey>Stock/Direct Guidance</ComponentKey>
-            <Role>Defensive</Role>
-            <HotLaunch>false</HotLaunch>
-            <SelfDestructOnLost>false</SelfDestructOnLost>
-            <Maneuvers>None</Maneuvers>
-            <DefensiveDoctrine>
-              <Mode>Uniform</Mode>
-              <TargetSizeMask>8</TargetSizeMask>
-              <TargetType>SmallCraft</TargetType>
-              <TargetSizeOrdering>Descending</TargetSizeOrdering>
-              <SalvoSize>0</SalvoSize>
-              <ConvSalvo>0</ConvSalvo>
-              <HybridSalvo>0</HybridSalvo>
-              <CraftSalvo>0</CraftSalvo>
-              <FarthestFirst>false</FarthestFirst>
-            </DefensiveDoctrine>
-            <ApproachAngleControl>true</ApproachAngleControl>
-          </InstalledComponent>
-        </MissileSocket>
-        <MissileSocket>
-          <Size>5</Size>
-          <InstalledComponent>
-            <ComponentKey>Stock/Blast Fragmentation</ComponentKey>
-          </InstalledComponent>
-        </MissileSocket>
-        <MissileSocket>
-          <Size>2</Size>
-          <InstalledComponent xsi:type="MissileEngineSettings">
-            <ComponentKey />
-            <BalanceValues>
-              <A>0</A>
-              <B>0</B>
-              <C>1</C>
-            </BalanceValues>
-          </InstalledComponent>
-        </MissileSocket>
-        <MissileSocket>
-          <Size>1</Size>
-          <InstalledComponent xsi:type="MissileEngineSettings">
-            <ComponentKey />
-            <BalanceValues>
-              <A>1</A>
-              <B>0</B>
-              <C>0</C>
             </BalanceValues>
           </InstalledComponent>
         </MissileSocket>

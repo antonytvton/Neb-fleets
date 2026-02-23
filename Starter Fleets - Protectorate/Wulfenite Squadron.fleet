@@ -6,15 +6,15 @@
   <FactionKey>Stock/Protectorate</FactionKey>
   <Description>Difficulty: &lt;color=red&gt;HARD&lt;/color&gt;
 
-Wulfenite Squadron is a support fleet designed to cover rear area security and let the team's battleline focus on doing what it does best. The Machiavelli carries strike fighters which can contest void superiority and strike lighter ships, as well as sensor skiffs to provide sensor coverage for the team. The Free Real Estate is a fast skirmishing lineship with medium guns, well suited for defending objectives from capture ships and pounding whatever the fighters can't strike. Meanwhile, two rocket shuttles can move around the edge of the main battle to capture objectives. They are highly vulnerable to missiles and light cannons and should stick to cover whenever possible, as well as holding their rockets until point blank range for best effect. This squadron rewards a sneaky commander who can fight in several places at once.
+Wulfenite Squadron is a support fleet with a variety of useful tools. The Crux Of The Issue carries fighters and bombers loaded with guided munitions for striking the enemy's light ships, as well as utility skiffs and scouts, which can provide sensor coverage and target locks for the team. The Free Real Estate is a fast skirmishing lineship with medium guns, well suited for defending the team's held objectives from capture ships. Meanwhile, two rocket shuttles can move around the edge of the main battle to destroy enemy assets and capture objectives. They are highly vulnerable to missiles and light cannons and should stick to cover whenever possible, as well as holding their rockets until point blank range for best effect. This squadron rewards a sneaky commander who can fight in several places at once.
   </Description>
   <SortOverrideOrder>7</SortOverrideOrder>
   <Ships>
     <Ship>
       <SaveID xsi:nil="true" />
-      <Key>b8708eaa-131b-460b-a19c-0be3e3285150</Key>
-      <Name>Machiavelli</Name>
-      <Cost>1213</Cost>
+      <Key>99496bd2-f71c-43f5-b2fa-1bb9a6f7ba00</Key>
+      <Name>Crux Of The Issue</Name>
+      <Cost>1322</Cost>
       <Callsign />
       <Number>72</Number>
       <SymbolOption>0</SymbolOption>
@@ -24,12 +24,30 @@ Wulfenite Squadron is a support fleet designed to cover rear area security and l
           <Key>tW4zUlc7-UagVFXCOGl63g</Key>
           <ComponentName>Stock/C4 Mount Hangar</ComponentName>
           <ComponentData xsi:type="CraftHangarData">
-            <StoredCraft />
+            <StoredCraft>
+              <SavedStoredCraft>
+                <CraftTemplateKey>$CRAFT$/RF-286E Interloper</CraftTemplateKey>
+              </SavedStoredCraft>
+            </StoredCraft>
           </ComponentData>
         </HullSocket>
         <HullSocket>
           <Key>qfEBVY3HjUiyhpq9YQGAOQ</Key>
-          <ComponentName>Stock/T20 Cannon</ComponentName>
+          <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>SOP1o0RXQUOZ3m7ZW7zmhQ</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-12 Parry</MunitionKey>
+                <Quantity>6</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>DspEL66p-0iNdNPIx-25hQ</MagazineKey>
+                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
+                <Quantity>4</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
         </HullSocket>
         <HullSocket>
           <Key>O5f_mflyPEKi1lfh7sBXEQ</Key>
@@ -37,54 +55,69 @@ Wulfenite Squadron is a support fleet designed to cover rear area security and l
         </HullSocket>
         <HullSocket>
           <Key>DLNetkwH9kerkhRuQ4lIjQ</Key>
-          <ComponentName>Stock/Basic CIC</ComponentName>
+          <ComponentName>Stock/Deck Gear Locker</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>9EA-sLPvv0yedARGhtJv3Q</Key>
           <ComponentName>Stock/Deck Gear Locker</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>utS8omLdfUCo4DXRpR4Hyw</Key>
-          <ComponentName>Stock/Deck Gear Locker</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>-F3V0WPprkWQ7ktL8CwXXg</Key>
+          <Key>ZwILnhyKLkigJgek0cM9Lw</Key>
           <ComponentName>Stock/Small DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
+          <Key>-F3V0WPprkWQ7ktL8CwXXg</Key>
+          <ComponentName>Stock/Basic CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
           <Key>gi0EFXIps0q_499wfJPBVA</Key>
-          <ComponentName>Stock/Reinforced Magazine</ComponentName>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
           <ComponentData xsi:type="BulkMagazineData">
             <Load>
               <MagSaveData>
-                <MagazineKey>FohX-UzqSkO7ySU1_6CW-w</MagazineKey>
-                <MunitionKey>Stock/100mm Grapeshot</MunitionKey>
-                <Quantity>250</Quantity>
+                <MagazineKey>rbbTLkiAA0ObnKuLldjxBw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-27 Broadsword</MunitionKey>
+                <Quantity>26</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>0xvAMgq6y0uIhbUJLgm7QA</MagazineKey>
+                <MagazineKey>GOG7gBBtckqTYv5YFdHDGw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-1 Feint</MunitionKey>
+                <Quantity>24</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>1YtAesgj30uk62-Iis9C2w</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-12 Shank</MunitionKey>
+                <Quantity>41</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>eVddj_OvWEGchMquJORNig</MagazineKey>
+                <MunitionKey>Stock/S1 Rocket</MunitionKey>
+                <Quantity>24</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>ES02F-6ztUCeRn0QJbZP5g</MagazineKey>
+                <MunitionKey>Stock/S1 Glide Bomb</MunitionKey>
+                <Quantity>32</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>YrZlUXxSl0aCCk9-doP-vA</MagazineKey>
                 <MunitionKey>Stock/100mm AP Shell</MunitionKey>
                 <Quantity>250</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>EpACE9b3IkKXFhmDgbayrw</MagazineKey>
+                <MagazineKey>-YIQcfNQ7E22ckMrle_LnQ</MagazineKey>
                 <MunitionKey>Stock/100mm HE Shell</MunitionKey>
                 <Quantity>250</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>0DIACU9w40WQBsPGnlzqFQ</MagazineKey>
+                <MagazineKey>JxoZeOLgXkyXmIeQDOqp9Q</MagazineKey>
                 <MunitionKey>Stock/35mm Flechette</MunitionKey>
-                <Quantity>6000</Quantity>
+                <Quantity>10000</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>_aijo_AQQEmJnfGdzuKr6w</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-1 Stiletto</MunitionKey>
-                <Quantity>114</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>Ic1T3DqzckOBSY_wWO9tqw</MagazineKey>
-                <MunitionKey>$MODMIS$/SDM-2 SPAMRAAM</MunitionKey>
-                <Quantity>32</Quantity>
+                <MagazineKey>t1uElDVCFEOcKY9sUXazyA</MagazineKey>
+                <MunitionKey>Stock/20mm Slug</MunitionKey>
+                <Quantity>4000</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -95,37 +128,34 @@ Wulfenite Squadron is a support fleet designed to cover rear area security and l
           <ComponentData xsi:type="CraftHangarData">
             <StoredCraft>
               <SavedStoredCraft>
-                <CraftTemplateKey>$CRAFT$/RS-35W WAKE</CraftTemplateKey>
+                <CraftTemplateKey>$CRAFT$/RF-286E Interloper</CraftTemplateKey>
               </SavedStoredCraft>
               <SavedStoredCraft>
-                <CraftTemplateKey>$CRAFT$/RS-35R RADAR</CraftTemplateKey>
+                <CraftTemplateKey>$CRAFT$/RS-35W Sentry</CraftTemplateKey>
               </SavedStoredCraft>
               <SavedStoredCraft>
-                <CraftTemplateKey>$CRAFT$/PF-386 Arbiter II</CraftTemplateKey>
+                <CraftTemplateKey>$CRAFT$/RS-35W Sentry</CraftTemplateKey>
               </SavedStoredCraft>
               <SavedStoredCraft>
-                <CraftTemplateKey>$CRAFT$/PF-386 Arbiter II</CraftTemplateKey>
+                <CraftTemplateKey>$CRAFT$/B-45 Inquisitor</CraftTemplateKey>
               </SavedStoredCraft>
               <SavedStoredCraft>
-                <CraftTemplateKey>$CRAFT$/PF-386 Arbiter II</CraftTemplateKey>
+                <CraftTemplateKey>$CRAFT$/B-45 Inquisitor</CraftTemplateKey>
               </SavedStoredCraft>
               <SavedStoredCraft>
-                <CraftTemplateKey>$CRAFT$/PF-386 Arbiter II</CraftTemplateKey>
+                <CraftTemplateKey>$CRAFT$/PF-386 Arbiter</CraftTemplateKey>
               </SavedStoredCraft>
               <SavedStoredCraft>
-                <CraftTemplateKey>$CRAFT$/PF-386 Arbiter II</CraftTemplateKey>
+                <CraftTemplateKey>$CRAFT$/PF-386 Arbiter</CraftTemplateKey>
               </SavedStoredCraft>
               <SavedStoredCraft>
-                <CraftTemplateKey>$CRAFT$/RS-35W WAKE</CraftTemplateKey>
+                <CraftTemplateKey>$CRAFT$/PF-386 Arbiter</CraftTemplateKey>
               </SavedStoredCraft>
               <SavedStoredCraft>
-                <CraftTemplateKey>$CRAFT$/PF-386 Arbiter II</CraftTemplateKey>
+                <CraftTemplateKey>$CRAFT$/PF-386 Arbiter</CraftTemplateKey>
               </SavedStoredCraft>
               <SavedStoredCraft>
-                <CraftTemplateKey>$CRAFT$/PF-386 Arbiter II</CraftTemplateKey>
-              </SavedStoredCraft>
-              <SavedStoredCraft>
-                <CraftTemplateKey>$CRAFT$/PF-386 Arbiter II</CraftTemplateKey>
+                <CraftTemplateKey>$CRAFT$/PF-386 Arbiter</CraftTemplateKey>
               </SavedStoredCraft>
             </StoredCraft>
           </ComponentData>
@@ -136,37 +166,34 @@ Wulfenite Squadron is a support fleet designed to cover rear area security and l
           <ComponentData xsi:type="CraftHangarData">
             <StoredCraft>
               <SavedStoredCraft>
-                <CraftTemplateKey>$CRAFT$/RS-35W WAKE</CraftTemplateKey>
+                <CraftTemplateKey>$CRAFT$/RF-286E Interloper</CraftTemplateKey>
               </SavedStoredCraft>
               <SavedStoredCraft>
-                <CraftTemplateKey>$CRAFT$/RS-35R RADAR</CraftTemplateKey>
+                <CraftTemplateKey>$CRAFT$/RS-35W Sentry</CraftTemplateKey>
               </SavedStoredCraft>
               <SavedStoredCraft>
-                <CraftTemplateKey>$CRAFT$/PF-386 Arbiter II</CraftTemplateKey>
+                <CraftTemplateKey>$CRAFT$/RS-35W Sentry</CraftTemplateKey>
               </SavedStoredCraft>
               <SavedStoredCraft>
-                <CraftTemplateKey>$CRAFT$/PF-386 Arbiter II</CraftTemplateKey>
+                <CraftTemplateKey>$CRAFT$/B-45 Inquisitor</CraftTemplateKey>
               </SavedStoredCraft>
               <SavedStoredCraft>
-                <CraftTemplateKey>$CRAFT$/PF-386 Arbiter II</CraftTemplateKey>
+                <CraftTemplateKey>$CRAFT$/B-45 Inquisitor</CraftTemplateKey>
               </SavedStoredCraft>
               <SavedStoredCraft>
-                <CraftTemplateKey>$CRAFT$/PF-386 Arbiter II</CraftTemplateKey>
+                <CraftTemplateKey>$CRAFT$/PF-386 Arbiter</CraftTemplateKey>
               </SavedStoredCraft>
               <SavedStoredCraft>
-                <CraftTemplateKey>$CRAFT$/PF-386 Arbiter II</CraftTemplateKey>
+                <CraftTemplateKey>$CRAFT$/PF-386 Arbiter</CraftTemplateKey>
               </SavedStoredCraft>
               <SavedStoredCraft>
-                <CraftTemplateKey>$CRAFT$/PF-386 Arbiter II</CraftTemplateKey>
+                <CraftTemplateKey>$CRAFT$/PF-386 Arbiter</CraftTemplateKey>
               </SavedStoredCraft>
               <SavedStoredCraft>
-                <CraftTemplateKey>$CRAFT$/RS-35W WAKE</CraftTemplateKey>
+                <CraftTemplateKey>$CRAFT$/PF-386 Arbiter</CraftTemplateKey>
               </SavedStoredCraft>
               <SavedStoredCraft>
-                <CraftTemplateKey>$CRAFT$/PF-386 Arbiter II</CraftTemplateKey>
-              </SavedStoredCraft>
-              <SavedStoredCraft>
-                <CraftTemplateKey>$CRAFT$/PF-386 Arbiter II</CraftTemplateKey>
+                <CraftTemplateKey>$CRAFT$/PF-386 Arbiter</CraftTemplateKey>
               </SavedStoredCraft>
             </StoredCraft>
           </ComponentData>
@@ -180,26 +207,23 @@ Wulfenite Squadron is a support fleet designed to cover rear area security and l
           <ComponentName>Stock/BW800 Drive</ComponentName>
         </HullSocket>
         <HullSocket>
+          <Key>fafk0RBeJUicFDn6OLLP4A</Key>
+          <ComponentName>Stock/Flight Deck Traversal System</ComponentName>
+        </HullSocket>
+        <HullSocket>
           <Key>TtYHca1GZESvz0szdY3BMA</Key>
           <ComponentName>Stock/Ithaca Bridgemaster</ComponentName>
         </HullSocket>
       </SocketMap>
-      <WeaponGroups>
-        <WepGroup Name="100 SIDEARMS">
-          <MemberKeys>
-            <string>qfEBVY3HjUiyhpq9YQGAOQ</string>
-            <string>O5f_mflyPEKi1lfh7sBXEQ</string>
-          </MemberKeys>
-        </WepGroup>
-      </WeaponGroups>
+      <WeaponGroups />
       <TemplateMissileTypes />
       <TemplateSpacecraftTypes />
     </Ship>
     <Ship>
       <SaveID xsi:nil="true" />
-      <Key>c524eff9-11c6-4d31-9a09-da331aadd3ed</Key>
+      <Key>76c8b7ad-8eec-4785-a61b-3d58c7ac65e2</Key>
       <Name>Free Real Estate</Name>
-      <Cost>1259</Cost>
+      <Cost>1114</Cost>
       <Callsign />
       <Number>750</Number>
       <SymbolOption>0</SymbolOption>
@@ -207,46 +231,47 @@ Wulfenite Squadron is a support fleet designed to cover rear area security and l
       <HullConfig xsi:type="RandomHullConfiguration">
         <PrimaryStructure>
           <SegmentConfiguration>
-            <Key>38e7a28f-1b06-4b73-98ee-f03d1d8a81fe</Key>
+            <Key>29eb9c63-6c47-40f2-8f46-4ed4da8d3386</Key>
             <Dressing>
               <int>1</int>
               <int>1</int>
-              <int>1</int>
-            </Dressing>
-          </SegmentConfiguration>
-          <SegmentConfiguration>
-            <Key>429f178e-e369-4f51-8054-2e01dd0abea1</Key>
-            <Dressing>
-              <int>1</int>
-              <int>0</int>
-              <int>0</int>
-              <int>0</int>
-              <int>0</int>
               <int>0</int>
             </Dressing>
           </SegmentConfiguration>
           <SegmentConfiguration>
-            <Key>78d72a9a-893c-41c6-bddd-f198dfcf77ee</Key>
+            <Key>d4c9a66d-81e6-49ee-9b33-82d7a1522bbf</Key>
+            <Dressing>
+              <int>0</int>
+              <int>0</int>
+              <int>1</int>
+              <int>1</int>
+              <int>1</int>
+              <int>0</int>
+              <int>1</int>
+            </Dressing>
+          </SegmentConfiguration>
+          <SegmentConfiguration>
+            <Key>2f2b451c-4776-405c-9914-cad4764f1072</Key>
             <Dressing />
           </SegmentConfiguration>
         </PrimaryStructure>
         <SecondaryStructure>
           <SecondaryStructureConfig>
-            <Key>59344a67-9e7b-43df-9f7c-505ad9a0ab87</Key>
+            <Key>9ebcea74-e9c9-45b3-b616-e12e3f491024</Key>
             <Segment>1</Segment>
             <SnapPoint>0</SnapPoint>
           </SecondaryStructureConfig>
         </SecondaryStructure>
         <HullTint>
-          <r>0.427016616</r>
-          <g>0.427016616</g>
-          <b>0.427016616</b>
+          <r>0.498552859</r>
+          <g>0.498552859</g>
+          <b>0.498552859</b>
           <a>1</a>
         </HullTint>
         <TextureVariation>
-          <x>-97.62036</x>
-          <y>-617.76355</y>
-          <z>-838.543945</z>
+          <x>-699.4641</x>
+          <y>914.9783</y>
+          <z>-221.2399</z>
         </TextureVariation>
       </HullConfig>
       <SocketMap>
@@ -255,42 +280,12 @@ Wulfenite Squadron is a support fleet designed to cover rear area security and l
           <ComponentName>Stock/C54 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>auQ7ijGeX0evdikZQeBxTg</Key>
-          <ComponentName>Stock/Container Stack Launcher</ComponentName>
-          <ComponentData xsi:type="CellLauncherData">
-            <MissileLoad>
-              <MagSaveData>
-                <MagazineKey>07eMP0X3OUC_Gz8JYBp2Vw</MagazineKey>
-                <MunitionKey>Stock/Decoy Container (Line Ship)</MunitionKey>
-                <Quantity>2</Quantity>
-              </MagSaveData>
-            </MissileLoad>
-          </ComponentData>
-        </HullSocket>
-        <HullSocket>
           <Key>xvNT1_DYcUuSpU6rrmL_4A</Key>
-          <ComponentName>Stock/Container Stack Launcher</ComponentName>
-          <ComponentData xsi:type="CellLauncherData">
-            <MissileLoad>
-              <MagSaveData>
-                <MagazineKey>PQo3iB_4H0Svr-cNjyiwTA</MagazineKey>
-                <MunitionKey>Stock/Decoy Container (Line Ship)</MunitionKey>
-                <Quantity>2</Quantity>
-              </MagSaveData>
-            </MissileLoad>
-          </ComponentData>
+          <ComponentName>Stock/J75 Jammer</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>d3N-B_JnDUKAdVRBJ6nvFQ</Key>
           <ComponentName>Stock/C54 Cannon</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>t0T4CSAPnEq4rvHAVl84-Q</Key>
-          <ComponentName>Stock/S2 Twin Bandit Launcher</ComponentName>
-          <ComponentData xsi:type="TurretedLauncherData">
-            <MissileLoad />
-            <FireOutsideLimits>true</FireOutsideLimits>
-          </ComponentData>
         </HullSocket>
         <HullSocket>
           <Key>grYBjxIS3E--lmrqenuK8A</Key>
@@ -299,14 +294,6 @@ Wulfenite Squadron is a support fleet designed to cover rear area security and l
         <HullSocket>
           <Key>8pltGexHAEyFL2ljOe0oMQ</Key>
           <ComponentName>Stock/C54 Cannon</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>tcQfj6XOHUWFSAx_W0cc1A</Key>
-          <ComponentName>Stock/S2 Twin Bandit Launcher</ComponentName>
-          <ComponentData xsi:type="TurretedLauncherData">
-            <MissileLoad />
-            <FireOutsideLimits>true</FireOutsideLimits>
-          </ComponentData>
         </HullSocket>
         <HullSocket>
           <Key>bxvsvg5znk6TqiIKq8H0kg</Key>
@@ -318,7 +305,7 @@ Wulfenite Squadron is a support fleet designed to cover rear area security and l
         </HullSocket>
         <HullSocket>
           <Key>I68tNng-K0yG-AoUx0HcSw</Key>
-          <ComponentName>Stock/T20 Cannon</ComponentName>
+          <ComponentName>Stock/RF44 'Pinpoint' Radar</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>6ZiODnoXqkaNWvaqyGjnwg</Key>
@@ -326,38 +313,29 @@ Wulfenite Squadron is a support fleet designed to cover rear area security and l
         </HullSocket>
         <HullSocket>
           <Key>Sb5-VSuwlkWpT6ViRiJ3vg</Key>
-          <ComponentName>Stock/J75 Jammer</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>87PSgg9GREmGU9MIRAXXhg</Key>
           <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
           <ComponentData xsi:type="CellLauncherData">
             <MissileLoad>
               <MagSaveData>
-                <MagazineKey>bbSFDegL1kC-swl1Sztpzw</MagazineKey>
+                <MagazineKey>jQUh--tTpEePiKI9Xi6x2g</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-12 Parry</MunitionKey>
+                <Quantity>28</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>kC6OQ9sV-U2HIrVaJk0F_g</MagazineKey>
                 <MunitionKey>Stock/EA14 Chaff Decoy</MunitionKey>
-                <Quantity>11</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>NdhomoVOcEa-wXEYSv-joA</MagazineKey>
-                <MunitionKey>Stock/EA20 Flare Decoy</MunitionKey>
-                <Quantity>3</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>jmXM8VCJlUOs9n4OI5KyvQ</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-1 F'xbat II</MunitionKey>
-                <Quantity>17</Quantity>
+                <Quantity>7</Quantity>
               </MagSaveData>
             </MissileLoad>
           </ComponentData>
         </HullSocket>
         <HullSocket>
-          <Key>VDQhZPo-rkWkzwozat27fw</Key>
-          <ComponentName>Stock/C53 Cannon</ComponentName>
+          <Key>87PSgg9GREmGU9MIRAXXhg</Key>
+          <ComponentName>Stock/T20 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>PRLtjo7PfECpLy8CGW9T8A</Key>
-          <ComponentName>Stock/RF44 'Pinpoint' Radar</ComponentName>
+          <Key>VDQhZPo-rkWkzwozat27fw</Key>
+          <ComponentName>Stock/T20 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>y1Cs8LR0KUyCKUAJBIOyOg</Key>
@@ -365,34 +343,34 @@ Wulfenite Squadron is a support fleet designed to cover rear area security and l
           <ComponentData xsi:type="BulkMagazineData">
             <Load>
               <MagSaveData>
-                <MagazineKey>N-42mhnq90q8581iVc_Fdg</MagazineKey>
-                <MunitionKey>Stock/250mm AP Shell</MunitionKey>
-                <Quantity>450</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>sO1b3Xxt9UOdl7xT3kEwSA</MagazineKey>
+                <MagazineKey>xZ5xH2l2VEC-Ph93d0056w</MagazineKey>
                 <MunitionKey>Stock/250mm HE Shell</MunitionKey>
-                <Quantity>350</Quantity>
+                <Quantity>1100</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>zprFRuZ_00O3BeivEsxIsg</MagazineKey>
-                <MunitionKey>Stock/100mm Grapeshot</MunitionKey>
-                <Quantity>250</Quantity>
+                <MagazineKey>SxXFVjH88kyAP2cVFAcXYg</MagazineKey>
+                <MunitionKey>Stock/250mm AP Shell</MunitionKey>
+                <Quantity>1100</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>QidaIVlMpE-XNHu80MRHPw</MagazineKey>
-                <MunitionKey>Stock/100mm AP Shell</MunitionKey>
-                <Quantity>500</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>idE0UIfHRUqQLwHb17au7g</MagazineKey>
+                <MagazineKey>FthcakwwDkOVdTx4vTJpGw</MagazineKey>
                 <MunitionKey>Stock/100mm HE Shell</MunitionKey>
-                <Quantity>250</Quantity>
+                <Quantity>750</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>NrysvoYdMk67126IPIcOaw</MagazineKey>
-                <MunitionKey>$MODMIS$/SDM-2 SPAMRAAM</MunitionKey>
-                <Quantity>8</Quantity>
+                <MagazineKey>I4U89XQ1sUuCrDxAJeOZXQ</MagazineKey>
+                <MunitionKey>Stock/100mm AP Shell</MunitionKey>
+                <Quantity>750</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>SFN60N77HUOolmXgfZnPyA</MagazineKey>
+                <MunitionKey>Stock/100mm Grapeshot</MunitionKey>
+                <Quantity>750</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>IdYSXRDpgE6je4nCbrHgXQ</MagazineKey>
+                <MunitionKey>Stock/20mm Slug</MunitionKey>
+                <Quantity>12000</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -407,11 +385,11 @@ Wulfenite Squadron is a support fleet designed to cover rear area security and l
         </HullSocket>
         <HullSocket>
           <Key>T4d-8WnA_UiHSJh6PXiXpA</Key>
-          <ComponentName>Stock/Reinforced DC Locker</ComponentName>
+          <ComponentName>Stock/Reinforced CIC</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>T9TN0ZYumUaCxcSRjO_qTw</Key>
-          <ComponentName>Stock/Reinforced CIC</ComponentName>
+          <ComponentName>Stock/Reinforced DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>QIOFQpQSKESIdNzf_JEFyA</Key>
@@ -419,65 +397,65 @@ Wulfenite Squadron is a support fleet designed to cover rear area security and l
         </HullSocket>
         <HullSocket>
           <Key>6LpDL27QuEW0PZCm35Nx5w</Key>
-          <ComponentName>Stock/Basic CIC</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>1FrTJ5o850ynlq4dRDmMbA</Key>
-          <ComponentName>Stock/Auxiliary Steering</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>FVcPIcV_00eu62NQQK3oLg</Key>
-          <ComponentName>Stock/Reinforced Magazine</ComponentName>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
           <ComponentData xsi:type="BulkMagazineData">
             <Load>
               <MagSaveData>
-                <MagazineKey>Ukl4k9lrpUWoIyz1PrhwwQ</MagazineKey>
-                <MunitionKey>Stock/250mm AP Shell</MunitionKey>
-                <Quantity>450</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>fccCyD2gfUaDmUhKnYRFQA</MagazineKey>
+                <MagazineKey>Brz9MrgyXEiQRaz40M48lA</MagazineKey>
                 <MunitionKey>Stock/250mm HE Shell</MunitionKey>
-                <Quantity>350</Quantity>
+                <Quantity>250</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>9BWVwiIg90qR_0Alb-c5YQ</MagazineKey>
-                <MunitionKey>Stock/100mm Grapeshot</MunitionKey>
-                <Quantity>500</Quantity>
+                <MagazineKey>TYZcD97zoUWJFQGJfTAcUQ</MagazineKey>
+                <MunitionKey>Stock/250mm AP Shell</MunitionKey>
+                <Quantity>250</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>QNyy2n_QkkaUEab-7Obwhw</MagazineKey>
-                <MunitionKey>Stock/100mm AP Shell</MunitionKey>
-                <Quantity>500</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>gvP0pK2XrEmO947RXR-yaQ</MagazineKey>
+                <MagazineKey>1b_0ydwDBkOnv72W_h87FA</MagazineKey>
                 <MunitionKey>Stock/100mm HE Shell</MunitionKey>
                 <Quantity>250</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>0aU9IYPV1kqfhOZgWV0ppg</MagazineKey>
-                <MunitionKey>$MODMIS$/SDM-2 SPAMRAAM</MunitionKey>
-                <Quantity>8</Quantity>
+                <MagazineKey>Ff1E_quOnk-MR4ZwN7ZXeg</MagazineKey>
+                <MunitionKey>Stock/100mm AP Shell</MunitionKey>
+                <Quantity>250</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>duETmfEogEe2I0QZOurGNQ</MagazineKey>
+                <MunitionKey>Stock/100mm Grapeshot</MunitionKey>
+                <Quantity>250</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>BRGIDZQKq0qlo0UEpaxjbg</MagazineKey>
+                <MunitionKey>Stock/20mm Slug</MunitionKey>
+                <Quantity>4000</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
         </HullSocket>
         <HullSocket>
+          <Key>1FrTJ5o850ynlq4dRDmMbA</Key>
+          <ComponentName>Stock/Reinforced CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>FVcPIcV_00eu62NQQK3oLg</Key>
+          <ComponentName>Stock/Rapid DC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
           <Key>vOzzHo4KfE60wZ3Q1s38GA</Key>
-          <ComponentName>Stock/CHI-7700 Drive</ComponentName>
+          <ComponentName>Stock/CHI-9100 Long Haul Drive</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>6evWdeLGT0uALe075-nhgw</Key>
-          <ComponentName>Stock/Sundrive Racing Pro</ComponentName>
+          <ComponentName>Stock/Civilian Reactor</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>JVCLf3RKKUOBEXaWWkVLMw</Key>
-          <ComponentName>Stock/Light Civilian Reactor</ComponentName>
+          <ComponentName>Stock/Rapid-Cycle Cradle</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>JHJi2y5Xskytpw5-Qbu95A</Key>
-          <ComponentName>Stock/Ithaca Bridgemaster</ComponentName>
+          <ComponentName>Stock/Rapid-Cycle Cradle</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>yryHYXgMWEy969gRuaDO6w</Key>
@@ -489,34 +467,29 @@ Wulfenite Squadron is a support fleet designed to cover rear area security and l
         </HullSocket>
         <HullSocket>
           <Key>M3mc7A4WOU-2fq5XgRSECA</Key>
-          <ComponentName>Stock/Light Civilian Reactor</ComponentName>
+          <ComponentName>Stock/Ammunition Elevators</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>S-rQo19r20K0L0PRer3yMw</Key>
-          <ComponentName>Stock/Ammunition Elevators</ComponentName>
+          <ComponentName>Stock/Ithaca Bridgemaster</ComponentName>
         </HullSocket>
       </SocketMap>
       <WeaponGroups>
-        <WepGroup Name="250 CASEMATES">
+        <WepGroup Name="250mm Broadside">
           <MemberKeys>
-            <string>8pltGexHAEyFL2ljOe0oMQ</string>
-            <string>d3N-B_JnDUKAdVRBJ6nvFQ</string>
-            <string>VDQhZPo-rkWkzwozat27fw</string>
-            <string>grYBjxIS3E--lmrqenuK8A</string>
             <string>E9IMUD_Uz0661-nYgJh4Mg</string>
+            <string>d3N-B_JnDUKAdVRBJ6nvFQ</string>
+            <string>grYBjxIS3E--lmrqenuK8A</string>
+            <string>8pltGexHAEyFL2ljOe0oMQ</string>
           </MemberKeys>
         </WepGroup>
-        <WepGroup Name="100 SIDEARMS">
+        <WepGroup Name="100mm Defensive Battery">
           <MemberKeys>
             <string>9EF9u0V1eUetleBnkQhHkA</string>
-            <string>bxvsvg5znk6TqiIKq8H0kg</string>
-            <string>I68tNng-K0yG-AoUx0HcSw</string>
             <string>6ZiODnoXqkaNWvaqyGjnwg</string>
-          </MemberKeys>
-        </WepGroup>
-        <WepGroup Name="CMD JAMMER">
-          <MemberKeys>
-            <string>Sb5-VSuwlkWpT6ViRiJ3vg</string>
+            <string>87PSgg9GREmGU9MIRAXXhg</string>
+            <string>VDQhZPo-rkWkzwozat27fw</string>
+            <string>bxvsvg5znk6TqiIKq8H0kg</string>
           </MemberKeys>
         </WepGroup>
       </WeaponGroups>
@@ -525,11 +498,11 @@ Wulfenite Squadron is a support fleet designed to cover rear area security and l
     </Ship>
     <Ship>
       <SaveID xsi:nil="true" />
-      <Key>7a3e5b85-6f9a-4add-819a-e6a9e2751a2a</Key>
-      <Name>Check Your Corners</Name>
-      <Cost>264</Cost>
+      <Key>928e46ca-224d-42f5-b975-fca357720c01</Key>
+      <Name>In Your Base</Name>
+      <Cost>282</Cost>
       <Callsign />
-      <Number>666</Number>
+      <Number>711</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Shuttle</HullType>
       <SocketMap>
@@ -539,7 +512,7 @@ Wulfenite Squadron is a support fleet designed to cover rear area security and l
           <ComponentData xsi:type="TurretedLauncherData">
             <MissileLoad>
               <MagSaveData>
-                <MagazineKey>YbQef5cxQUGbiSdOUyU_nA</MagazineKey>
+                <MagazineKey>QK7oxEFHq0qYFZ6U7EXrSg</MagazineKey>
                 <MunitionKey>Stock/S1 Rocket</MunitionKey>
                 <Quantity>18</Quantity>
               </MagSaveData>
@@ -553,7 +526,7 @@ Wulfenite Squadron is a support fleet designed to cover rear area security and l
           <ComponentData xsi:type="TurretedLauncherData">
             <MissileLoad>
               <MagSaveData>
-                <MagazineKey>9KmRYJZE-kyknfkqaGkitg</MagazineKey>
+                <MagazineKey>QK7oxEFHq0qYFZ6U7EXrSg</MagazineKey>
                 <MunitionKey>Stock/S1 Rocket</MunitionKey>
                 <Quantity>18</Quantity>
               </MagSaveData>
@@ -567,18 +540,13 @@ Wulfenite Squadron is a support fleet designed to cover rear area security and l
           <ComponentData xsi:type="CellLauncherData">
             <MissileLoad>
               <MagSaveData>
-                <MagazineKey>maj1DqurPE-Y7Gjp2lFp4g</MagazineKey>
+                <MagazineKey>xaGASclV-EGXalVQz-YEvQ</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-12 Parry</MunitionKey>
+                <Quantity>8</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>nGSrztaqtUCkBsIVqv8qPA</MagazineKey>
                 <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>4</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>tVLfnXpHdUyBn5FqXD-ALQ</MagazineKey>
-                <MunitionKey>Stock/EA20 Flare Decoy</MunitionKey>
-                <Quantity>1</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>HF8Vpg-Ko0qKvO4Ko08MjA</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-1 F'xbat II</MunitionKey>
                 <Quantity>4</Quantity>
               </MagSaveData>
             </MissileLoad>
@@ -586,7 +554,7 @@ Wulfenite Squadron is a support fleet designed to cover rear area security and l
         </HullSocket>
         <HullSocket>
           <Key>hh8PA01jxEytn9KuihcJ3Q</Key>
-          <ComponentName>Stock/Basic CIC</ComponentName>
+          <ComponentName>Stock/Reinforced CIC</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>wDWAeeoAK0mAx3hbF1tMlA</Key>
@@ -618,11 +586,11 @@ Wulfenite Squadron is a support fleet designed to cover rear area security and l
     </Ship>
     <Ship>
       <SaveID xsi:nil="true" />
-      <Key>cdc6e629-05d1-45dd-abaf-314635795b41</Key>
-      <Name>Right Behind You</Name>
-      <Cost>264</Cost>
+      <Key>67e63689-8d0a-4775-9077-40c30965789c</Key>
+      <Name>In Your Walls</Name>
+      <Cost>282</Cost>
       <Callsign />
-      <Number>434</Number>
+      <Number>712</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Shuttle</HullType>
       <SocketMap>
@@ -632,7 +600,7 @@ Wulfenite Squadron is a support fleet designed to cover rear area security and l
           <ComponentData xsi:type="TurretedLauncherData">
             <MissileLoad>
               <MagSaveData>
-                <MagazineKey>YbQef5cxQUGbiSdOUyU_nA</MagazineKey>
+                <MagazineKey>QK7oxEFHq0qYFZ6U7EXrSg</MagazineKey>
                 <MunitionKey>Stock/S1 Rocket</MunitionKey>
                 <Quantity>18</Quantity>
               </MagSaveData>
@@ -646,7 +614,7 @@ Wulfenite Squadron is a support fleet designed to cover rear area security and l
           <ComponentData xsi:type="TurretedLauncherData">
             <MissileLoad>
               <MagSaveData>
-                <MagazineKey>9KmRYJZE-kyknfkqaGkitg</MagazineKey>
+                <MagazineKey>QK7oxEFHq0qYFZ6U7EXrSg</MagazineKey>
                 <MunitionKey>Stock/S1 Rocket</MunitionKey>
                 <Quantity>18</Quantity>
               </MagSaveData>
@@ -660,18 +628,13 @@ Wulfenite Squadron is a support fleet designed to cover rear area security and l
           <ComponentData xsi:type="CellLauncherData">
             <MissileLoad>
               <MagSaveData>
-                <MagazineKey>maj1DqurPE-Y7Gjp2lFp4g</MagazineKey>
+                <MagazineKey>xaGASclV-EGXalVQz-YEvQ</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-12 Parry</MunitionKey>
+                <Quantity>8</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>nGSrztaqtUCkBsIVqv8qPA</MagazineKey>
                 <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>4</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>tVLfnXpHdUyBn5FqXD-ALQ</MagazineKey>
-                <MunitionKey>Stock/EA20 Flare Decoy</MunitionKey>
-                <Quantity>1</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>HF8Vpg-Ko0qKvO4Ko08MjA</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-1 F'xbat II</MunitionKey>
                 <Quantity>4</Quantity>
               </MagSaveData>
             </MissileLoad>
@@ -679,7 +642,7 @@ Wulfenite Squadron is a support fleet designed to cover rear area security and l
         </HullSocket>
         <HullSocket>
           <Key>hh8PA01jxEytn9KuihcJ3Q</Key>
-          <ComponentName>Stock/Basic CIC</ComponentName>
+          <ComponentName>Stock/Reinforced CIC</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>wDWAeeoAK0mAx3hbF1tMlA</Key>
@@ -712,26 +675,26 @@ Wulfenite Squadron is a support fleet designed to cover rear area security and l
   </Ships>
   <MissileTypes>
     <MissileTemplate>
-      <Designation>SGM-1</Designation>
-      <Nickname>F'xbat II</Nickname>
+      <Designation>SGM-12</Designation>
+      <Nickname>Parry</Nickname>
       <Description>$MISSILEGUIDANCE_MODE_DIRECT - $MISSILESEEKER_MODE_ACTIVE_ABBREV(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;) - $MISSILEWARHEAD_SHORT_BLASTFRAG</Description>
-      <LongDescription>The &lt;noparse&gt;SGM-1 F'xbat II&lt;/noparse&gt; is a size 1 direct guidance missile.  It is based on the SGM-1 body, which is a nimble general-purpose missile.  This missile will deliver a $MISSILEWARHEAD_DETAIL_BLASTFRAG warhead.  It homes in on its target using an Active Radar seeker.
+      <LongDescription>The &lt;noparse&gt;SGM-12 Parry&lt;/noparse&gt; is a size 1 direct guidance missile.  It is based on the SGM-1 body, which is a nimble general-purpose missile.  This missile will deliver a $MISSILEWARHEAD_DETAIL_BLASTFRAG warhead.  It homes in on its target using an Active Radar seeker.
 
 $MISSILESTAT_CONTROLMETHOD: $MISSILEGUIDANCE_MODE_DIRECT
 $MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
 
 $MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_ACTIVE_CAPS &lt;color=#3BC81E&gt;RADAR&lt;/color&gt;
 
-$MISSILESTAT_SPEED: 275 $UNIT_METERSPERSEC
-$MISSILESTAT_DISTANCE: 3,255 $UNIT_METERS
-$MISSILESTAT_TOPSPEEDTIME: 0.4 $UNIT_SECONDS
-$MISSILESTAT_TURNRATE: 12.5 $UNIT_GS
+$MISSILESTAT_SPEED: 285 $UNIT_METERSPERSEC
+$MISSILESTAT_DISTANCE: 3,500 $UNIT_METERS
+$MISSILESTAT_TOPSPEEDTIME: 0.6 $UNIT_SECONDS
+$MISSILESTAT_TURNRATE: 8.2 $UNIT_GS
 $MISSILESTAT_TERMINALS: None
 
 $MISSILESTAT_WARHEAD: $MISSILEWARHEAD_DETAIL_BLASTFRAG
-$MISSILESTAT_ARMORDAMAGE: 0.15$UNIT_CENTIMETERS
-$MISSILESTAT_COMPONENTDAMAGE: 32.67$UNIT_HP
-$MISSILESTAT_BLASTRADIUS: 30 $UNIT_METERS
+$MISSILESTAT_ARMORDAMAGE: 0.21$UNIT_CENTIMETERS
+$MISSILESTAT_COMPONENTDAMAGE: 65.34$UNIT_HP
+$MISSILESTAT_BLASTRADIUS: 47 $UNIT_METERS
 
 $MISSILESTAT_HEALTH: 10 
 $MISSILESTAT_WALLTHICKNESS: 0.05
@@ -741,19 +704,19 @@ $MISSILESTAT_BOOSTTIME: 3 $UNIT_SECONDS
 $MISSILESTAT_BOOSTSTRAFE: 100 %
 $MISSILESTAT_BOOSTTURN: 100 %
 $MISSILESTAT_FAILRATE: 0 %</LongDescription>
-      <Cost>3</Cost>
+      <Cost>2</Cost>
       <BodyKey>Stock/SGM-1 Body</BodyKey>
-      <TemplateKey>5637bca3-33d6-4743-a87d-43bf6671ff0f</TemplateKey>
+      <TemplateKey>4ccac31f-7805-4cb0-8154-f91e6b36bcbd</TemplateKey>
       <BaseColor>
-        <r>0.6658101</r>
-        <g>0.6658101</g>
-        <b>0.6658101</b>
+        <r>0.6683611</r>
+        <g>0.6683611</g>
+        <b>0.6683611</b>
         <a>1</a>
       </BaseColor>
       <StripeColor>
-        <r>0.187221318</r>
-        <g>0.5663203</g>
-        <b>0.116541833</b>
+        <r>0.739789665</r>
+        <g>0.6661155</g>
+        <b>0.105059229</b>
         <a>1</a>
       </StripeColor>
       <Sockets>
@@ -771,64 +734,63 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
           <InstalledComponent xsi:type="DirectGuidanceSettings">
             <ComponentKey>Stock/Direct Guidance</ComponentKey>
             <Role>Defensive</Role>
-            <HotLaunch>true</HotLaunch>
+            <HotLaunch>false</HotLaunch>
             <SelfDestructOnLost>false</SelfDestructOnLost>
             <Maneuvers>None</Maneuvers>
             <DefensiveDoctrine>
-              <Mode>Matrix</Mode>
+              <Mode>Uniform</Mode>
               <TargetSizeMask>12</TargetSizeMask>
               <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
-              <SalvoSize>0</SalvoSize>
-              <ConvSalvo>16777472</ConvSalvo>
-              <HybridSalvo>16908544</HybridSalvo>
-              <CraftSalvo>16777216</CraftSalvo>
+              <SalvoSize>1</SalvoSize>
+              <ConvSalvo>0</ConvSalvo>
+              <HybridSalvo>0</HybridSalvo>
+              <CraftSalvo>0</CraftSalvo>
               <FarthestFirst>false</FarthestFirst>
             </DefensiveDoctrine>
             <ApproachAngleControl>true</ApproachAngleControl>
           </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
-          <Size>1</Size>
+          <Size>4</Size>
           <InstalledComponent>
-            <ComponentKey>Stock/Blast Fragmentation EL</ComponentKey>
+            <ComponentKey>Stock/Blast Fragmentation</ComponentKey>
           </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
-          <Size>6</Size>
+          <Size>3</Size>
           <InstalledComponent xsi:type="MissileEngineSettings">
             <ComponentKey />
             <BalanceValues>
-              <A>0.169354737</A>
-              <B>0.0005480074</B>
-              <C>0.830097258</C>
+              <A>0.23616679</A>
+              <B>0.363450766</B>
+              <C>0.400382459</C>
             </BalanceValues>
           </InstalledComponent>
         </MissileSocket>
       </Sockets>
     </MissileTemplate>
     <MissileTemplate>
-      <Designation>SGM-1</Designation>
-      <Nickname>Stiletto</Nickname>
-      <Description>$MISSILEGUIDANCE_MODE_DIRECT - $MISSILESEEKER_MODE_SEMIACTIVE_ABBREV(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;) - $MISSILEWARHEAD_SHORT_HEIMPACT</Description>
-      <LongDescription>The &lt;noparse&gt;SGM-1 Stiletto&lt;/noparse&gt; is a size 1 direct guidance missile.  It is based on the SGM-1 body, which is a nimble general-purpose missile.  This missile will deliver a $MISSILEWARHEAD_DETAIL_HEIMPACT warhead.  It homes in on its target using a Semi-Active Radar seeker.
+      <Designation>SGM-12</Designation>
+      <Nickname>Shank</Nickname>
+      <Description>$MISSILEGUIDANCE_MODE_DIRECT - $MISSILESEEKER_MODE_ACTIVE_ABBREV(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;) - $MISSILEWARHEAD_SHORT_BLASTFRAG</Description>
+      <LongDescription>The &lt;noparse&gt;SGM-12 Shank&lt;/noparse&gt; is a size 1 direct guidance missile.  It is based on the SGM-1 body, which is a nimble general-purpose missile.  This missile will deliver a $MISSILEWARHEAD_DETAIL_BLASTFRAG warhead.  It homes in on its target using an Active Radar seeker.
 
 $MISSILESTAT_CONTROLMETHOD: $MISSILEGUIDANCE_MODE_DIRECT
 $MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
 
-$MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_SEMIACTIVE_CAPS &lt;color=#3BC81E&gt;RADAR&lt;/color&gt;
+$MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_ACTIVE_CAPS &lt;color=#3BC81E&gt;RADAR&lt;/color&gt;
 
-$MISSILESTAT_SPEED: 380 $UNIT_METERSPERSEC
-$MISSILESTAT_DISTANCE: 3,000 $UNIT_METERS
-$MISSILESTAT_TOPSPEEDTIME: 1.1 $UNIT_SECONDS
-$MISSILESTAT_TURNRATE: 4.9 $UNIT_GS
+$MISSILESTAT_SPEED: 325 $UNIT_METERSPERSEC
+$MISSILESTAT_DISTANCE: 3,333 $UNIT_METERS
+$MISSILESTAT_TOPSPEEDTIME: 0.6 $UNIT_SECONDS
+$MISSILESTAT_TURNRATE: 8.8 $UNIT_GS
 $MISSILESTAT_TERMINALS: None
 
-$MISSILESTAT_WARHEAD: $MISSILEWARHEAD_DETAIL_HEIMPACT
-$MISSILESTAT_ARMORDAMAGE: 31$UNIT_CENTIMETERS
-$MISSILESTAT_COMPONENTDAMAGE: 317$UNIT_HP
-$MISSILESTAT_BLASTANGLE: 70 $UNIT_DEGREES
-$MISSILESTAT_DAMAGEPERFRAGMENT: 50.0
+$MISSILESTAT_WARHEAD: $MISSILEWARHEAD_DETAIL_BLASTFRAG
+$MISSILESTAT_ARMORDAMAGE: 0.18$UNIT_CENTIMETERS
+$MISSILESTAT_COMPONENTDAMAGE: 56.58$UNIT_HP
+$MISSILESTAT_BLASTRADIUS: 40 $UNIT_METERS
 
 $MISSILESTAT_HEALTH: 10 
 $MISSILESTAT_WALLTHICKNESS: 0.05
@@ -838,36 +800,36 @@ $MISSILESTAT_BOOSTTIME: 3 $UNIT_SECONDS
 $MISSILESTAT_BOOSTSTRAFE: 100 %
 $MISSILESTAT_BOOSTTURN: 100 %
 $MISSILESTAT_FAILRATE: 0 %</LongDescription>
-      <Cost>1</Cost>
+      <Cost>2</Cost>
       <BodyKey>Stock/SGM-1 Body</BodyKey>
-      <TemplateKey>4f3cf64e-90c1-43ca-880c-e7d292bbe91c</TemplateKey>
+      <TemplateKey>fd1e5e8a-9f46-4ece-87b8-e7f72d438ac4</TemplateKey>
       <BaseColor>
-        <r>0.272952944</r>
-        <g>0.272952944</g>
-        <b>0.272952944</b>
+        <r>0.668453634</r>
+        <g>0.668453634</g>
+        <b>0.668453634</b>
         <a>1</a>
       </BaseColor>
       <StripeColor>
-        <r>0.0785671845</r>
-        <g>0.507646859</g>
-        <b>0.142162949</b>
+        <r>0.124664046</r>
+        <g>0.709311664</g>
+        <b>0.09935296</b>
         <a>1</a>
       </StripeColor>
       <Sockets>
         <MissileSocket>
           <Size>1</Size>
           <InstalledComponent xsi:type="ActiveSeekerSettings">
-            <ComponentKey>Stock/Fixed Semi-Active Radar Seeker</ComponentKey>
+            <ComponentKey>Stock/Steerable Active Radar Seeker</ComponentKey>
             <Mode>Targeting</Mode>
             <RejectUnvalidated>false</RejectUnvalidated>
-            <DetectPDTargets>false</DetectPDTargets>
+            <DetectPDTargets>true</DetectPDTargets>
           </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
           <Size>1</Size>
           <InstalledComponent xsi:type="DirectGuidanceSettings">
             <ComponentKey>Stock/Direct Guidance</ComponentKey>
-            <Role>Offensive</Role>
+            <Role>Defensive</Role>
             <HotLaunch>false</HotLaunch>
             <SelfDestructOnLost>false</SelfDestructOnLost>
             <Maneuvers>None</Maneuvers>
@@ -877,86 +839,78 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
               <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>0</SalvoSize>
-              <ConvSalvo>16843008</ConvSalvo>
-              <HybridSalvo>16843008</HybridSalvo>
-              <CraftSalvo>16843008</CraftSalvo>
+              <ConvSalvo>0</ConvSalvo>
+              <HybridSalvo>0</HybridSalvo>
+              <CraftSalvo>0</CraftSalvo>
               <FarthestFirst>false</FarthestFirst>
             </DefensiveDoctrine>
-            <ApproachAngleControl>true</ApproachAngleControl>
-          </InstalledComponent>
-        </MissileSocket>
-        <MissileSocket>
-          <Size>4</Size>
-          <InstalledComponent>
-            <ComponentKey>Stock/HE Impact</ComponentKey>
+            <ApproachAngleControl>false</ApproachAngleControl>
           </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
           <Size>3</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/Blast Fragmentation</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>4</Size>
           <InstalledComponent xsi:type="MissileEngineSettings">
             <ComponentKey />
             <BalanceValues>
-              <A>0.8634221</A>
-              <B>0.135974392</B>
-              <C>0.00060351193</C>
+              <A>0.4996949</A>
+              <B>0.107372865</B>
+              <C>0.392932236</C>
             </BalanceValues>
           </InstalledComponent>
         </MissileSocket>
       </Sockets>
     </MissileTemplate>
     <MissileTemplate>
-      <Designation>SDM-2</Designation>
-      <Nickname>SPAMRAAM</Nickname>
-      <Description>$MISSILEGUIDANCE_MODE_DIRECT - &lt;color=#D3D11F&gt;$MISSILESEEKER_MODE_COMMAND_ABBREV&lt;/color&gt; - $MISSILEWARHEAD_SHORT_BLASTFRAG</Description>
-      <LongDescription>The &lt;noparse&gt;SDM-2 SPAMRAAM&lt;/noparse&gt; is a size 2 direct guidance missile.  It is based on the SDM-2 body, which is a flexible defensive missile with a booster.  This missile will deliver a $MISSILEWARHEAD_DETAIL_BLASTFRAG warhead.  It homes in on its target using command guidance from its launching ship.
+      <Designation>SGM-27</Designation>
+      <Nickname>Broadsword</Nickname>
+      <Description>$MISSILEGUIDANCE_MODE_DIRECT - &lt;color=#D3D11F&gt;$MISSILESEEKER_MODE_COMMAND_ABBREV&lt;/color&gt; - $MISSILEWARHEAD_SHORT_HEIMPACT</Description>
+      <LongDescription>The &lt;noparse&gt;SGM-27 Broadsword&lt;/noparse&gt; is a size 2 direct guidance missile.  It is based on the SGM-2 body, which is a flexible mainstay anti-ship missile.  This missile will deliver a $MISSILEWARHEAD_DETAIL_HEIMPACT warhead.  It homes in on its target using command guidance from its launching ship.
 
 $MISSILESTAT_CONTROLMETHOD: $MISSILEGUIDANCE_MODE_DIRECT
 $MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#D4211D&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
 
 $MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_COMMAND_CAPS (&lt;color=#D3D11F&gt;$MISSILESEEKER_COMMAND_COMMSNOTE&lt;/color&gt;)
 
-&lt;b&gt;Boost&lt;/b&gt;
-$MISSILESTAT_SPEED: 850 $UNIT_METERSPERSEC
-$MISSILESTAT_DISTANCE: 6,198 $UNIT_METERS
-$MISSILESTAT_TOPSPEEDTIME: 1.4 $UNIT_SECONDS
-$MISSILESTAT_TURNRATE: 5.0 $UNIT_GS
+$MISSILESTAT_SPEED: 300 $UNIT_METERSPERSEC
+$MISSILESTAT_DISTANCE: 5,001 $UNIT_METERS
+$MISSILESTAT_TOPSPEEDTIME: 1.6 $UNIT_SECONDS
+$MISSILESTAT_TURNRATE: 3.4 $UNIT_GS
+$MISSILESTAT_TERMINALS: Weave
+(&lt;color=#D3D11F&gt;$MISSILESTAT_TERMINALS_WARN_RANGE&lt;/color&gt;)
 
-&lt;b&gt;Main&lt;/b&gt;
-$MISSILESTAT_SPEED: 175 $UNIT_METERSPERSEC
-$MISSILESTAT_DISTANCE: 1,340 $UNIT_METERS
-$MISSILESTAT_TOPSPEEDTIME: 0.7 $UNIT_SECONDS
-$MISSILESTAT_TURNRATE: 6.9 $UNIT_GS
+$MISSILESTAT_WARHEAD: $MISSILEWARHEAD_DETAIL_HEIMPACT
+$MISSILESTAT_ARMORDAMAGE: 66$UNIT_CENTIMETERS
+$MISSILESTAT_COMPONENTDAMAGE: 1,440$UNIT_HP
+$MISSILESTAT_BLASTANGLE: 70 $UNIT_DEGREES
+$MISSILESTAT_DAMAGEPERFRAGMENT: 50.0
 
-: Stage Trigger at 430m from Target or On Burnout
-
-$MISSILESTAT_TERMINALS: None
-
-$MISSILESTAT_WARHEAD: $MISSILEWARHEAD_DETAIL_BLASTFRAG
-$MISSILESTAT_ARMORDAMAGE: 0.45$UNIT_CENTIMETERS
-$MISSILESTAT_COMPONENTDAMAGE: 142.17$UNIT_HP
-$MISSILESTAT_BLASTRADIUS: 102 $UNIT_METERS
-
-$MISSILESTAT_HEALTH: 25 
+$MISSILESTAT_HEALTH: 30 
 $MISSILESTAT_WALLTHICKNESS: 0.05
-$MISSILESTAT_PROGTIME: 10 $UNIT_SECONDS
+$MISSILESTAT_PROGTIME: 8 $UNIT_SECONDS
 $MISSILESTAT_RADARSIG: 100 %
 $MISSILESTAT_BOOSTTIME: 3 $UNIT_SECONDS
 $MISSILESTAT_BOOSTSTRAFE: 100 %
 $MISSILESTAT_BOOSTTURN: 100 %
 $MISSILESTAT_FAILRATE: 0 %</LongDescription>
-      <Cost>8</Cost>
-      <BodyKey>Stock/SDM-2 Body</BodyKey>
-      <TemplateKey>de4fe24f-a1df-483f-b86a-a1175ff2b1a8</TemplateKey>
+      <Cost>7</Cost>
+      <BodyKey>Stock/SGM-2 Body</BodyKey>
+      <TemplateKey>fcd6e9f6-d664-4f9f-8017-92b4567980a8</TemplateKey>
       <BaseColor>
-        <r>0.6683611</r>
-        <g>0.6683611</g>
-        <b>0.6683611</b>
+        <r>0.272952944</r>
+        <g>0.272952944</g>
+        <b>0.272952944</b>
         <a>1</a>
       </BaseColor>
       <StripeColor>
         <r>0.778055</r>
-        <g>0.550383151</g>
-        <b>0.124387212</b>
+        <g>0.5509642</g>
+        <b>0.090645045</b>
         <a>1</a>
       </StripeColor>
       <Sockets>
@@ -975,49 +929,126 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
           <Size>1</Size>
           <InstalledComponent xsi:type="DirectGuidanceSettings">
             <ComponentKey>Stock/Direct Guidance</ComponentKey>
-            <Role>Defensive</Role>
+            <Role>Offensive</Role>
             <HotLaunch>false</HotLaunch>
             <SelfDestructOnLost>false</SelfDestructOnLost>
-            <Maneuvers>None</Maneuvers>
+            <Maneuvers>Weave</Maneuvers>
             <DefensiveDoctrine>
-              <Mode>Matrix</Mode>
+              <Mode>Uniform</Mode>
               <TargetSizeMask>12</TargetSizeMask>
               <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>0</SalvoSize>
-              <ConvSalvo>16777216</ConvSalvo>
-              <HybridSalvo>16777216</HybridSalvo>
-              <CraftSalvo>16842752</CraftSalvo>
+              <ConvSalvo>0</ConvSalvo>
+              <HybridSalvo>0</HybridSalvo>
+              <CraftSalvo>0</CraftSalvo>
               <FarthestFirst>false</FarthestFirst>
             </DefensiveDoctrine>
-            <ApproachAngleControl>false</ApproachAngleControl>
+            <ApproachAngleControl>true</ApproachAngleControl>
           </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
-          <Size>5</Size>
+          <Size>6</Size>
           <InstalledComponent>
-            <ComponentKey>Stock/Blast Fragmentation</ComponentKey>
+            <ComponentKey>Stock/HE Impact</ComponentKey>
           </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
-          <Size>2</Size>
+          <Size>4</Size>
           <InstalledComponent xsi:type="MissileEngineSettings">
             <ComponentKey />
             <BalanceValues>
-              <A>0.328778267</A>
-              <B>0</B>
-              <C>0.671221733</C>
+              <A>0.708180845</A>
+              <B>0.02296694</B>
+              <C>0.2688522</C>
             </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+      </Sockets>
+    </MissileTemplate>
+    <MissileTemplate>
+      <Designation>SGM-1</Designation>
+      <Nickname>Feint</Nickname>
+      <Description>$MISSILEGUIDANCE_MODE_DIRECT - $MISSILESEEKER_MODE_ACTIVE_ABBREV(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;) - $MISSILESTAT_NONE</Description>
+      <LongDescription>The &lt;noparse&gt;SGM-1 Feint&lt;/noparse&gt; is a size 1 direct guidance missile.  It is based on the SGM-1 body, which is a nimble general-purpose missile.  This missile will deliver no payload.  It homes in on its target using an Active Radar seeker.
+
+$MISSILESTAT_CONTROLMETHOD: $MISSILEGUIDANCE_MODE_DIRECT
+$MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
+
+$MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_ACTIVE_CAPS &lt;color=#3BC81E&gt;RADAR&lt;/color&gt;
+
+$MISSILESTAT_SPEED: 350 $UNIT_METERSPERSEC
+$MISSILESTAT_DISTANCE: 5,251 $UNIT_METERS
+$MISSILESTAT_TOPSPEEDTIME: 0.8 $UNIT_SECONDS
+$MISSILESTAT_TURNRATE: 7.3 $UNIT_GS
+$MISSILESTAT_TERMINALS: None
+
+$MISSILESTAT_HEALTH: 10 
+$MISSILESTAT_WALLTHICKNESS: 0.05
+$MISSILESTAT_PROGTIME: 6 $UNIT_SECONDS
+$MISSILESTAT_RADARSIG: 100 %
+$MISSILESTAT_BOOSTTIME: 3 $UNIT_SECONDS
+$MISSILESTAT_BOOSTSTRAFE: 100 %
+$MISSILESTAT_BOOSTTURN: 100 %
+$MISSILESTAT_FAILRATE: 0 %</LongDescription>
+      <Cost>1</Cost>
+      <BodyKey>Stock/SGM-1 Body</BodyKey>
+      <TemplateKey>b5145f01-51a6-4cb3-8cf4-5a30da3e984d</TemplateKey>
+      <BaseColor>
+        <r>0.275587469</r>
+        <g>0.275587469</g>
+        <b>0.275587469</b>
+        <a>1</a>
+      </BaseColor>
+      <StripeColor>
+        <r>0.103829674</r>
+        <g>0.4923407</g>
+        <b>0.149249375</b>
+        <a>1</a>
+      </StripeColor>
+      <Sockets>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="ActiveSeekerSettings">
+            <ComponentKey>Stock/Fixed Active Radar Seeker</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <DetectPDTargets>true</DetectPDTargets>
           </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
           <Size>1</Size>
+          <InstalledComponent xsi:type="DirectGuidanceSettings">
+            <ComponentKey>Stock/Direct Guidance</ComponentKey>
+            <Role>Offensive</Role>
+            <HotLaunch>false</HotLaunch>
+            <SelfDestructOnLost>false</SelfDestructOnLost>
+            <Maneuvers>None</Maneuvers>
+            <DefensiveDoctrine>
+              <Mode>Uniform</Mode>
+              <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
+              <TargetSizeOrdering>Descending</TargetSizeOrdering>
+              <SalvoSize>0</SalvoSize>
+              <ConvSalvo>0</ConvSalvo>
+              <HybridSalvo>0</HybridSalvo>
+              <CraftSalvo>0</CraftSalvo>
+              <FarthestFirst>false</FarthestFirst>
+            </DefensiveDoctrine>
+            <ApproachAngleControl>true</ApproachAngleControl>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>6</Size>
           <InstalledComponent xsi:type="MissileEngineSettings">
             <ComponentKey />
             <BalanceValues>
-              <A>1</A>
-              <B>0</B>
-              <C>0</C>
+              <A>0.663405955</A>
+              <B>0.09485499</B>
+              <C>0.241739064</C>
             </BalanceValues>
           </InstalledComponent>
         </MissileSocket>
@@ -1026,8 +1057,86 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
   </MissileTypes>
   <CraftTypes>
     <CraftTemplate>
+      <DesignationSuffix>W</DesignationSuffix>
+      <Nickname>Sentry</Nickname>
+      <LongDescription>$CRAFTSTAT_FRAMEMODEL: Halberd
+$CRAFTSTAT_FRAMECLASS: Skiff
+$CRAFTSTAT_BASECOST: 15
+$CRAFTSTAT_STORAGESIZE: 1
+$CRAFTSTAT_PADSIZE: 6 x 6
+$CRAFTSTAT_PDTHREATSIZE: 1
+
+$CRAFTSTAT_HEALTH: 130 
+$CRAFTSTAT_SKIN: 3 $UNIT_MILLIMETERS
+$CRAFTSTAT_TARGETSIZE: 1 
+$CRAFTSTAT_DR: 0.5 %
+
+$CRAFTSTAT_RADARSIG: 100 %
+$CRAFTSTAT_WAKESIG: 100 %
+$CRAFTSTAT_MISSILESBOMBS
+$CRAFTSTAT_CMDCAPACITY: 1 
+$CRAFTSTAT_MISSILEANGLE: 30 $UNIT_DEGREES
+$CRAFTSTAT_BOMBLEVELTIME: 3 $UNIT_SECONDS_MED
+
+$CRAFTSTAT_IDLESPEED: 20 $UNIT_METERSPERSEC
+$CRAFTSTAT_CRUISESPEED: 45 $UNIT_METERSPERSEC
+$CRAFTSTAT_HBRNSPEED: 68 $UNIT_METERSPERSEC
+$CRAFTSTAT_COMBATSPEED: 68 $UNIT_METERSPERSEC
+
+$CRAFTSTAT_FUELCAPACITY: 1,200
+$CRAFTSTAT_LOITERTIME: 33:20
+$CRAFTSTAT_CRUISERANGE: 36 $UNIT_KILOMETERS
+
+$CRAFTSTAT_THRUSTERPOWER: 250 
+$CRAFTSTAT_TURNRATE: 20 
+$CRAFTSTAT_FRAMEMASS: 30.00
+$CRAFTSTAT_LOADOUTMASS: -
+$CRAFTSTAT_TOTALMASS: 30.00
+
+&lt;b&gt;Components:&lt;/b&gt;
+Nose: 35mm Gun
+Mission Package: Wake Sensor
+Avionics: None
+Fuselage: None
+Engine: None
+Countermeasures: High-Coherence CM Launcher
+
+&lt;b&gt;Loadouts:&lt;/b&gt;
+15km Wake Sensor: 1,000x &lt;noparse&gt;35mm Flechette&lt;/noparse&gt;</LongDescription>
+      <Cost>32</Cost>
+      <FrameKey>Stock/OSP Skiff</FrameKey>
+      <TemplateKey>98a85266-81b8-442a-929d-19c459540a8b</TemplateKey>
+      <InstalledComponents>
+        <SerializedCraftSocket>
+          <SocketKey>nose</SocketKey>
+          <ComponentKey>nose_gun50mm</ComponentKey>
+        </SerializedCraftSocket>
+        <SerializedCraftSocket>
+          <SocketKey>mission</SocketKey>
+          <ComponentKey>mission_wake</ComponentKey>
+        </SerializedCraftSocket>
+        <SerializedCraftSocket>
+          <SocketKey>countermeasures</SocketKey>
+          <ComponentKey>cml-coherence</ComponentKey>
+        </SerializedCraftSocket>
+      </InstalledComponents>
+      <Loadouts>
+        <CraftLoadout>
+          <LoadoutName>15km Wake Sensor</LoadoutName>
+          <Elements>
+            <GeneralLoadoutElement xsi:type="SimpleAmmoSelection">
+              <SocketKey>nose</SocketKey>
+              <AmmoKey>Stock/35mm Flechette</AmmoKey>
+            </GeneralLoadoutElement>
+          </Elements>
+        </CraftLoadout>
+      </Loadouts>
+      <TemplateMissileTypes />
+      <ModDependencies />
+    </CraftTemplate>
+    <CraftTemplate>
       <DesignationSuffix />
-      <Nickname>Arbiter II</Nickname>
+      <Nickname>Arbiter</Nickname>
       <LongDescription>$CRAFTSTAT_FRAMEMODEL: Barracuda
 $CRAFTSTAT_FRAMECLASS: Strike Fighter
 $CRAFTSTAT_BASECOST: 8
@@ -1057,80 +1166,58 @@ $CRAFTSTAT_LOITERTIME: 10:00
 $CRAFTSTAT_CRUISERANGE: 39 $UNIT_KILOMETERS
 
 $CRAFTSTAT_THRUSTERPOWER: 200 
-$CRAFTSTAT_TURNRATE: 80 
+$CRAFTSTAT_TURNRATE: 106.4  (&lt;link="craft-mnvr-turnrate"&gt;&lt;color=#3BC81E&gt;+33%&lt;/color&gt;&lt;/link&gt;)
 $CRAFTSTAT_OFFANGLETHRUST: 135 $UNIT_DEGREES
 $CRAFTSTAT_OFFANGLETURN: 90 $UNIT_DEGREES
 $CRAFTSTAT_FRAMEMASS: 11.00
 $CRAFTSTAT_LOADOUTMASS: -
 $CRAFTSTAT_TOTALMASS: 11.00
-Thrust-to-Weight: 13.64
 
 &lt;b&gt;Components:&lt;/b&gt;
-Nose: Nose Illuminator
+Nose: 35mm Gun
 Avionics: None
 Fuselage: None
-Engine: None
-Countermeasures: Standard CM Launcher
+Engine: Articulated Nozzles
+Countermeasures: High-Coherence CM Launcher
 
 &lt;b&gt;Loadouts:&lt;/b&gt;
-A2A STANDOFF: 2x &lt;noparse&gt;SDM-2 SPAMRAAM&lt;/noparse&gt;
-A2A DOGFIGHT: 500x &lt;noparse&gt;35mm Flechette&lt;/noparse&gt;
-LIGHT STRIKE JAM: 2x &lt;noparse&gt;SGM-1 Stiletto&lt;/noparse&gt;, 2x &lt;noparse&gt;SGM-1 Stiletto&lt;/noparse&gt;, 2x &lt;noparse&gt;SGM-1 Stiletto&lt;/noparse&gt;
-LIGHT STRIKE FUEL: 2x &lt;noparse&gt;SGM-1 Stiletto&lt;/noparse&gt;, 2x &lt;noparse&gt;SGM-1 Stiletto&lt;/noparse&gt;, 2x &lt;noparse&gt;SGM-1 Stiletto&lt;/noparse&gt;</LongDescription>
-      <Cost>8</Cost>
+Anti-Light Strike: 500x &lt;noparse&gt;35mm Flechette&lt;/noparse&gt;, 2x &lt;noparse&gt;SGM-12 Shank&lt;/noparse&gt;, 1x &lt;noparse&gt;SGM-1 Feint&lt;/noparse&gt;, 1x KBU-15 Bomb, 1x R-2 'Piranha' Rocket, 1x &lt;noparse&gt;SGM-27 Broadsword&lt;/noparse&gt;
+Anti-Craft Escort: 500x &lt;noparse&gt;35mm Flechette&lt;/noparse&gt;, 2x &lt;noparse&gt;SGM-12 Shank&lt;/noparse&gt;, 2x &lt;noparse&gt;SGM-12 Shank&lt;/noparse&gt;
+Finisher Strike: 500x &lt;noparse&gt;35mm Flechette&lt;/noparse&gt;, 2x KBU-15 Bomb, 2x KBU-15 Bomb
+Anti-Missile Escort: 500x &lt;noparse&gt;35mm Flechette&lt;/noparse&gt;</LongDescription>
+      <Cost>15</Cost>
       <FrameKey>Stock/OSP Interceptor</FrameKey>
-      <TemplateKey>3fda180c-bce0-48b6-8676-61acc78363bf</TemplateKey>
+      <TemplateKey>bbb18ae4-f4ef-4868-a906-64aa20ed64bd</TemplateKey>
       <InstalledComponents>
         <SerializedCraftSocket>
           <SocketKey>nose</SocketKey>
-          <ComponentKey>nose_illuminator</ComponentKey>
+          <ComponentKey>nose_gun50mm</ComponentKey>
+        </SerializedCraftSocket>
+        <SerializedCraftSocket>
+          <SocketKey>engine</SocketKey>
+          <ComponentKey>engine-articulatednozzles</ComponentKey>
         </SerializedCraftSocket>
         <SerializedCraftSocket>
           <SocketKey>countermeasures</SocketKey>
-          <ComponentKey>cml-standard</ComponentKey>
+          <ComponentKey>cml-coherence</ComponentKey>
         </SerializedCraftSocket>
       </InstalledComponents>
       <Loadouts>
         <CraftLoadout>
-          <LoadoutName>A2A STANDOFF</LoadoutName>
+          <LoadoutName>Anti-Light Strike</LoadoutName>
           <Elements>
-            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
-              <SocketKey>wingbottomin</SocketKey>
-              <ComponentKey>wingbottomin_s2pylons</ComponentKey>
-              <Loadout xsi:type="MissileSelection">
-                <SocketKey>wingbottomin</SocketKey>
-                <MissileKeys>
-                  <string>$MODMIS$/SDM-2 SPAMRAAM</string>
-                  <string>$MODMIS$/SDM-2 SPAMRAAM</string>
-                </MissileKeys>
-              </Loadout>
+            <GeneralLoadoutElement xsi:type="SimpleAmmoSelection">
+              <SocketKey>nose</SocketKey>
+              <AmmoKey>Stock/35mm Flechette</AmmoKey>
             </GeneralLoadoutElement>
-          </Elements>
-        </CraftLoadout>
-        <CraftLoadout>
-          <LoadoutName>A2A DOGFIGHT</LoadoutName>
-          <Elements>
-            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
-              <SocketKey>wingbottomin</SocketKey>
-              <ComponentKey>wingbottomin_50mmguns</ComponentKey>
-              <Loadout xsi:type="SimpleAmmoSelection">
-                <SocketKey>wingbottomin</SocketKey>
-                <AmmoKey>Stock/35mm Flechette</AmmoKey>
-              </Loadout>
-            </GeneralLoadoutElement>
-          </Elements>
-        </CraftLoadout>
-        <CraftLoadout>
-          <LoadoutName>LIGHT STRIKE JAM</LoadoutName>
-          <Elements>
             <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
               <SocketKey>wingtopout</SocketKey>
               <ComponentKey>wingtopout_s1pylons</ComponentKey>
               <Loadout xsi:type="MissileSelection">
                 <SocketKey>wingtopout</SocketKey>
                 <MissileKeys>
-                  <string>$MODMIS$/SGM-1 Stiletto</string>
-                  <string>$MODMIS$/SGM-1 Stiletto</string>
+                  <string>$MODMIS$/SGM-12 Shank</string>
+                  <string>$MODMIS$/SGM-12 Shank</string>
                 </MissileKeys>
               </Loadout>
             </GeneralLoadoutElement>
@@ -1140,8 +1227,50 @@ LIGHT STRIKE FUEL: 2x &lt;noparse&gt;SGM-1 Stiletto&lt;/noparse&gt;, 2x &lt;nopa
               <Loadout xsi:type="MissileSelection">
                 <SocketKey>wingtopin</SocketKey>
                 <MissileKeys>
-                  <string>$MODMIS$/SGM-1 Stiletto</string>
-                  <string>$MODMIS$/SGM-1 Stiletto</string>
+                  <string>$MODMIS$/SGM-1 Feint</string>
+                  <string>Stock/S1 Glide Bomb</string>
+                </MissileKeys>
+              </Loadout>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+              <SocketKey>wingbottomin</SocketKey>
+              <ComponentKey>wingbottomin_s2pylons</ComponentKey>
+              <Loadout xsi:type="MissileSelection">
+                <SocketKey>wingbottomin</SocketKey>
+                <MissileKeys>
+                  <string>Stock/S1 Rocket</string>
+                  <string>$MODMIS$/SGM-27 Broadsword</string>
+                </MissileKeys>
+              </Loadout>
+            </GeneralLoadoutElement>
+          </Elements>
+        </CraftLoadout>
+        <CraftLoadout>
+          <LoadoutName>Anti-Craft Escort</LoadoutName>
+          <Elements>
+            <GeneralLoadoutElement xsi:type="SimpleAmmoSelection">
+              <SocketKey>nose</SocketKey>
+              <AmmoKey>Stock/35mm Flechette</AmmoKey>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+              <SocketKey>wingtopout</SocketKey>
+              <ComponentKey>wingtopout_s1pylons</ComponentKey>
+              <Loadout xsi:type="MissileSelection">
+                <SocketKey>wingtopout</SocketKey>
+                <MissileKeys>
+                  <string>$MODMIS$/SGM-12 Shank</string>
+                  <string>$MODMIS$/SGM-12 Shank</string>
+                </MissileKeys>
+              </Loadout>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+              <SocketKey>wingtopin</SocketKey>
+              <ComponentKey>wingtopin_s1pylons</ComponentKey>
+              <Loadout xsi:type="MissileSelection">
+                <SocketKey>wingtopin</SocketKey>
+                <MissileKeys>
+                  <string>$MODMIS$/SGM-12 Shank</string>
+                  <string>$MODMIS$/SGM-12 Shank</string>
                 </MissileKeys>
               </Loadout>
             </GeneralLoadoutElement>
@@ -1152,28 +1281,26 @@ LIGHT STRIKE FUEL: 2x &lt;noparse&gt;SGM-1 Stiletto&lt;/noparse&gt;, 2x &lt;nopa
             </GeneralLoadoutElement>
             <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
               <SocketKey>wingbottomin</SocketKey>
-              <ComponentKey>wingbottomin_s1pylons</ComponentKey>
-              <Loadout xsi:type="MissileSelection">
-                <SocketKey>wingbottomin</SocketKey>
-                <MissileKeys>
-                  <string>$MODMIS$/SGM-1 Stiletto</string>
-                  <string>$MODMIS$/SGM-1 Stiletto</string>
-                </MissileKeys>
-              </Loadout>
+              <ComponentKey>wingbottomin_fuelpods</ComponentKey>
+              <Loadout xsi:type="SimpleOccupiedElement" />
             </GeneralLoadoutElement>
           </Elements>
         </CraftLoadout>
         <CraftLoadout>
-          <LoadoutName>LIGHT STRIKE FUEL</LoadoutName>
+          <LoadoutName>Finisher Strike</LoadoutName>
           <Elements>
+            <GeneralLoadoutElement xsi:type="SimpleAmmoSelection">
+              <SocketKey>nose</SocketKey>
+              <AmmoKey>Stock/35mm Flechette</AmmoKey>
+            </GeneralLoadoutElement>
             <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
               <SocketKey>wingtopout</SocketKey>
               <ComponentKey>wingtopout_s1pylons</ComponentKey>
               <Loadout xsi:type="MissileSelection">
                 <SocketKey>wingtopout</SocketKey>
                 <MissileKeys>
-                  <string>$MODMIS$/SGM-1 Stiletto</string>
-                  <string>$MODMIS$/SGM-1 Stiletto</string>
+                  <string>Stock/S1 Glide Bomb</string>
+                  <string>Stock/S1 Glide Bomb</string>
                 </MissileKeys>
               </Loadout>
             </GeneralLoadoutElement>
@@ -1183,21 +1310,34 @@ LIGHT STRIKE FUEL: 2x &lt;noparse&gt;SGM-1 Stiletto&lt;/noparse&gt;, 2x &lt;nopa
               <Loadout xsi:type="MissileSelection">
                 <SocketKey>wingtopin</SocketKey>
                 <MissileKeys>
-                  <string>$MODMIS$/SGM-1 Stiletto</string>
-                  <string>$MODMIS$/SGM-1 Stiletto</string>
+                  <string>Stock/S1 Glide Bomb</string>
+                  <string>Stock/S1 Glide Bomb</string>
                 </MissileKeys>
               </Loadout>
             </GeneralLoadoutElement>
             <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
               <SocketKey>wingbottomout</SocketKey>
-              <ComponentKey>wingbottomout_s1pylons</ComponentKey>
-              <Loadout xsi:type="MissileSelection">
-                <SocketKey>wingbottomout</SocketKey>
-                <MissileKeys>
-                  <string>$MODMIS$/SGM-1 Stiletto</string>
-                  <string>$MODMIS$/SGM-1 Stiletto</string>
-                </MissileKeys>
-              </Loadout>
+              <ComponentKey>wingbottomout_radarjammer</ComponentKey>
+              <Loadout xsi:type="SimpleOccupiedElement" />
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+              <SocketKey>wingbottomin</SocketKey>
+              <ComponentKey>wingbottomin_fuelpods</ComponentKey>
+              <Loadout xsi:type="SimpleOccupiedElement" />
+            </GeneralLoadoutElement>
+          </Elements>
+        </CraftLoadout>
+        <CraftLoadout>
+          <LoadoutName>Anti-Missile Escort</LoadoutName>
+          <Elements>
+            <GeneralLoadoutElement xsi:type="SimpleAmmoSelection">
+              <SocketKey>nose</SocketKey>
+              <AmmoKey>Stock/35mm Flechette</AmmoKey>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+              <SocketKey>wingbottomout</SocketKey>
+              <ComponentKey>wingbottomout_radarjammer</ComponentKey>
+              <Loadout xsi:type="SimpleOccupiedElement" />
             </GeneralLoadoutElement>
             <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
               <SocketKey>wingbottomin</SocketKey>
@@ -1211,18 +1351,18 @@ LIGHT STRIKE FUEL: 2x &lt;noparse&gt;SGM-1 Stiletto&lt;/noparse&gt;, 2x &lt;nopa
       <ModDependencies />
     </CraftTemplate>
     <CraftTemplate>
-      <DesignationSuffix>W</DesignationSuffix>
-      <Nickname>WAKE</Nickname>
-      <LongDescription>$CRAFTSTAT_FRAMEMODEL: Halberd
-$CRAFTSTAT_FRAMECLASS: Skiff
-$CRAFTSTAT_BASECOST: 15
+      <DesignationSuffix>E</DesignationSuffix>
+      <Nickname>Interloper</Nickname>
+      <LongDescription>$CRAFTSTAT_FRAMEMODEL: Pike
+$CRAFTSTAT_FRAMECLASS: Scout
+$CRAFTSTAT_BASECOST: 8
 $CRAFTSTAT_STORAGESIZE: 1
 $CRAFTSTAT_PADSIZE: 6 x 6
 $CRAFTSTAT_PDTHREATSIZE: 1
 
-$CRAFTSTAT_HEALTH: 130 
-$CRAFTSTAT_SKIN: 3 $UNIT_MILLIMETERS
-$CRAFTSTAT_TARGETSIZE: 1 
+$CRAFTSTAT_HEALTH: 70  (&lt;link="craft-health-hp"&gt;&lt;color=#3BC81E&gt;+30 &lt;/color&gt;&lt;/link&gt;)
+$CRAFTSTAT_SKIN: 1 $UNIT_MILLIMETERS
+$CRAFTSTAT_TARGETSIZE: 0.6 
 $CRAFTSTAT_DR: 0.5 %
 
 $CRAFTSTAT_RADARSIG: 100 %
@@ -1232,65 +1372,83 @@ $CRAFTSTAT_CMDCAPACITY: 1
 $CRAFTSTAT_MISSILEANGLE: 30 $UNIT_DEGREES
 $CRAFTSTAT_BOMBLEVELTIME: 3 $UNIT_SECONDS_MED
 
-$CRAFTSTAT_IDLESPEED: 20 $UNIT_METERSPERSEC
-$CRAFTSTAT_CRUISESPEED: 45 $UNIT_METERSPERSEC
-$CRAFTSTAT_HBRNSPEED: 68 $UNIT_METERSPERSEC
-$CRAFTSTAT_COMBATSPEED: 68 $UNIT_METERSPERSEC
+$CRAFTSTAT_IDLESPEED: 40 $UNIT_METERSPERSEC
+$CRAFTSTAT_CRUISESPEED: 85 $UNIT_METERSPERSEC
+$CRAFTSTAT_HBRNSPEED: 128 $UNIT_METERSPERSEC
+$CRAFTSTAT_COMBATSPEED: 128 $UNIT_METERSPERSEC
 
-$CRAFTSTAT_FUELCAPACITY: 1,200
-$CRAFTSTAT_LOITERTIME: 33:20
-$CRAFTSTAT_CRUISERANGE: 36 $UNIT_KILOMETERS
+$CRAFTSTAT_FUELCAPACITY: 500
+$CRAFTSTAT_LOITERTIME: 11:07
+$CRAFTSTAT_CRUISERANGE: 43 $UNIT_KILOMETERS
 
-$CRAFTSTAT_THRUSTERPOWER: 250 
-$CRAFTSTAT_TURNRATE: 20 
-$CRAFTSTAT_FRAMEMASS: 30.00
+$CRAFTSTAT_THRUSTERPOWER: 75 
+$CRAFTSTAT_TURNRATE: 60 
+$CRAFTSTAT_OFFANGLETHRUST: 90 $UNIT_DEGREES
+$CRAFTSTAT_OFFANGLETURN: 75 $UNIT_DEGREES
+$CRAFTSTAT_FRAMEMASS: 5.00
 $CRAFTSTAT_LOADOUTMASS: -
-$CRAFTSTAT_TOTALMASS: 30.00
-Thrust-to-Weight: 6.25
+$CRAFTSTAT_TOTALMASS: 5.00
 
 &lt;b&gt;Components:&lt;/b&gt;
-Nose: None
-Mission Package: Wake Sensor
-Avionics: None
-Fuselage: None
+Nose: 20mm Gun
+Fuselage: Ablative Foam
 Engine: None
-Countermeasures: Standard CM Launcher
+Countermeasures: High-Coherence CM Launcher
+Top: EO Targeting Ball
 
 &lt;b&gt;Loadouts:&lt;/b&gt;
-15KM WAKE SENSOR</LongDescription>
-      <Cost>30</Cost>
-      <FrameKey>Stock/OSP Skiff</FrameKey>
-      <TemplateKey>39d6b0d4-6045-4860-9af5-e6feb53dc0f2</TemplateKey>
+7.2km EO Designator: 1,000x &lt;noparse&gt;20mm Slug&lt;/noparse&gt;</LongDescription>
+      <Cost>26</Cost>
+      <FrameKey>Stock/OSP Scout</FrameKey>
+      <TemplateKey>1a67e24a-38a3-425b-8d4a-1baa03ff941c</TemplateKey>
       <InstalledComponents>
         <SerializedCraftSocket>
-          <SocketKey>mission</SocketKey>
-          <ComponentKey>mission_wake</ComponentKey>
+          <SocketKey>nose</SocketKey>
+          <ComponentKey>nose_gun20mm</ComponentKey>
+        </SerializedCraftSocket>
+        <SerializedCraftSocket>
+          <SocketKey>fuselage</SocketKey>
+          <ComponentKey>fuselage-ablativefoam</ComponentKey>
         </SerializedCraftSocket>
         <SerializedCraftSocket>
           <SocketKey>countermeasures</SocketKey>
-          <ComponentKey>cml-standard</ComponentKey>
+          <ComponentKey>cml-coherence</ComponentKey>
+        </SerializedCraftSocket>
+        <SerializedCraftSocket>
+          <SocketKey>top</SocketKey>
+          <ComponentKey>top_targeting</ComponentKey>
         </SerializedCraftSocket>
       </InstalledComponents>
       <Loadouts>
         <CraftLoadout>
-          <LoadoutName>15KM WAKE SENSOR</LoadoutName>
-          <Elements />
+          <LoadoutName>7.2km EO Designator</LoadoutName>
+          <Elements>
+            <GeneralLoadoutElement xsi:type="SimpleAmmoSelection">
+              <SocketKey>nose</SocketKey>
+              <AmmoKey>Stock/20mm Slug</AmmoKey>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+              <SocketKey>outboard</SocketKey>
+              <ComponentKey>outboard_fuelpods</ComponentKey>
+              <Loadout xsi:type="SimpleOccupiedElement" />
+            </GeneralLoadoutElement>
+          </Elements>
         </CraftLoadout>
       </Loadouts>
       <TemplateMissileTypes />
       <ModDependencies />
     </CraftTemplate>
     <CraftTemplate>
-      <DesignationSuffix>R</DesignationSuffix>
-      <Nickname>RADAR</Nickname>
-      <LongDescription>$CRAFTSTAT_FRAMEMODEL: Halberd
-$CRAFTSTAT_FRAMECLASS: Skiff
+      <DesignationSuffix />
+      <Nickname>Inquisitor</Nickname>
+      <LongDescription>$CRAFTSTAT_FRAMEMODEL: Sturgeon
+$CRAFTSTAT_FRAMECLASS: Bomber
 $CRAFTSTAT_BASECOST: 15
-$CRAFTSTAT_STORAGESIZE: 1
-$CRAFTSTAT_PADSIZE: 6 x 6
-$CRAFTSTAT_PDTHREATSIZE: 1
+$CRAFTSTAT_STORAGESIZE: 2
+$CRAFTSTAT_PADSIZE: 10 x 10
+$CRAFTSTAT_PDTHREATSIZE: 3
 
-$CRAFTSTAT_HEALTH: 130 
+$CRAFTSTAT_HEALTH: 135 
 $CRAFTSTAT_SKIN: 3 $UNIT_MILLIMETERS
 $CRAFTSTAT_TARGETSIZE: 1 
 $CRAFTSTAT_DR: 0.5 %
@@ -1298,53 +1456,124 @@ $CRAFTSTAT_DR: 0.5 %
 $CRAFTSTAT_RADARSIG: 100 %
 $CRAFTSTAT_WAKESIG: 100 %
 $CRAFTSTAT_MISSILESBOMBS
-$CRAFTSTAT_CMDCAPACITY: 1 
+$CRAFTSTAT_CMDCAPACITY: -1 
 $CRAFTSTAT_MISSILEANGLE: 30 $UNIT_DEGREES
 $CRAFTSTAT_BOMBLEVELTIME: 3 $UNIT_SECONDS_MED
 
-$CRAFTSTAT_IDLESPEED: 20 $UNIT_METERSPERSEC
-$CRAFTSTAT_CRUISESPEED: 45 $UNIT_METERSPERSEC
-$CRAFTSTAT_HBRNSPEED: 68 $UNIT_METERSPERSEC
-$CRAFTSTAT_COMBATSPEED: 68 $UNIT_METERSPERSEC
+$CRAFTSTAT_IDLESPEED: 30 $UNIT_METERSPERSEC
+$CRAFTSTAT_CRUISESPEED: 60 $UNIT_METERSPERSEC
+$CRAFTSTAT_HBRNSPEED: 90 $UNIT_METERSPERSEC
+$CRAFTSTAT_COMBATSPEED: 90 $UNIT_METERSPERSEC
 
-$CRAFTSTAT_FUELCAPACITY: 1,200
-$CRAFTSTAT_LOITERTIME: 33:20
-$CRAFTSTAT_CRUISERANGE: 36 $UNIT_KILOMETERS
+$CRAFTSTAT_FUELCAPACITY: 1,700
+$CRAFTSTAT_LOITERTIME: 13:36
+$CRAFTSTAT_CRUISERANGE: 34 $UNIT_KILOMETERS
 
-$CRAFTSTAT_THRUSTERPOWER: 250 
-$CRAFTSTAT_TURNRATE: 20 
-$CRAFTSTAT_FRAMEMASS: 30.00
+$CRAFTSTAT_THRUSTERPOWER: 200 
+$CRAFTSTAT_TURNRATE: 45 
+$CRAFTSTAT_OFFANGLETHRUST: 90 $UNIT_DEGREES
+$CRAFTSTAT_OFFANGLETURN: 25 $UNIT_DEGREES
+$CRAFTSTAT_FRAMEMASS: 25.00
 $CRAFTSTAT_LOADOUTMASS: -
-$CRAFTSTAT_TOTALMASS: 30.00
-Thrust-to-Weight: 6.25
+$CRAFTSTAT_TOTALMASS: 25.00
 
 &lt;b&gt;Components:&lt;/b&gt;
-Nose: None
-Mission Package: Internal Radar (Advanced)
-Avionics: None
 Fuselage: None
 Engine: None
-Countermeasures: Standard CM Launcher
+Countermeasures: High-Coherence CM Launcher
 
 &lt;b&gt;Loadouts:&lt;/b&gt;
-8KM RADAR</LongDescription>
-      <Cost>50</Cost>
-      <FrameKey>Stock/OSP Skiff</FrameKey>
-      <TemplateKey>8ab4e126-69c5-434b-87a5-b1a887d4b6f8</TemplateKey>
+Missile Rocket HE Gunpod: 2x &lt;noparse&gt;SGM-27 Broadsword&lt;/noparse&gt;, 2x R-2 'Piranha' Rocket, 20x &lt;noparse&gt;100mm HE Shell&lt;/noparse&gt;
+Missile Rocket AP Gunpod: 2x &lt;noparse&gt;SGM-27 Broadsword&lt;/noparse&gt;, 2x R-2 'Piranha' Rocket, 20x &lt;noparse&gt;100mm AP Shell&lt;/noparse&gt;
+HE Gunpod Backup: 20x &lt;noparse&gt;100mm HE Shell&lt;/noparse&gt;
+AP Gunpod Backup: 20x &lt;noparse&gt;100mm AP Shell&lt;/noparse&gt;</LongDescription>
+      <Cost>17</Cost>
+      <FrameKey>Stock/OSP Bomber</FrameKey>
+      <TemplateKey>fff2ab7b-b615-443b-bc03-220de55c2ed0</TemplateKey>
       <InstalledComponents>
         <SerializedCraftSocket>
-          <SocketKey>mission</SocketKey>
-          <ComponentKey>mission_advancedradar</ComponentKey>
-        </SerializedCraftSocket>
-        <SerializedCraftSocket>
           <SocketKey>countermeasures</SocketKey>
-          <ComponentKey>cml-standard</ComponentKey>
+          <ComponentKey>cml-coherence</ComponentKey>
         </SerializedCraftSocket>
       </InstalledComponents>
       <Loadouts>
         <CraftLoadout>
-          <LoadoutName>8KM RADAR</LoadoutName>
-          <Elements />
+          <LoadoutName>Missile Rocket HE Gunpod</LoadoutName>
+          <Elements>
+            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+              <SocketKey>outerwing</SocketKey>
+              <ComponentKey>outerwing_s2pylons</ComponentKey>
+              <Loadout xsi:type="MissileSelection">
+                <SocketKey>outerwing</SocketKey>
+                <MissileKeys>
+                  <string>$MODMIS$/SGM-27 Broadsword</string>
+                  <string>Stock/S1 Rocket</string>
+                  <string>$MODMIS$/SGM-27 Broadsword</string>
+                  <string>Stock/S1 Rocket</string>
+                </MissileKeys>
+              </Loadout>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+              <SocketKey>innerwing</SocketKey>
+              <ComponentKey>wings_100mmguns</ComponentKey>
+              <Loadout xsi:type="SimpleAmmoSelection">
+                <SocketKey>innerwing</SocketKey>
+                <AmmoKey>Stock/100mm HE Shell</AmmoKey>
+              </Loadout>
+            </GeneralLoadoutElement>
+          </Elements>
+        </CraftLoadout>
+        <CraftLoadout>
+          <LoadoutName>Missile Rocket AP Gunpod</LoadoutName>
+          <Elements>
+            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+              <SocketKey>outerwing</SocketKey>
+              <ComponentKey>outerwing_s2pylons</ComponentKey>
+              <Loadout xsi:type="MissileSelection">
+                <SocketKey>outerwing</SocketKey>
+                <MissileKeys>
+                  <string>$MODMIS$/SGM-27 Broadsword</string>
+                  <string>Stock/S1 Rocket</string>
+                  <string>$MODMIS$/SGM-27 Broadsword</string>
+                  <string>Stock/S1 Rocket</string>
+                </MissileKeys>
+              </Loadout>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+              <SocketKey>innerwing</SocketKey>
+              <ComponentKey>wings_100mmguns</ComponentKey>
+              <Loadout xsi:type="SimpleAmmoSelection">
+                <SocketKey>innerwing</SocketKey>
+                <AmmoKey>Stock/100mm AP Shell</AmmoKey>
+              </Loadout>
+            </GeneralLoadoutElement>
+          </Elements>
+        </CraftLoadout>
+        <CraftLoadout>
+          <LoadoutName>HE Gunpod Backup</LoadoutName>
+          <Elements>
+            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+              <SocketKey>innerwing</SocketKey>
+              <ComponentKey>wings_100mmguns</ComponentKey>
+              <Loadout xsi:type="SimpleAmmoSelection">
+                <SocketKey>innerwing</SocketKey>
+                <AmmoKey>Stock/100mm HE Shell</AmmoKey>
+              </Loadout>
+            </GeneralLoadoutElement>
+          </Elements>
+        </CraftLoadout>
+        <CraftLoadout>
+          <LoadoutName>AP Gunpod Backup</LoadoutName>
+          <Elements>
+            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+              <SocketKey>innerwing</SocketKey>
+              <ComponentKey>wings_100mmguns</ComponentKey>
+              <Loadout xsi:type="SimpleAmmoSelection">
+                <SocketKey>innerwing</SocketKey>
+                <AmmoKey>Stock/100mm AP Shell</AmmoKey>
+              </Loadout>
+            </GeneralLoadoutElement>
+          </Elements>
         </CraftLoadout>
       </Loadouts>
       <TemplateMissileTypes />

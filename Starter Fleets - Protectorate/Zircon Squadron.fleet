@@ -14,7 +14,7 @@ Zircon Squadron is an ambush fleet capable of exceptional burst damage against h
       <SaveID xsi:nil="true" />
       <Key>1f59f501-9669-47a2-9730-826d49aac37a</Key>
       <Name>Top Towards Enemy</Name>
-      <Cost>1207</Cost>
+      <Cost>1215</Cost>
       <Callsign />
       <Number>1095</Number>
       <SymbolOption>0</SymbolOption>
@@ -101,7 +101,7 @@ Zircon Squadron is an ambush fleet capable of exceptional burst damage against h
         </HullSocket>
         <HullSocket>
           <Key>bxvsvg5znk6TqiIKq8H0kg</Key>
-          <ComponentName>Stock/RF44 'Pinpoint' Radar</ComponentName>
+          <ComponentName>Stock/P11 PDT</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>9EF9u0V1eUetleBnkQhHkA</Key>
@@ -111,7 +111,7 @@ Zircon Squadron is an ambush fleet capable of exceptional burst damage against h
               <MagSaveData>
                 <MagazineKey>VwIjgLLK7UaukUUdJnSOJw</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-156 Guardian</MunitionKey>
-                <Quantity>16</Quantity>
+                <Quantity>18</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>1llSyDUuhU-TUMNi9TbZQw</MagazineKey>
@@ -120,6 +120,10 @@ Zircon Squadron is an ambush fleet capable of exceptional burst damage against h
               </MagSaveData>
             </MissileLoad>
           </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>I68tNng-K0yG-AoUx0HcSw</Key>
+          <ComponentName>Stock/P11 PDT</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>Sb5-VSuwlkWpT6ViRiJ3vg</Key>
@@ -144,14 +148,6 @@ Zircon Squadron is an ambush fleet capable of exceptional burst damage against h
             <MissileLoad />
             <FireOutsideLimits>true</FireOutsideLimits>
           </ComponentData>
-        </HullSocket>
-        <HullSocket>
-          <Key>PRLtjo7PfECpLy8CGW9T8A</Key>
-          <ComponentName>Stock/P11 PDT</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>sTr26YTLmkOZTo_rNevp-g</Key>
-          <ComponentName>Stock/P11 PDT</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>y1Cs8LR0KUyCKUAJBIOyOg</Key>
@@ -181,7 +177,7 @@ Zircon Squadron is an ambush fleet capable of exceptional burst damage against h
               <MagSaveData>
                 <MagazineKey>SVshAw7zY0Wv3ZsM8Pa4Pw</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-200 Scion AB</MunitionKey>
-                <Quantity>5</Quantity>
+                <Quantity>4</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>_qNUR-15FU2zCG7aYX8-Dw</MagazineKey>
@@ -240,7 +236,7 @@ Zircon Squadron is an ambush fleet capable of exceptional burst damage against h
               <MagSaveData>
                 <MagazineKey>4409jOYBLE2V-7R4FOt90Q</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-200 Scion AB</MunitionKey>
-                <Quantity>5</Quantity>
+                <Quantity>8</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>8XgQMmddt0-iEhHUT1R-SA</MagazineKey>
@@ -323,7 +319,7 @@ Zircon Squadron is an ambush fleet capable of exceptional burst damage against h
       <SaveID xsi:nil="true" />
       <Key>2098bdd2-55ec-4248-a8e2-923b381c82ac</Key>
       <Name>This Side Up</Name>
-      <Cost>1208</Cost>
+      <Cost>1207</Cost>
       <Callsign />
       <Number>1198</Number>
       <SymbolOption>0</SymbolOption>
@@ -408,10 +404,6 @@ Zircon Squadron is an ambush fleet capable of exceptional burst damage against h
           <ComponentName>Stock/T81 Plasma Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>bxvsvg5znk6TqiIKq8H0kg</Key>
-          <ComponentName>Stock/RF44 'Pinpoint' Radar</ComponentName>
-        </HullSocket>
-        <HullSocket>
           <Key>9EF9u0V1eUetleBnkQhHkA</Key>
           <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
           <ComponentData xsi:type="CellLauncherData">
@@ -419,7 +411,7 @@ Zircon Squadron is an ambush fleet capable of exceptional burst damage against h
               <MagSaveData>
                 <MagazineKey>VwIjgLLK7UaukUUdJnSOJw</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-156 Guardian</MunitionKey>
-                <Quantity>16</Quantity>
+                <Quantity>17</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>1llSyDUuhU-TUMNi9TbZQw</MagazineKey>
@@ -489,7 +481,7 @@ Zircon Squadron is an ambush fleet capable of exceptional burst damage against h
               <MagSaveData>
                 <MagazineKey>SVshAw7zY0Wv3ZsM8Pa4Pw</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-200 Scion AB</MunitionKey>
-                <Quantity>5</Quantity>
+                <Quantity>4</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>_qNUR-15FU2zCG7aYX8-Dw</MagazineKey>
@@ -548,7 +540,7 @@ Zircon Squadron is an ambush fleet capable of exceptional burst damage against h
               <MagSaveData>
                 <MagazineKey>4409jOYBLE2V-7R4FOt90Q</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-200 Scion AB</MunitionKey>
-                <Quantity>5</Quantity>
+                <Quantity>7</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>8XgQMmddt0-iEhHUT1R-SA</MagazineKey>
@@ -631,7 +623,7 @@ Zircon Squadron is an ambush fleet capable of exceptional burst damage against h
       <SaveID xsi:nil="true" />
       <Key>6eaf921c-a88e-4a3b-82c6-7a9c51dddbec</Key>
       <Name>Tyrannical Gaze</Name>
-      <Cost>585</Cost>
+      <Cost>578</Cost>
       <Callsign />
       <Number>199</Number>
       <SymbolOption>0</SymbolOption>
@@ -653,12 +645,12 @@ Zircon Squadron is an ambush fleet capable of exceptional burst damage against h
               <MagSaveData>
                 <MagazineKey>MaCqYBzb0UiHaOH75yukAg</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-156 Guardian</MunitionKey>
-                <Quantity>13</Quantity>
+                <Quantity>10</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>kBDHL4IgAUqPYWOyzJnpiA</MagazineKey>
                 <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>4</Quantity>
+                <Quantity>3</Quantity>
               </MagSaveData>
             </MissileLoad>
           </ComponentData>
@@ -782,13 +774,13 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
             <SelfDestructOnLost>false</SelfDestructOnLost>
             <Maneuvers>None</Maneuvers>
             <DefensiveDoctrine>
-              <Mode>Matrix</Mode>
+              <Mode>Uniform</Mode>
               <TargetSizeMask>12</TargetSizeMask>
               <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>1</SalvoSize>
-              <ConvSalvo>256</ConvSalvo>
-              <HybridSalvo>131328</HybridSalvo>
+              <ConvSalvo>0</ConvSalvo>
+              <HybridSalvo>0</HybridSalvo>
               <CraftSalvo>0</CraftSalvo>
               <FarthestFirst>false</FarthestFirst>
             </DefensiveDoctrine>
@@ -887,14 +879,14 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
             <SelfDestructOnLost>false</SelfDestructOnLost>
             <Maneuvers>None</Maneuvers>
             <DefensiveDoctrine>
-              <Mode>Matrix</Mode>
+              <Mode>Uniform</Mode>
               <TargetSizeMask>8</TargetSizeMask>
               <TargetType>SmallCraft</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>0</SalvoSize>
               <ConvSalvo>0</ConvSalvo>
               <HybridSalvo>0</HybridSalvo>
-              <CraftSalvo>65536</CraftSalvo>
+              <CraftSalvo>0</CraftSalvo>
               <FarthestFirst>false</FarthestFirst>
             </DefensiveDoctrine>
             <ApproachAngleControl>false</ApproachAngleControl>
