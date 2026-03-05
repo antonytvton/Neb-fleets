@@ -10,7 +10,7 @@
       <SaveID xsi:nil="true" />
       <Key>7c430322-055d-4439-b288-85120c8c1b69</Key>
       <Name>Soul of Lead</Name>
-      <Cost>488</Cost>
+      <Cost>503</Cost>
       <Callsign />
       <Number>1336</Number>
       <SymbolOption>0</SymbolOption>
@@ -39,6 +39,11 @@
                 <MunitionKey>$MODMIS$/SGM-200 Longbolt SAJ</MunitionKey>
                 <Quantity>11</Quantity>
               </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>vr0oe0nMHUeK9XvVsqso2A</MagazineKey>
+                <MunitionKey>$MODMIS$/SDM-221 Naginata M8C-XT</MunitionKey>
+                <Quantity>1</Quantity>
+              </MagSaveData>
             </MissileLoad>
           </ComponentData>
         </HullSocket>
@@ -81,7 +86,7 @@
         </HullSocket>
         <HullSocket>
           <Key>Jmtnwo0KQki5QyEPPlBHrA</Key>
-          <ComponentName>Stock/FM200 Drive</ComponentName>
+          <ComponentName>Stock/FM230 'Whiplash' Drive</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>V42tXibIR0e4u6riIHYZOw</Key>
@@ -100,7 +105,7 @@
       <SaveID xsi:nil="true" />
       <Key>c0aca24e-e1d0-4215-b909-2959773f11d6</Key>
       <Name>Strike Upon the Anvil</Name>
-      <Cost>488</Cost>
+      <Cost>503</Cost>
       <Callsign />
       <Number>682</Number>
       <SymbolOption>0</SymbolOption>
@@ -129,6 +134,11 @@
                 <MunitionKey>$MODMIS$/SGM-200 Longbolt SAJ</MunitionKey>
                 <Quantity>11</Quantity>
               </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>HYAzJFWQJkmWz_NbSdUJUw</MagazineKey>
+                <MunitionKey>$MODMIS$/SDM-221 Naginata M8C-XT</MunitionKey>
+                <Quantity>1</Quantity>
+              </MagSaveData>
             </MissileLoad>
           </ComponentData>
         </HullSocket>
@@ -171,7 +181,7 @@
         </HullSocket>
         <HullSocket>
           <Key>Jmtnwo0KQki5QyEPPlBHrA</Key>
-          <ComponentName>Stock/FM200 Drive</ComponentName>
+          <ComponentName>Stock/FM230 'Whiplash' Drive</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>V42tXibIR0e4u6riIHYZOw</Key>
@@ -198,7 +208,7 @@
       <SaveID xsi:nil="true" />
       <Key>a4206f6d-d39d-475a-b1e8-3845abe0f85f</Key>
       <Name>Hammerblow</Name>
-      <Cost>493</Cost>
+      <Cost>508</Cost>
       <Callsign />
       <Number>489</Number>
       <SymbolOption>0</SymbolOption>
@@ -227,6 +237,11 @@
                 <MunitionKey>$MODMIS$/SGM-200 Longbolt SAJ</MunitionKey>
                 <Quantity>11</Quantity>
               </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>L0vkMdUqBE2fAoSUMhXUcA</MagazineKey>
+                <MunitionKey>$MODMIS$/SDM-221 Naginata M8C-XT</MunitionKey>
+                <Quantity>1</Quantity>
+              </MagSaveData>
             </MissileLoad>
           </ComponentData>
         </HullSocket>
@@ -269,7 +284,7 @@
         </HullSocket>
         <HullSocket>
           <Key>Jmtnwo0KQki5QyEPPlBHrA</Key>
-          <ComponentName>Stock/FM200 Drive</ComponentName>
+          <ComponentName>Stock/FM230 'Whiplash' Drive</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>V42tXibIR0e4u6riIHYZOw</Key>
@@ -296,7 +311,7 @@
       <SaveID xsi:nil="true" />
       <Key>1a1a0750-bd56-45cf-abf1-e1dc14a4deab</Key>
       <Name>Will of Iron</Name>
-      <Cost>506</Cost>
+      <Cost>491</Cost>
       <Callsign />
       <Number>1086</Number>
       <SymbolOption>0</SymbolOption>
@@ -304,7 +319,7 @@
       <SocketMap>
         <HullSocket>
           <Key>PDKmGfvpykODc3XHDQ7WBw</Key>
-          <ComponentName>Stock/Mk90 'Aurora' PDT</ComponentName>
+          <ComponentName>Stock/Mk20 'Defender' PDT</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>WwMGqYiU7E6lp7ID47phqA</Key>
@@ -324,6 +339,11 @@
                 <MagazineKey>Q9DdVHmsN06lwBg3aZlyPA</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-200 Longbolt SAJ</MunitionKey>
                 <Quantity>11</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>2p8mvmfG20qcrXt5-8COUg</MagazineKey>
+                <MunitionKey>$MODMIS$/SDM-221 Naginata M8C-XT</MunitionKey>
+                <Quantity>1</Quantity>
               </MagSaveData>
             </MissileLoad>
           </ComponentData>
@@ -373,7 +393,7 @@
         </HullSocket>
         <HullSocket>
           <Key>Jmtnwo0KQki5QyEPPlBHrA</Key>
-          <ComponentName>Stock/FM200 Drive</ComponentName>
+          <ComponentName>Stock/FM230 'Whiplash' Drive</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>V42tXibIR0e4u6riIHYZOw</Key>
@@ -400,7 +420,7 @@
       <SaveID xsi:nil="true" />
       <Key>e587193c-8891-4abd-96d2-8c76ab563c50</Key>
       <Name>Sinew and Steel</Name>
-      <Cost>507</Cost>
+      <Cost>490</Cost>
       <Callsign />
       <Number>755</Number>
       <SymbolOption>0</SymbolOption>
@@ -412,7 +432,7 @@
         </HullSocket>
         <HullSocket>
           <Key>WwMGqYiU7E6lp7ID47phqA</Key>
-          <ComponentName>Stock/Mk90 'Aurora' PDT</ComponentName>
+          <ComponentName>Stock/Mk62 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>gkfIwYzn7kGhG6MW9uxBmw</Key>
@@ -428,6 +448,11 @@
                 <MagazineKey>Q9DdVHmsN06lwBg3aZlyPA</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-200 Longbolt SAJ</MunitionKey>
                 <Quantity>10</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>y48GibtAtkCwBVPzkVwHlA</MagazineKey>
+                <MunitionKey>$MODMIS$/SDM-221 Naginata M8C-XT</MunitionKey>
+                <Quantity>1</Quantity>
               </MagSaveData>
             </MissileLoad>
           </ComponentData>
@@ -468,6 +493,21 @@
                 <MunitionKey>Stock/20mm Slug</MunitionKey>
                 <Quantity>8000</Quantity>
               </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>A1mxlnY8106NtbN9bWo54Q</MagazineKey>
+                <MunitionKey>Stock/120mm AP Shell</MunitionKey>
+                <Quantity>100</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>XwkwPv0El0SeDm3CEYUMaQ</MagazineKey>
+                <MunitionKey>Stock/120mm HE Shell</MunitionKey>
+                <Quantity>100</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>TI9nbP8qdkqEZjS2wg7X8g</MagazineKey>
+                <MunitionKey>Stock/120mm HE-RPF Shell</MunitionKey>
+                <Quantity>100</Quantity>
+              </MagSaveData>
             </Load>
           </ComponentData>
         </HullSocket>
@@ -477,7 +517,7 @@
         </HullSocket>
         <HullSocket>
           <Key>Jmtnwo0KQki5QyEPPlBHrA</Key>
-          <ComponentName>Stock/FM200 Drive</ComponentName>
+          <ComponentName>Stock/FM230 'Whiplash' Drive</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>V42tXibIR0e4u6riIHYZOw</Key>
@@ -504,7 +544,7 @@
       <SaveID xsi:nil="true" />
       <Key>f4df8fd8-72fd-4bf0-aa74-a031e7c29231</Key>
       <Name>Heart of Steel</Name>
-      <Cost>518</Cost>
+      <Cost>505</Cost>
       <Callsign />
       <Number>1047</Number>
       <SymbolOption>0</SymbolOption>
@@ -518,19 +558,19 @@
               <MagSaveData>
                 <MagazineKey>PHIus11axEGAG6Yu7Jrhyw</MagazineKey>
                 <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>15</Quantity>
+                <Quantity>8</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>ebKu4NnwuEy3LVDktfNiig</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-100 Balestra Block II</MunitionKey>
-                <Quantity>20</Quantity>
+                <Quantity>6</Quantity>
               </MagSaveData>
             </MissileLoad>
           </ComponentData>
         </HullSocket>
         <HullSocket>
           <Key>WwMGqYiU7E6lp7ID47phqA</Key>
-          <ComponentName>Stock/E55 'Spotlight' Illuminator</ComponentName>
+          <ComponentName>Stock/Mk62 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>gkfIwYzn7kGhG6MW9uxBmw</Key>
@@ -565,6 +605,11 @@
                 <MunitionKey>$MODMIS$/SGM-200 Longbolt SAJ</MunitionKey>
                 <Quantity>11</Quantity>
               </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>UTuKjBWwdUyNvDpu9bDmiw</MagazineKey>
+                <MunitionKey>$MODMIS$/SDM-221 Naginata M8C-XT</MunitionKey>
+                <Quantity>1</Quantity>
+              </MagSaveData>
             </MissileLoad>
           </ComponentData>
         </HullSocket>
@@ -578,13 +623,29 @@
         </HullSocket>
         <HullSocket>
           <Key>O_Y-AJc7r0alOg36rvY6MQ</Key>
-          <ComponentName>Stock/Plant Control Center</ComponentName>
+          <ComponentName>Stock/Rapid DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>lorATFhkTkeZQYThYOHazg</Key>
           <ComponentName>Stock/Reinforced Magazine</ComponentName>
           <ComponentData xsi:type="BulkMagazineData">
-            <Load />
+            <Load>
+              <MagSaveData>
+                <MagazineKey>VkMTVM7BGEeBJo0aluIJdg</MagazineKey>
+                <MunitionKey>Stock/120mm AP Shell</MunitionKey>
+                <Quantity>100</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>XBMVyOAf-UWeXTw0XUqiAQ</MagazineKey>
+                <MunitionKey>Stock/120mm HE Shell</MunitionKey>
+                <Quantity>100</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>xtW2_3tEhkOgy_wTjQ8GTQ</MagazineKey>
+                <MunitionKey>Stock/120mm HE-RPF Shell</MunitionKey>
+                <Quantity>100</Quantity>
+              </MagSaveData>
+            </Load>
           </ComponentData>
         </HullSocket>
         <HullSocket>
@@ -593,7 +654,7 @@
         </HullSocket>
         <HullSocket>
           <Key>Jmtnwo0KQki5QyEPPlBHrA</Key>
-          <ComponentName>Stock/FM200 Drive</ComponentName>
+          <ComponentName>Stock/FM230 'Whiplash' Drive</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>V42tXibIR0e4u6riIHYZOw</Key>
@@ -922,6 +983,134 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
             <BalanceValues>
               <A>0</A>
               <B>1</B>
+              <C>0</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+      </Sockets>
+    </MissileTemplate>
+    <MissileTemplate>
+      <AssociatedTemplateName>SDM-221 Naginata M8C-XT</AssociatedTemplateName>
+      <Designation>SDM-221</Designation>
+      <Nickname>Naginata M8C-XT</Nickname>
+      <Description>$MISSILEGUIDANCE_MODE_DIRECT - $MISSILESEEKER_MODE_PASSIVE_ABBREV(&lt;color=#D4211D&gt;WAKE&lt;/color&gt;)/$MISSILESEEKER_MODE_ACTIVE_ABBREV(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;) - $MISSILEWARHEAD_SHORT_BLASTFRAG</Description>
+      <LongDescription>The &lt;noparse&gt;SDM-221 Naginata M8C-XT&lt;/noparse&gt; is a size 2 direct guidance missile.  It is based on the SDM-2 body, which is a flexible defensive missile with a booster.  This missile will deliver a $MISSILEWARHEAD_DETAIL_BLASTFRAG warhead.  It homes in on its target using a Passive Wake seeker  If the primary seeker does not find a target or is jammed, it can fall back on an Active Radar seeker.
+
+$MISSILESTAT_CONTROLMETHOD: $MISSILEGUIDANCE_MODE_DIRECT
+$MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
+
+$MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_PASSIVE_CAPS (&lt;color=#D4211D&gt;WAKE&lt;/color&gt;)
+$MISSILESTAT_BACKUPSEEKER: $MISSILESEEKER_MODE_ACTIVE_CAPS &lt;color=#3BC81E&gt;RADAR&lt;/color&gt;
+
+&lt;b&gt;Boost&lt;/b&gt;
+$MISSILESTAT_SPEED: 850 $UNIT_METERSPERSEC
+$MISSILESTAT_DISTANCE: 6,198 $UNIT_METERS
+$MISSILESTAT_TOPSPEEDTIME: 1.4 $UNIT_SECONDS
+$MISSILESTAT_TURNRATE: 5.0 $UNIT_GS
+
+&lt;b&gt;Main&lt;/b&gt;
+$MISSILESTAT_SPEED: 150 $UNIT_METERSPERSEC
+$MISSILESTAT_DISTANCE: 1,765 $UNIT_METERS
+$MISSILESTAT_TOPSPEEDTIME: 0.5 $UNIT_SECONDS
+$MISSILESTAT_TURNRATE: 8.2 $UNIT_GS
+
+: $MISSILEENGINE_STAGE_TRIGGER_DETECTION $MISSILEENGINE_STAGE_TRIGGER_BURNOUT (&lt;color=#D3D11F&gt;$MISSILEENGINE_STAGE_DIRECTIONONLY&lt;/color&gt;)
+
+$MISSILESTAT_TERMINALS: None
+
+$MISSILESTAT_WARHEAD: $MISSILEWARHEAD_DETAIL_BLASTFRAG
+$MISSILESTAT_ARMORDAMAGE: 0.40$UNIT_CENTIMETERS
+$MISSILESTAT_COMPONENTDAMAGE: 127.16$UNIT_HP
+$MISSILESTAT_BLASTRADIUS: 91 $UNIT_METERS
+
+$MISSILESTAT_HEALTH: 25 
+$MISSILESTAT_WALLTHICKNESS: 0.05
+$MISSILESTAT_PROGTIME: 10 $UNIT_SECONDS
+$MISSILESTAT_RADARSIG: 100 %
+$MISSILESTAT_BOOSTTIME: 3 $UNIT_SECONDS
+$MISSILESTAT_BOOSTSTRAFE: 100 %
+$MISSILESTAT_BOOSTTURN: 100 %
+$MISSILESTAT_FAILRATE: 0 %</LongDescription>
+      <Cost>5</Cost>
+      <BodyKey>Stock/SDM-2 Body</BodyKey>
+      <TemplateKey>6002071d-2bf8-45f9-82a2-1359b88decc1</TemplateKey>
+      <BaseColor>
+        <r>0.129411772</r>
+        <g>0.3882353</g>
+        <b>0.7058824</b>
+        <a>1</a>
+      </BaseColor>
+      <StripeColor>
+        <r>0.882352948</r>
+        <g>0.8666667</g>
+        <b>0</b>
+        <a>1</a>
+      </StripeColor>
+      <Sockets>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="PassiveSeekerSettings">
+            <ComponentKey>Stock/Wake-Homing Seeker</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <DetectPDTargets>true</DetectPDTargets>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="ActiveSeekerSettings">
+            <ComponentKey>Stock/Steerable Active Radar Seeker</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <DetectPDTargets>true</DetectPDTargets>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="DirectGuidanceSettings">
+            <ComponentKey>Stock/Direct Guidance</ComponentKey>
+            <Role>Defensive</Role>
+            <HotLaunch>false</HotLaunch>
+            <SelfDestructOnLost>false</SelfDestructOnLost>
+            <Maneuvers>None</Maneuvers>
+            <DefensiveDoctrine>
+              <Mode>Uniform</Mode>
+              <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>SmallCraft</TargetType>
+              <TargetSizeOrdering>Descending</TargetSizeOrdering>
+              <SalvoSize>0</SalvoSize>
+              <ConvSalvo>0</ConvSalvo>
+              <HybridSalvo>0</HybridSalvo>
+              <CraftSalvo>0</CraftSalvo>
+              <FarthestFirst>false</FarthestFirst>
+            </DefensiveDoctrine>
+            <ApproachAngleControl>true</ApproachAngleControl>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>4</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/Blast Fragmentation</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>3</Size>
+          <InstalledComponent xsi:type="MissileEngineSettings">
+            <ComponentKey />
+            <BalanceValues>
+              <A>0</A>
+              <B>-0</B>
+              <C>1</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="MissileEngineSettings">
+            <ComponentKey />
+            <BalanceValues>
+              <A>1</A>
+              <B>0</B>
               <C>0</C>
             </BalanceValues>
           </InstalledComponent>

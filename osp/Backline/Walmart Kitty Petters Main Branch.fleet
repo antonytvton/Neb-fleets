@@ -393,17 +393,17 @@
     <MissileTemplate>
       <Designation>SGM-200</Designation>
       <Nickname>Tempest</Nickname>
-      <Description>$MISSILEGUIDANCE_MODE_DIRECT - &lt;color=#D3D11F&gt;$MISSILESEEKER_MODE_COMMAND_ABBREV&lt;/color&gt;/$MISSILESEEKER_MODE_SEMIACTIVE_ABBREV(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;) - $MISSILEWARHEAD_SHORT_HEIMPACT</Description>
-      <LongDescription>The &lt;noparse&gt;SGM-200 Tempest&lt;/noparse&gt; is a size 2 direct guidance missile.  It is based on the SGM-2 body, which is a flexible mainstay anti-ship missile.  This missile will deliver a $MISSILEWARHEAD_DETAIL_HEIMPACT warhead.  It homes in on its target using command guidance from its launching ship  If the primary seeker does not find a target or is jammed, it can fall back on a Semi-Active Radar seeker.
+      <Description>$MISSILEGUIDANCE_MODE_DIRECT - &lt;color=#D3D11F&gt;$MISSILESEEKER_MODE_COMMAND_ABBREV&lt;/color&gt;/$MISSILESEEKER_MODE_ARAD_HOJ_ABBREV(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;) - $MISSILEWARHEAD_SHORT_HEIMPACT</Description>
+      <LongDescription>The &lt;noparse&gt;SGM-200 Tempest&lt;/noparse&gt; is a size 2 direct guidance missile.  It is based on the SGM-2 body, which is a flexible mainstay anti-ship missile.  This missile will deliver a $MISSILEWARHEAD_DETAIL_HEIMPACT warhead.  It homes in on its target using command guidance from its launching ship  If the primary seeker does not find a target or is jammed, it can fall back on a Radar Home-on-Jam seeker.
 
 $MISSILESTAT_CONTROLMETHOD: $MISSILEGUIDANCE_MODE_DIRECT
 $MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
 
 $MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_COMMAND_CAPS (&lt;color=#D3D11F&gt;$MISSILESEEKER_COMMAND_COMMSNOTE&lt;/color&gt;)
-$MISSILESTAT_BACKUPSEEKER: $MISSILESEEKER_MODE_SEMIACTIVE_CAPS &lt;color=#3BC81E&gt;RADAR&lt;/color&gt;
+$MISSILESTAT_BACKUPSEEKER: HOME-ON-JAM (&lt;color=#3BC81E&gt;RADAR&lt;/color&gt; JAMMING Signals Only)
 
 $MISSILESTAT_SPEED: 310 $UNIT_METERSPERSEC
-$MISSILESTAT_DISTANCE: 6,199 $UNIT_METERS
+$MISSILESTAT_DISTANCE: 6,005 $UNIT_METERS
 $MISSILESTAT_TOPSPEEDTIME: 1.8 $UNIT_SECONDS
 $MISSILESTAT_TURNRATE: 3.2 $UNIT_GS
 $MISSILESTAT_TERMINALS: Weave
@@ -449,11 +449,11 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
         </MissileSocket>
         <MissileSocket>
           <Size>1</Size>
-          <InstalledComponent xsi:type="ActiveSeekerSettings">
-            <ComponentKey>Stock/Fixed Semi-Active Radar Seeker</ComponentKey>
+          <InstalledComponent xsi:type="PassiveARHSeekerSettings">
+            <ComponentKey>Stock/Fixed Anti-Radiation Seeker</ComponentKey>
             <Mode>Targeting</Mode>
             <RejectUnvalidated>false</RejectUnvalidated>
-            <DetectPDTargets>false</DetectPDTargets>
+            <TargetType>JammingOnly</TargetType>
           </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
@@ -489,9 +489,9 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
           <InstalledComponent xsi:type="MissileEngineSettings">
             <ComponentKey />
             <BalanceValues>
-              <A>0.7650388</A>
-              <B>0.010917102</B>
-              <C>0.224044114</C>
+              <A>0.766659439</A>
+              <B>0.00282849767</B>
+              <C>0.230512068</C>
             </BalanceValues>
           </InstalledComponent>
         </MissileSocket>
@@ -509,10 +509,10 @@ $MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETING
 $MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_COMMAND_CAPS (&lt;color=#D3D11F&gt;$MISSILESEEKER_COMMAND_COMMSNOTE&lt;/color&gt;)
 $MISSILESTAT_BACKUPSEEKER: $MISSILESEEKER_MODE_SEMIACTIVE_CAPS &lt;color=#3BC81E&gt;RADAR&lt;/color&gt;
 
-$MISSILESTAT_SPEED: 304 $UNIT_METERSPERSEC
-$MISSILESTAT_DISTANCE: 5,784 $UNIT_METERS
+$MISSILESTAT_SPEED: 305 $UNIT_METERSPERSEC
+$MISSILESTAT_DISTANCE: 5,497 $UNIT_METERS
 $MISSILESTAT_TOPSPEEDTIME: 1.7 $UNIT_SECONDS
-$MISSILESTAT_TURNRATE: 3.1 $UNIT_GS
+$MISSILESTAT_TURNRATE: 3.2 $UNIT_GS
 $MISSILESTAT_TERMINALS: None
 
 $MISSILESTAT_WARHEAD: $MISSILEWARHEAD_DETAIL_HEIMPACT
@@ -595,9 +595,9 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
           <InstalledComponent xsi:type="MissileEngineSettings">
             <ComponentKey />
             <BalanceValues>
-              <A>0.7280123</A>
-              <B>0.0611803271</B>
-              <C>0.210807353</C>
+              <A>0.734902143</A>
+              <B>0.0452831239</B>
+              <C>0.219814733</C>
             </BalanceValues>
           </InstalledComponent>
         </MissileSocket>
@@ -614,16 +614,16 @@ $MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETING
 
 $MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_ACTIVE_CAPS &lt;color=#3BC81E&gt;RADAR&lt;/color&gt;
 
-$MISSILESTAT_SPEED: 298 $UNIT_METERSPERSEC
-$MISSILESTAT_DISTANCE: 4,653 $UNIT_METERS
-$MISSILESTAT_TOPSPEEDTIME: 0.7 $UNIT_SECONDS
-$MISSILESTAT_TURNRATE: 5.5 $UNIT_GS
+$MISSILESTAT_SPEED: 280 $UNIT_METERSPERSEC
+$MISSILESTAT_DISTANCE: 4,082 $UNIT_METERS
+$MISSILESTAT_TOPSPEEDTIME: 0.5 $UNIT_SECONDS
+$MISSILESTAT_TURNRATE: 9.2 $UNIT_GS
 $MISSILESTAT_TERMINALS: None
 
 $MISSILESTAT_WARHEAD: $MISSILEWARHEAD_DETAIL_BLASTFRAG
-$MISSILESTAT_ARMORDAMAGE: 0.21$UNIT_CENTIMETERS
-$MISSILESTAT_COMPONENTDAMAGE: 65.34$UNIT_HP
-$MISSILESTAT_BLASTRADIUS: 47 $UNIT_METERS
+$MISSILESTAT_ARMORDAMAGE: 0.18$UNIT_CENTIMETERS
+$MISSILESTAT_COMPONENTDAMAGE: 56.58$UNIT_HP
+$MISSILESTAT_BLASTRADIUS: 40 $UNIT_METERS
 
 $MISSILESTAT_HEALTH: 10 
 $MISSILESTAT_WALLTHICKNESS: 0.05
@@ -681,19 +681,19 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
           </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
-          <Size>4</Size>
+          <Size>3</Size>
           <InstalledComponent>
             <ComponentKey>Stock/Blast Fragmentation</ComponentKey>
           </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
-          <Size>3</Size>
+          <Size>4</Size>
           <InstalledComponent xsi:type="MissileEngineSettings">
             <ComponentKey />
             <BalanceValues>
-              <A>0.31800884</A>
-              <B>0.5556964</B>
-              <C>0.126294732</C>
+              <A>0.200521216</A>
+              <B>0.284481972</B>
+              <C>0.5149968</C>
             </BalanceValues>
           </InstalledComponent>
         </MissileSocket>
@@ -711,10 +711,10 @@ $MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETING
 $MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_COMMAND_CAPS (&lt;color=#D3D11F&gt;$MISSILESEEKER_COMMAND_COMMSNOTE&lt;/color&gt;)
 $MISSILESTAT_BACKUPSEEKER: $MISSILESEEKER_MODE_PASSIVE_CAPS (&lt;color=#D4211D&gt;WAKE&lt;/color&gt;)
 
-$MISSILESTAT_SPEED: 304 $UNIT_METERSPERSEC
-$MISSILESTAT_DISTANCE: 5,784 $UNIT_METERS
+$MISSILESTAT_SPEED: 305 $UNIT_METERSPERSEC
+$MISSILESTAT_DISTANCE: 5,467 $UNIT_METERS
 $MISSILESTAT_TOPSPEEDTIME: 1.7 $UNIT_SECONDS
-$MISSILESTAT_TURNRATE: 3.1 $UNIT_GS
+$MISSILESTAT_TURNRATE: 3.2 $UNIT_GS
 $MISSILESTAT_TERMINALS: None
 
 $MISSILESTAT_WARHEAD: $MISSILEWARHEAD_DETAIL_HEIMPACT
@@ -797,9 +797,9 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
           <InstalledComponent xsi:type="MissileEngineSettings">
             <ComponentKey />
             <BalanceValues>
-              <A>0.7280123</A>
-              <B>0.0611803271</B>
-              <C>0.210807353</C>
+              <A>0.7361158</A>
+              <B>0.0435426719</B>
+              <C>0.220341519</C>
             </BalanceValues>
           </InstalledComponent>
         </MissileSocket>
@@ -987,17 +987,14 @@ $CRAFTSTAT_CMDCAPACITY: 1
 $CRAFTSTAT_MISSILEANGLE: 30 $UNIT_DEGREES
 $CRAFTSTAT_BOMBLEVELTIME: 3 $UNIT_SECONDS_MED
 
-$CRAFTSTAT_PREFLIGHTTIME
-$CRAFTSTAT_PREFLIGHT_NOSHIPS
-
 $CRAFTSTAT_IDLESPEED: 35 $UNIT_METERSPERSEC
 $CRAFTSTAT_CRUISESPEED: 65 $UNIT_METERSPERSEC
 $CRAFTSTAT_HBRNSPEED: 114 $UNIT_METERSPERSEC
 $CRAFTSTAT_COMBATSPEED: 114 $UNIT_METERSPERSEC
 
-$CRAFTSTAT_FUELCAPACITY: 1,900
-$CRAFTSTAT_LOITERTIME: 21:07
-$CRAFTSTAT_CRUISERANGE: 82 $UNIT_KILOMETERS
+$CRAFTSTAT_FUELCAPACITY: 900
+$CRAFTSTAT_LOITERTIME: 10:00
+$CRAFTSTAT_CRUISERANGE: 39 $UNIT_KILOMETERS
 
 $CRAFTSTAT_THRUSTERPOWER: 200 
 $CRAFTSTAT_TURNRATE: 80 
